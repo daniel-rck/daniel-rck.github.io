@@ -1,0 +1,223 @@
+/* Orbital star map — a deliberately single-theme dark page.
+   Every colour is painted explicitly so the page holds on any host ground. */
+
+:root{
+  --void:#00030b;
+  --violet:#a78bfa;
+  --cyan:#67e8f9;
+  --amber:#fbbf24;
+  --ink:#cdd6f0;
+  --ink-soft:#a8b5d6;
+  --dim:#5a6b96;
+  --edge:rgba(167,139,250,.22);
+  --edge-hot:rgba(167,139,250,.75);
+  --glass:rgba(16,22,48,.8);
+
+  --display:"Syncopate",system-ui,sans-serif;
+  --body:"IBM Plex Sans",system-ui,sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,monospace;
+
+  /* the detail panel owns this column; the map is laid out beside it */
+  --panel-w:340px;
+  --panel-right:24px;
+}
+
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  background:var(--void);
+  color:var(--ink);
+  font-family:var(--body);
+  font-weight:300;
+  font-size:15px;
+  line-height:1.6;
+  overflow:hidden;
+}
+
+canvas#sky{position:fixed;inset:0;z-index:0;display:block}
+
+/* ---------------- header ---------------- */
+.top{
+  position:fixed;z-index:30;top:0;left:0;right:0;
+  padding:22px 28px;
+  display:flex;justify-content:space-between;align-items:flex-start;gap:20px;flex-wrap:wrap;
+  pointer-events:none;
+}
+.top > *{pointer-events:auto}
+.brand h1{
+  margin:0;
+  font-family:var(--display);font-weight:700;
+  font-size:clamp(15px,2vw,22px);letter-spacing:.22em;text-transform:uppercase;line-height:1.2;
+  color:#f0f4ff;text-shadow:0 0 26px rgba(167,139,250,.55);
+}
+.brand h1 em{font-style:normal;color:var(--violet)}
+.sub{
+  margin:9px 0 0;
+  font-family:var(--data);font-size:11px;letter-spacing:.24em;text-transform:uppercase;
+  color:var(--dim);
+}
+.lang{display:flex;border:1px solid var(--edge);background:var(--glass);backdrop-filter:blur(12px)}
+.lang button{
+  font-family:var(--data);font-size:11px;letter-spacing:.18em;
+  padding:8px 14px;background:none;border:0;color:var(--dim);cursor:pointer;
+  transition:background .2s,color .2s;
+}
+.lang button:hover{color:var(--ink)}
+.lang button[aria-pressed="true"]{background:rgba(167,139,250,.18);color:#eae4ff}
+.lang button:focus-visible{outline:2px solid var(--violet);outline-offset:-3px}
+
+/* ---------------- hub ---------------- */
+.hub{
+  position:fixed;z-index:11;left:0;top:0;
+  transform:translate(-50%,-50%);
+  text-align:center;pointer-events:none;
+  display:flex;flex-direction:column;align-items:center;gap:7px;
+}
+.hub .num{
+  font-family:var(--display);font-weight:700;font-size:40px;line-height:1;
+  color:#f0f4ff;text-shadow:0 0 32px rgba(167,139,250,.7);
+  font-variant-numeric:tabular-nums;
+}
+.hub .cap{
+  font-family:var(--data);font-size:9.5px;letter-spacing:.34em;text-transform:uppercase;
+  color:var(--violet);
+}
+
+/* ---------------- orbital nodes ---------------- */
+.orbit-layer{position:fixed;inset:0;z-index:10;pointer-events:none}
+.node{
+  position:absolute;left:0;top:0;
+  display:flex;align-items:center;gap:8px;
+  padding:5px 11px 5px 7px;
+  background:rgba(8,12,32,.72);
+  border:1px solid transparent;border-radius:999px;
+  color:var(--ink);font:inherit;font-size:12.5px;
+  cursor:pointer;pointer-events:auto;white-space:nowrap;
+  backdrop-filter:blur(6px);
+  transition:border-color .2s,background .2s,color .2s;
+}
+.node .dot{
+  width:9px;height:9px;border-radius:50%;flex:none;
+  background:var(--violet);box-shadow:0 0 12px var(--violet);
+}
+.node[data-cat="tools"] .dot{background:var(--cyan);box-shadow:0 0 12px var(--cyan)}
+.node[data-cat="apps"] .dot{background:var(--amber);box-shadow:0 0 12px var(--amber)}
+.node .glyph{font-size:13px;line-height:1}
+.node:hover,.node:focus-visible{background:rgba(30,36,74,.94);border-color:var(--violet);color:#fff}
+.node:focus-visible{outline:2px solid var(--violet);outline-offset:2px}
+.node[aria-current="true"]{
+  background:rgba(167,139,250,.22);border-color:var(--edge-hot);color:#fff;
+  box-shadow:0 0 26px rgba(167,139,250,.35);
+}
+.node.flip{flex-direction:row-reverse;padding:5px 7px 5px 11px}
+
+/* ---------------- detail panel ---------------- */
+.detail{
+  position:fixed;z-index:30;
+  right:var(--panel-right);top:50%;transform:translateY(-50%);
+  width:var(--panel-w);
+  background:var(--glass);border:1px solid var(--edge);
+  backdrop-filter:blur(18px);
+  padding:20px 21px;
+  display:flex;flex-direction:column;gap:13px;
+  box-shadow:0 30px 70px -30px #000;
+}
+.detail .kicker{
+  font-family:var(--data);font-size:10px;letter-spacing:.28em;text-transform:uppercase;
+  color:var(--violet);
+}
+.detail h2{
+  margin:0;font-size:20px;font-weight:500;letter-spacing:.01em;color:#f0f4ff;
+  display:flex;align-items:center;gap:10px;
+  overflow-wrap:anywhere;text-wrap:balance;
+}
+.detail p{margin:0;font-size:14px;line-height:1.6;color:var(--ink-soft)}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chips span{
+  font-family:var(--data);font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--cyan);border:1px solid rgba(103,232,249,.25);padding:3px 9px;
+}
+.acts{display:flex;gap:8px}
+.acts a,.acts span{
+  flex:1;text-align:center;
+  font-family:var(--data);font-size:11px;letter-spacing:.18em;text-transform:uppercase;
+  padding:10px 6px;text-decoration:none;
+  border:1px solid var(--edge);color:#eae4ff;
+  transition:background .2s,color .2s,border-color .2s,box-shadow .2s;
+}
+.acts a:hover{background:var(--violet);color:#0b0620;border-color:var(--violet);
+  box-shadow:0 0 24px rgba(167,139,250,.5)}
+.acts a:focus-visible{outline:2px solid var(--violet);outline-offset:2px}
+.acts span{color:var(--dim);border-color:rgba(90,107,150,.28)}
+.legend{
+  display:flex;gap:14px;flex-wrap:wrap;
+  border-top:1px solid var(--edge);padding-top:12px;
+  font-family:var(--data);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--dim);
+}
+.legend i{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:6px}
+
+/* ---------------- footer ---------------- */
+.foot{
+  position:fixed;z-index:30;left:28px;bottom:22px;
+  font-family:var(--data);font-size:11px;letter-spacing:.16em;text-transform:uppercase;
+}
+.foot a{color:var(--dim);text-decoration:none;transition:color .2s}
+.foot a:hover{color:var(--violet)}
+.foot a:focus-visible{outline:2px solid var(--violet);outline-offset:3px}
+
+/* ---------------- stacked layout ----------------
+   Below the map's minimum comfortable width the orbits are dropped entirely
+   and the same data is shown as a plain, fully readable list. */
+.listing{display:none}
+
+@media (min-width:1280px) and (max-width:1499px){
+  :root{--panel-w:312px}
+}
+
+@media (max-width:1279px){
+  html,body{height:auto}
+  body{overflow:auto}
+  .orbit-layer,.hub{display:none}
+  canvas#sky{position:fixed}
+
+  .listing{
+    display:block;position:relative;z-index:20;
+    max-width:760px;margin:0 auto;padding:132px 20px 24px;
+  }
+  .listing section{margin-bottom:30px}
+  .listing h2{
+    margin:0 0 12px;
+    font-family:var(--data);font-size:11px;letter-spacing:.28em;text-transform:uppercase;
+    color:var(--violet);
+    display:flex;align-items:center;gap:12px;
+  }
+  .listing h2::after{content:"";flex:1;height:1px;background:var(--edge)}
+  .listing button{
+    display:flex;width:100%;align-items:center;gap:10px;text-align:left;
+    background:var(--glass);border:1px solid var(--edge);color:var(--ink);
+    font:inherit;font-size:14px;padding:12px 14px;margin-bottom:8px;cursor:pointer;
+    transition:border-color .2s,background .2s;
+  }
+  .listing button:hover{border-color:var(--edge-hot)}
+  .listing button:focus-visible{outline:2px solid var(--violet);outline-offset:2px}
+  .listing button[aria-current="true"]{border-color:var(--edge-hot);background:rgba(167,139,250,.16)}
+  .listing .dot{width:8px;height:8px;border-radius:50%;flex:none;background:var(--violet)}
+  .listing button[data-cat="tools"] .dot{background:var(--cyan)}
+  .listing button[data-cat="apps"] .dot{background:var(--amber)}
+
+  .detail{
+    position:relative;right:auto;top:auto;transform:none;
+    width:auto;max-width:760px;margin:0 auto 26px;
+  }
+  .foot{position:relative;left:auto;bottom:auto;text-align:center;padding:0 20px 40px}
+}
+
+@media (max-width:480px){
+  .listing{padding-top:150px}
+}
+
+@media (prefers-reduced-motion:reduce){
+  .node{transition:none}
+}
