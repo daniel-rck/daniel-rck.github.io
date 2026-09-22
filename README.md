@@ -2,38 +2,60 @@
 
 Project landing page, live at **<https://daniel-rck.github.io>**.
 
-An orbital star map: every project is a node on one of three orbits, and
-selecting one shows its details next to the map. No build step, no
-dependencies — plain HTML, CSS and JavaScript.
+Every public repository of `daniel-rck`, `amigo-labs` and `nuget-workbench`
+lands on a shelf for its category — games, creative tools, dev tools,
+everyday apps — as a card in a bento grid. No build step, no dependencies —
+plain HTML, CSS and JavaScript.
 
 ```
-index.html            markup and metadata
-assets/style.css      the whole design
-assets/app.js         orbits, detail panel, language switch
-data/projects.js      the project list — this is the file you edit
-data/live.js          generated, do not edit by hand
-scripts/              the live-URL sync
+index.html               markup and metadata
+assets/style.css         the whole design (light and dark)
+assets/app.js            shelves, filter bar, language switch
+data/categories.json     profiles to read, categories and how to detect them
+data/overrides.json      optional per-repo polish (emoji, DE/EN text, …)
+data/projects.js         generated, do not edit by hand
+scripts/sync-projects.py the sync
 ```
 
-## Adding a project
+## How a project gets onto the page
 
-Edit `data/projects.js`. Nothing else needs touching — the map, the list, the
-counter and both languages all render from it.
+Nothing to do: the *Sync projects* workflow reads all public repositories
+once a day (and on demand, and on every change to the data files) and writes
+`data/projects.js`. Forks, archived repos, this site and the profile README
+repo are skipped.
 
-In a Claude Code session in this repo, `/projekt` does it for you, including
-the checks.
+- **Live link** — the repository's *About → Website* field. A homepage that
+  points back at github.com counts as documentation and is ignored.
+- **Category** — first match wins:
+  1. `category` in `data/overrides.json`
+  2. a GitHub topic listed under a category's `topics` (e.g. `game`,
+     `pixel-art`, `vscode-extension`, `pwa`)
+  3. the category whose `keywords` appear most often in name + description
+  4. `other`
 
-## Live URLs
+  The workflow log prints the reason for every repo, e.g.
+  `games  Tonspur  keywords game, guessing`.
+- **Text, emoji, tech** — from GitHub (description, language, known topics)
+  unless `data/overrides.json` says otherwise.
 
-Live URLs are **not** stored in this repository. Each one comes from its own
-repository's **About → Website** field on GitHub. The *Sync live URLs* workflow
-reads those once a day (and on demand) and writes `data/live.js`.
+## Overrides
 
-So: to give a project a live link, set the website on that project's repo. A
-homepage pointing back at github.com (a wiki, a releases page) is treated as
-documentation and skipped — the page already links the repository.
+`data/overrides.json`, keyed by repository name (case matters). Every field
+is optional:
 
-Projects without a live URL simply show "No live app" instead of the button.
+```json
+"Tonspur": {
+  "emoji": "🎥",
+  "category": "games",
+  "tech": ["PWA"],
+  "desc": { "en": "Movie guessing game", "de": "Film-Ratespiel" },
+  "featured": true,
+  "hide": false
+}
+```
+
+`featured` makes the card wide and puts it first on its shelf; `hide` keeps a
+repo off the page.
 
 ## Deployment
 
@@ -43,8 +65,9 @@ Jekyll out of the way. A push is a deploy.
 ## Local preview
 
 ```sh
+python3 scripts/sync-projects.py   # optional, needs api.github.com
 python3 -m http.server 8899
 ```
 
 Then open <http://127.0.0.1:8899>. Opening `index.html` directly from the
-filesystem works too — the data files are plain scripts, not `fetch` calls.
+filesystem works too — the data file is a plain script, not a `fetch` call.

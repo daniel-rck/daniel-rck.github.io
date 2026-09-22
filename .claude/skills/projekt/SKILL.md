@@ -1,105 +1,91 @@
 ---
 name: projekt
-description: Ein Projekt auf der Landing Page daniel-rck.github.io eintragen, ändern oder entfernen. Nutze dieses Skill, wenn Daniel ein neues Projekt gebaut hat, ein bestehendes umbenennt, eine Beschreibung anpassen will, ein Projekt von der Seite nehmen möchte oder fragt, warum ein Live-Link fehlt. Trigger u.a.: "ich hab was Neues gemacht", "trag mal X ein", "neues Projekt", "Projekt entfernen", "Beschreibung ändern", "add project", "update projects".
+description: Ein Projekt auf der Landing Page daniel-rck.github.io anpassen, einsortieren oder ausblenden. Nutze dieses Skill, wenn Daniel ein neues Projekt gebaut hat, eines in einer falschen Kategorie landet, eine Beschreibung oder ein Emoji ändern will, ein Projekt von der Seite nehmen möchte oder fragt, warum ein Live-Link fehlt. Trigger u.a.: "ich hab was Neues gemacht", "trag mal X ein", "neues Projekt", "falsche Kategorie", "Projekt entfernen", "Beschreibung ändern", "add project", "update projects".
 ---
 
 # Projekt pflegen
 
-Die Landing Page rendert sich vollständig aus `data/projects.js`. Das ist die
-einzige Datei, die für Projektänderungen angefasst wird.
+Die Seite liest **alle öffentlichen Repos** der Profile aus
+`data/categories.json` (`sources`) automatisch ein. `scripts/sync-projects.py`
+schreibt daraus `data/projects.js` — diese Datei ist generiert und wird
+**nie von Hand bearbeitet**. Der Workflow *Sync projects* läuft täglich, per
+`workflow_dispatch` und bei jeder Änderung an den Daten-Dateien.
 
-**Live-URLs stehen NICHT in dieser Datei.** Sie kommen aus dem Feld
-*About → Website* des jeweiligen GitHub-Repos, werden von
-`scripts/sync-live-urls.py` eingesammelt und landen in `data/live.js`.
-`data/live.js` ist generiert — niemals von Hand bearbeiten.
+Von Hand gepflegt werden nur:
 
-## Ablauf
+- `data/overrides.json` — optionaler Feinschliff pro Repo
+- `data/categories.json` — Profile, Kategorien, Topics, Keywords, Farben
 
-### 1. Angaben sammeln
+## Neues Projekt
 
-Leite so viel wie möglich selbst her, statt zu fragen:
+Normalerweise: **nichts tun.** Es erscheint beim nächsten Sync. Prüfe
+trotzdem mit den GitHub-MCP-Tools (`description`, `topics`, `homepage`):
 
-- Aus der Repo-URL: `name` und `id` (beides der Repo-Name, exakt wie auf GitHub
-  geschrieben — Groß-/Kleinschreibung zählt, weil `id` der Schlüssel in
-  `data/live.js` ist).
-- Aus dem Repo selbst (GitHub-MCP-Tools, z.B. `search_repositories` mit
-  `repo:owner/name` und `minimal_output: false`): `description`, `language`,
-  `topics` und ob eine Website hinterlegt ist.
+1. **Kategorie** — landet es richtig? Reihenfolge der Zuordnung: Override →
+   Topic → meiste Keyword-Treffer in Name+Beschreibung → `other`. Die beste
+   Lösung ist ein passendes Topic im Repo (z.B. `game`, `pixel-art`,
+   `vscode-extension`, `pwa`; die Liste steht in `data/categories.json`).
+   Das kann Daniel im Repo setzen; nur wenn das nicht passt,
+   `category` in `data/overrides.json` eintragen.
+2. **Texte** — GitHub liefert nur eine Beschreibung für beide Sprachen. Für
+   eine saubere DE/EN-Fassung `desc` in `data/overrides.json` setzen: ein
+   knapper Satz, kein Punkt am Ende, Ton wie die bestehenden Einträge.
+3. **Emoji** — ohne Override bekommt ein Projekt das Emoji seiner Kategorie.
+   Schlag ein eigenes vor; es muss über alle Einträge eindeutig sein.
 
-Frage nur das, was übrig bleibt, und dann **gesammelt in einer einzigen
-Rückfrage** — nicht nacheinander:
+Frage offene Punkte **gesammelt in einer Rückfrage**, nicht nacheinander.
 
-| Feld | Pflicht | Hinweis |
-|---|---|---|
-| `category` | ja | `labs` (amigo-labs), `tools` (Dev Tools) oder `apps` (Alltags-Apps) |
-| `emoji` | ja | Schlage einen passenden vor. Muss in der ganzen Liste eindeutig sein — prüfe das. |
-| `desc.de` / `desc.en` | ja | Ein knapper Satz, kein Punkt am Ende. Ton wie die bestehenden Einträge. |
-| `tech` | nein | Array, z.B. `["Svelte", "Rust", "PWA"]`. Leeres Array ist erlaubt. |
+## Live-URL
 
-### 2. `data/projects.js` bearbeiten
+Frage Daniel **nicht** nach der Live-URL. Sie kommt aus *About → Website*
+des Repos:
 
-Halte dich exakt an die Form der bestehenden Einträge: gleiche Feldreihenfolge
-(`id`, `emoji`, `name`, `category`, `repo`, `tech`, `desc`), zwei Leerzeichen
-Einrückung, doppelte Anführungszeichen. Neue Einträge kommen ans **Ende ihrer
-Kategorie**; die Kategorien stehen in der Reihenfolge `labs`, `tools`, `apps`
-und werden durch eine Leerzeile getrennt.
+- **Gesetzt** → nichts zu tun.
+- **Leer, aber es gibt eine Live-Version** → Daniel soll sie im Repo unter
+  *About → Website* eintragen; nenne das Repo beim Namen.
+- **Zeigt auf github.com** (Wiki, Releases) → gilt als Doku und wird bewusst
+  ignoriert; die Karte verlinkt das Repo ohnehin.
 
-```js
-  {
-    id: "HamsterFlight",
-    emoji: "🐹",
-    name: "HamsterFlight",
-    category: "apps",
-    repo: "https://github.com/daniel-rck/HamsterFlight",
-    tech: ["PWA"],
-    desc: {
-      en: "…",
-      de: "…"
-    }
-  }
+## Overrides (`data/overrides.json`)
+
+Schlüssel = Repo-Name, exakt wie auf GitHub (Groß-/Kleinschreibung zählt).
+Alle Felder optional, Reihenfolge `emoji`, `category`, `tech`, `desc`,
+`featured`, `hide`; kurze Arrays einzeilig.
+
+```json
+"HamsterFlight": {
+  "emoji": "🐹",
+  "category": "games",
+  "tech": ["PWA"],
+  "desc": { "en": "…", "de": "…" }
+}
 ```
 
-### 3. Live-URL
+- `featured: true` → breite Karte, zuerst im Regal
+- `hide: true` → Projekt verschwindet von der Seite
+- Leeres `tech: []` unterdrückt die automatisch erkannten Tech-Chips
 
-Frage Daniel **nicht** nach der Live-URL. Prüfe stattdessen das
-`homepage`-Feld des Repos:
+## Prüfen
 
-- **Gesetzt** → nichts zu tun. Der nächste Lauf von *Sync live URLs* trägt sie
-  nach; du kannst `python3 scripts/sync-live-urls.py` auch lokal ausführen,
-  falls der Egress das zulässt.
-- **Leer, aber es gibt eine Live-Version** → sag Daniel, dass er sie im Repo
-  unter *About → Website* eintragen soll, und nenne das Repo beim Namen. Dann
-  gilt sie automatisch für die Seite mit.
-- **Zeigt auf github.com** (Wiki, Releases) → das ist Doku, keine Live-App. Der
-  Sync ignoriert solche URLs bewusst; die Seite verlinkt das Repo ohnehin schon.
+- `python3 -m json.tool data/overrides.json` und `data/categories.json`
+- Wenn der Egress `api.github.com` zulässt: `python3 scripts/sync-projects.py`
+  und das Log lesen — pro Repo steht dort Kategorie und Grund. Sonst nach dem
+  Merge den Workflow manuell starten (oder er läuft durch die Änderung an
+  `data/overrides.json` von selbst).
+- `node --check assets/app.js data/projects.js`
+- Lokal: `python3 -m http.server 8899`, beide Sprachen, hell und dunkel.
 
-### 4. Prüfen
+## Committen
 
-- `node --check assets/app.js` und `node -e "require('./data/projects.js')"`
-  greifen hier nicht (Browser-Globals) — prüfe die Datei stattdessen mit
-  `node --check data/projects.js`.
-- Emoji-Eindeutigkeit über alle Einträge.
-- Jede `id` kommt genau einmal vor.
-- Jede `repo`-URL ist erreichbar.
-- Lokal ansehen: `python3 -m http.server 8899` und die Seite in beiden Sprachen
-  durchklicken. Die Zahl im Zentrum muss der neuen Anzahl entsprechen.
-
-### 5. Committen
-
-Ein Commit, sprechende Message (`Add HamsterFlight to everyday apps`,
-`Remove X from the project list`, `Reword the Pizzateig description`), Push auf
-den aktuellen Branch. Bei einem Feature-Branch danach einen PR öffnen.
-
-## Entfernen
-
-Eintrag aus `data/projects.js` löschen. `data/live.js` **nicht** anfassen — der
-nächste Sync räumt den verwaisten Schlüssel von selbst weg.
+Ein Commit, sprechende Message (`Polish the HamsterFlight card`,
+`Move Codes to dev tools`, `Hide the X repo from the page`), Push auf den
+aktuellen Branch, bei Feature-Branch danach PR.
 
 ## Was dieses Skill nicht tut
 
-- `data/live.js` von Hand ändern.
-- Die README im Profil-Repo `daniel-rck/daniel-rck` mitpflegen. Die listet
-  bewusst keine Projekte mehr, sondern verlinkt nur die Seite — sie muss bei
-  einem neuen Projekt also nicht angefasst werden.
-- Design, Layout oder Kategorien ändern. Eine neue Kategorie ist ein Eingriff
-  in `assets/app.js` und `assets/style.css` und braucht eine echte Absprache.
+- `data/projects.js` von Hand ändern.
+- Die README im Profil-Repo `daniel-rck/daniel-rck` mitpflegen.
+- Neue Kategorien oder Design-Änderungen ohne Absprache. Eine neue Kategorie
+  ist ein Eintrag in `data/categories.json` (id, Label DE/EN, Blurb, Emoji,
+  Farbe hell/dunkel, Topics, Keywords) — das Frontend übernimmt sie
+  automatisch, aber Farbe und Reihenfolge gehören abgesprochen.

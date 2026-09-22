@@ -1,0 +1,144 @@
+{
+  "amigo-engine": {
+    "emoji": "🎮",
+    "tech": ["Rust"],
+    "desc": {
+      "en": "2D pixel art game engine in Rust",
+      "de": "2D-Pixel-Art-Game-Engine in Rust"
+    }
+  },
+  "amigo-pincel": {
+    "emoji": "🎨",
+    "tech": ["Svelte", "Rust", "PWA", "Tauri"],
+    "desc": {
+      "en": "Pixel art editor, in the browser and on the desktop",
+      "de": "Pixel-Art-Editor, im Browser und auf dem Desktop"
+    }
+  },
+  "amigo-fineliner": {
+    "emoji": "✏️",
+    "tech": ["Rust"],
+    "desc": {
+      "en": "Raster paint app inspired by Paint.NET and rs-paint",
+      "de": "Raster-Malprogramm, inspiriert von Paint.NET und rs-paint"
+    }
+  },
+  "amigo-trommel": {
+    "emoji": "🥁",
+    "tech": ["Svelte", "Rust", "PWA", "Tauri"],
+    "desc": {
+      "en": "Game audio authoring with sample-based voices and Strudel patterns",
+      "de": "Game-Audio-Werkzeug mit sample-basierten Stimmen und Strudel-Patterns"
+    }
+  },
+  "amigo-downloader": {
+    "emoji": "⬇️",
+    "tech": ["Rust", "Tauri"],
+    "desc": {
+      "en": "Cross-platform download manager",
+      "de": "Plattformübergreifender Download-Manager"
+    }
+  },
+  "amigo-native": {
+    "emoji": "📦",
+    "tech": ["Rust", "WASM", "Node"],
+    "desc": {
+      "en": "Rust-powered native Node.js packages, plus wasm for the browser",
+      "de": "Native Node.js-Pakete auf Rust-Basis, dazu WASM für den Browser"
+    }
+  },
+  "amigo-metropolis": {
+    "emoji": "🏙️",
+    "tech": ["Three.js", "Cloudflare"],
+    "desc": {
+      "en": "Browser-based Future Cop: Precinct Assault homage, a proto-MOBA",
+      "de": "Browser-Hommage an Future Cop: Precinct Assault, ein Proto-MOBA"
+    }
+  },
+  "nuget-workbench-vscode": {
+    "emoji": "🧩",
+    "tech": ["VS Code", "TypeScript"],
+    "desc": {
+      "en": "NuGet package manager for VS Code with vulnerability scanning",
+      "de": "NuGet-Paketmanager für VS Code mit Schwachstellen-Scan"
+    }
+  },
+  "Vectorizer": {
+    "emoji": "📐",
+    "desc": {
+      "en": "Convert raster images to vector format (SVG)",
+      "de": "Rasterbilder ins Vektorformat (SVG) umwandeln"
+    }
+  },
+  "Codes": {
+    "emoji": "🔣",
+    "desc": {
+      "en": "Scan and create barcodes and QR codes",
+      "de": "Barcodes und QR-Codes scannen und erstellen"
+    }
+  },
+  "Hausverwaltung": {
+    "emoji": "🏠",
+    "tech": ["PWA"],
+    "desc": {
+      "en": "For private landlords managing small multi-unit properties",
+      "de": "Für private Vermieter kleiner Mehrfamilienhäuser"
+    }
+  },
+  "Tennisturnier": {
+    "emoji": "🎾",
+    "tech": ["PWA"],
+    "desc": {
+      "en": "For running small tennis tournaments",
+      "de": "Für kleine Tennisturniere"
+    }
+  },
+  "ErinnerMich": {
+    "emoji": "🔔",
+    "tech": ["PWA"],
+    "desc": {
+      "en": "For recurring reminders and habit tracking",
+      "de": "Für wiederkehrende Erinnerungen und Gewohnheiten"
+    }
+  },
+  "Zeiterfassung": {
+    "emoji": "⏱️",
+    "tech": ["PWA"],
+    "desc": {
+      "en": "For personal work-time tracking",
+      "de": "Für die persönliche Arbeitszeiterfassung"
+    }
+  },
+  "Minispiele": {
+    "emoji": "🕹️",
+    "tech": ["PWA"],
+    "desc": {
+      "en": "A small collection of games",
+      "de": "Eine Sammlung kleiner Spiele"
+    }
+  },
+  "Tankzettel": {
+    "emoji": "⛽",
+    "tech": ["PWA"],
+    "desc": {
+      "en": "For capturing and analyzing fuel receipts",
+      "de": "Zum Erfassen und Auswerten von Tankquittungen"
+    }
+  },
+  "Pizzateig": {
+    "emoji": "🍕",
+    "tech": ["PWA"],
+    "desc": {
+      "en": "Pizza dough calculator with smart scaling and local recipe sharing",
+      "de": "Pizzateig-Rechner mit intelligenter Skalierung und lokalem Rezept-Sharing"
+    }
+  },
+  "Tonspur": {
+    "emoji": "🎥",
+    "tech": ["PWA"],
+    "desc": {
+      "en": "Movie guessing game based on the soundtrack",
+      "de": "Film-Ratespiel anhand der Musik"
+    }
+  }
+}
