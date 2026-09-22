@@ -1,0 +1,62 @@
+{
+  "sources": [
+    { "type": "users", "name": "daniel-rck" },
+    { "type": "orgs", "name": "amigo-labs" },
+    { "type": "orgs", "name": "nuget-workbench" }
+  ],
+  "skip": ["daniel-rck.github.io", "daniel-rck", ".github"],
+  "categories": [
+    {
+      "id": "games",
+      "color": { "dark": "#ff8a7a", "light": "#c0392b" },
+      "label": { "de": "Spiele", "en": "Games" },
+      "blurb": { "de": "Zum Spielen, direkt im Browser", "en": "To play, right in the browser" },
+      "emoji": "🎲",
+      "topics": ["game", "games", "browser-game", "moba", "quiz"],
+      "keywords": ["game", "spiel", "quiz", "rate", "guessing", "moba", "arcade", "puzzle"]
+    },
+    {
+      "id": "creative",
+      "color": { "dark": "#b69cff", "light": "#6d4fd8" },
+      "label": { "de": "Kreativ & Gamedev", "en": "Creative & Gamedev" },
+      "blurb": { "de": "Werkzeuge für Pixel, Klang und Engines", "en": "Tools for pixels, sound and engines" },
+      "emoji": "🎨",
+      "topics": ["game-engine", "gamedev", "pixel-art", "editor", "audio", "music", "paint"],
+      "keywords": ["engine", "pixel", "paint", "editor", "audio", "sound", "music", "game engine", "game audio", "pixel art", "drawing"]
+    },
+    {
+      "id": "dev",
+      "color": { "dark": "#67e8f9", "light": "#0e7490" },
+      "label": { "de": "Dev-Tools", "en": "Dev Tools" },
+      "blurb": { "de": "Für Entwickler und den Werkzeugkasten", "en": "For developers and the toolbox" },
+      "emoji": "🛠️",
+      "topics": ["vscode-extension", "vscode", "cli", "library", "developer-tools", "devtools", "nodejs", "nuget"],
+      "keywords": ["vs code", "vscode", "nuget", "npm", "cli", "library", "package", "wasm", "convert", "download", "barcode", "qr", "developer", "sdk"]
+    },
+    {
+      "id": "apps",
+      "color": { "dark": "#fbbf24", "light": "#a16207" },
+      "label": { "de": "Alltags-Apps", "en": "Everyday Apps" },
+      "blurb": { "de": "Kleine Helfer für jeden Tag", "en": "Small helpers for every day" },
+      "emoji": "📱",
+      "topics": ["pwa", "app", "productivity"],
+      "keywords": ["für", "tracker", "tracking", "rechner", "calculator", "reminder", "erinner", "pwa", "manag", "tournament", "turnier", "receipt", "track", "habit", "planner"]
+    },
+    {
+      "id": "other",
+      "color": { "dark": "#a3aecb", "light": "#5b6584" },
+      "label": { "de": "Sonstiges", "en": "Other" },
+      "blurb": { "de": "Alles, was nirgends sonst passt", "en": "Everything that fits nowhere else" },
+      "emoji": "✨",
+      "topics": [],
+      "keywords": []
+    }
+  ],
+  "tech": {
+    "rust": "Rust", "svelte": "Svelte", "tauri": "Tauri", "pwa": "PWA", "wasm": "WASM",
+    "webassembly": "WASM", "typescript": "TypeScript", "javascript": "JavaScript",
+    "threejs": "Three.js", "three-js": "Three.js", "cloudflare": "Cloudflare",
+    "cloudflare-workers": "Cloudflare", "vscode-extension": "VS Code", "nodejs": "Node",
+    "react": "React", "vue": "Vue", "python": "Python", "csharp": "C#", "dotnet": ".NET"
+  }
+}
