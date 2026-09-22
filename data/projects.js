@@ -85,64 +85,6 @@ window.CATEGORIES = [
 
 window.PROJECTS = [
   {
-    "id": "amigo-metropolis",
-    "name": "amigo-metropolis",
-    "owner": "amigo-labs",
-    "category": "games",
-    "emoji": "🏙️",
-    "desc": {
-      "de": "Browser-Hommage an Future Cop: Precinct Assault, ein Proto-MOBA",
-      "en": "Browser-based Future Cop: Precinct Assault homage, a proto-MOBA"
-    },
-    "tech": [
-      "Three.js",
-      "Cloudflare"
-    ],
-    "repo": "https://github.com/amigo-labs/amigo-metropolis",
-    "live": "https://metropolis.amigo-labs.dev",
-    "stars": 0,
-    "pushed": null,
-    "featured": false
-  },
-  {
-    "id": "Minispiele",
-    "name": "Minispiele",
-    "owner": "daniel-rck",
-    "category": "games",
-    "emoji": "🕹️",
-    "desc": {
-      "de": "Eine Sammlung kleiner Spiele",
-      "en": "A small collection of games"
-    },
-    "tech": [
-      "PWA"
-    ],
-    "repo": "https://github.com/daniel-rck/Minispiele",
-    "live": "https://minispiele.daniel-rck.workers.dev",
-    "stars": 0,
-    "pushed": null,
-    "featured": false
-  },
-  {
-    "id": "Tonspur",
-    "name": "Tonspur",
-    "owner": "daniel-rck",
-    "category": "games",
-    "emoji": "🎥",
-    "desc": {
-      "de": "Film-Ratespiel anhand der Musik",
-      "en": "Movie guessing game based on the soundtrack"
-    },
-    "tech": [
-      "PWA"
-    ],
-    "repo": "https://github.com/daniel-rck/Tonspur",
-    "live": "https://tonspur.daniel-rck.workers.dev",
-    "stars": 0,
-    "pushed": null,
-    "featured": false
-  },
-  {
     "id": "amigo-pincel",
     "name": "amigo-pincel",
     "owner": "amigo-labs",
@@ -161,7 +103,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-pincel",
     "live": "https://pincel.amigo-labs.dev",
     "stars": 0,
-    "pushed": null,
+    "pushed": "2026-09-07T11:58:27Z",
     "featured": false
   },
   {
@@ -179,69 +121,8 @@ window.PROJECTS = [
     ],
     "repo": "https://github.com/amigo-labs/amigo-engine",
     "live": null,
-    "stars": 0,
-    "pushed": null,
-    "featured": false
-  },
-  {
-    "id": "amigo-fineliner",
-    "name": "amigo-fineliner",
-    "owner": "amigo-labs",
-    "category": "creative",
-    "emoji": "✏️",
-    "desc": {
-      "de": "Raster-Malprogramm, inspiriert von Paint.NET und rs-paint",
-      "en": "Raster paint app inspired by Paint.NET and rs-paint"
-    },
-    "tech": [
-      "Rust"
-    ],
-    "repo": "https://github.com/amigo-labs/amigo-fineliner",
-    "live": null,
-    "stars": 0,
-    "pushed": null,
-    "featured": false
-  },
-  {
-    "id": "amigo-trommel",
-    "name": "amigo-trommel",
-    "owner": "amigo-labs",
-    "category": "creative",
-    "emoji": "🥁",
-    "desc": {
-      "de": "Game-Audio-Werkzeug mit sample-basierten Stimmen und Strudel-Patterns",
-      "en": "Game audio authoring with sample-based voices and Strudel patterns"
-    },
-    "tech": [
-      "Svelte",
-      "Rust",
-      "PWA",
-      "Tauri"
-    ],
-    "repo": "https://github.com/amigo-labs/amigo-trommel",
-    "live": null,
-    "stars": 0,
-    "pushed": null,
-    "featured": false
-  },
-  {
-    "id": "amigo-downloader",
-    "name": "amigo-downloader",
-    "owner": "amigo-labs",
-    "category": "dev",
-    "emoji": "⬇️",
-    "desc": {
-      "de": "Plattformübergreifender Download-Manager",
-      "en": "Cross-platform download manager"
-    },
-    "tech": [
-      "Rust",
-      "Tauri"
-    ],
-    "repo": "https://github.com/amigo-labs/amigo-downloader",
-    "live": "https://downloader.amigo-labs.dev/",
-    "stars": 0,
-    "pushed": null,
+    "stars": 3,
+    "pushed": "2026-08-04T07:43:39Z",
     "featured": false
   },
   {
@@ -262,41 +143,27 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-native",
     "live": "https://native.amigo-labs.dev",
     "stars": 0,
-    "pushed": null,
+    "pushed": "2026-09-21T23:19:09Z",
     "featured": false
   },
   {
-    "id": "Codes",
-    "name": "Codes",
-    "owner": "daniel-rck",
+    "id": "amigo-downloader",
+    "name": "amigo-downloader",
+    "owner": "amigo-labs",
     "category": "dev",
-    "emoji": "🔣",
+    "emoji": "⬇️",
     "desc": {
-      "de": "Barcodes und QR-Codes scannen und erstellen",
-      "en": "Scan and create barcodes and QR codes"
+      "de": "Plattformübergreifender Download-Manager",
+      "en": "Cross-platform download manager"
     },
-    "tech": [],
-    "repo": "https://github.com/daniel-rck/Codes",
-    "live": "https://codes.daniel-rck.workers.dev",
+    "tech": [
+      "Rust",
+      "Tauri"
+    ],
+    "repo": "https://github.com/amigo-labs/amigo-downloader",
+    "live": "https://downloader.amigo-labs.dev/",
     "stars": 0,
-    "pushed": null,
-    "featured": false
-  },
-  {
-    "id": "Vectorizer",
-    "name": "Vectorizer",
-    "owner": "daniel-rck",
-    "category": "dev",
-    "emoji": "📐",
-    "desc": {
-      "de": "Rasterbilder ins Vektorformat (SVG) umwandeln",
-      "en": "Convert raster images to vector format (SVG)"
-    },
-    "tech": [],
-    "repo": "https://github.com/daniel-rck/Vectorizer",
-    "live": "https://vectorizer.daniel-rck.workers.dev",
-    "stars": 0,
-    "pushed": null,
+    "pushed": "2026-09-10T00:39:44Z",
     "featured": false
   },
   {
@@ -315,8 +182,8 @@ window.PROJECTS = [
     ],
     "repo": "https://github.com/nuget-workbench/nuget-workbench-vscode",
     "live": null,
-    "stars": 0,
-    "pushed": null,
+    "stars": 10,
+    "pushed": "2026-02-20T08:45:37Z",
     "featured": false
   },
   {
@@ -335,52 +202,90 @@ window.PROJECTS = [
     "repo": "https://github.com/daniel-rck/ErinnerMich",
     "live": "https://erinnermich.daniel-rck.workers.dev",
     "stars": 0,
-    "pushed": null,
+    "pushed": "2026-09-03T05:23:12Z",
     "featured": false
   },
   {
-    "id": "Hausverwaltung",
-    "name": "Hausverwaltung",
-    "owner": "daniel-rck",
-    "category": "apps",
-    "emoji": "🏠",
+    "id": "amigo-diomano",
+    "name": "amigo-diomano",
+    "owner": "amigo-labs",
+    "category": "other",
+    "emoji": "✨",
     "desc": {
-      "de": "Für private Vermieter kleiner Mehrfamilienhäuser",
-      "en": "For private landlords managing small multi-unit properties"
+      "de": "",
+      "en": ""
+    },
+    "tech": [
+      "Rust"
+    ],
+    "repo": "https://github.com/amigo-labs/amigo-diomano",
+    "live": "https://diomano.amigo-labs.dev",
+    "stars": 0,
+    "pushed": "2026-09-22T20:27:25Z",
+    "featured": false
+  },
+  {
+    "id": "HamsterFlight",
+    "name": "HamsterFlight",
+    "owner": "daniel-rck",
+    "category": "other",
+    "emoji": "✨",
+    "desc": {
+      "de": "",
+      "en": ""
+    },
+    "tech": [
+      "TypeScript"
+    ],
+    "repo": "https://github.com/daniel-rck/HamsterFlight",
+    "live": "https://hamsterflight.daniel-rck.workers.dev",
+    "stars": 0,
+    "pushed": "2026-09-21T20:35:44Z",
+    "featured": false
+  },
+  {
+    "id": "Minispiele",
+    "name": "Minispiele",
+    "owner": "daniel-rck",
+    "category": "other",
+    "emoji": "🕹️",
+    "desc": {
+      "de": "Eine Sammlung kleiner Spiele",
+      "en": "A small collection of games"
     },
     "tech": [
       "PWA"
     ],
-    "repo": "https://github.com/daniel-rck/Hausverwaltung",
-    "live": "https://hausverwaltung.daniel-rck.workers.dev",
+    "repo": "https://github.com/daniel-rck/Minispiele",
+    "live": "https://minispiele.daniel-rck.workers.dev",
     "stars": 0,
-    "pushed": null,
+    "pushed": "2026-09-21T09:32:02Z",
     "featured": false
   },
   {
-    "id": "Tankzettel",
-    "name": "Tankzettel",
+    "id": "Tonspur",
+    "name": "Tonspur",
     "owner": "daniel-rck",
-    "category": "apps",
-    "emoji": "⛽",
+    "category": "other",
+    "emoji": "🎥",
     "desc": {
-      "de": "Zum Erfassen und Auswerten von Tankquittungen",
-      "en": "For capturing and analyzing fuel receipts"
+      "de": "Film-Ratespiel anhand der Musik",
+      "en": "Movie guessing game based on the soundtrack"
     },
     "tech": [
       "PWA"
     ],
-    "repo": "https://github.com/daniel-rck/Tankzettel",
-    "live": "https://tankzettel.daniel-rck.workers.dev",
+    "repo": "https://github.com/daniel-rck/Tonspur",
+    "live": "https://tonspur.daniel-rck.workers.dev",
     "stars": 0,
-    "pushed": null,
+    "pushed": "2026-09-21T05:17:17Z",
     "featured": false
   },
   {
     "id": "Tennisturnier",
     "name": "Tennisturnier",
     "owner": "daniel-rck",
-    "category": "apps",
+    "category": "other",
     "emoji": "🎾",
     "desc": {
       "de": "Für kleine Tennisturniere",
@@ -392,14 +297,14 @@ window.PROJECTS = [
     "repo": "https://github.com/daniel-rck/Tennisturnier",
     "live": "https://tennisturnier.daniel-rck.workers.dev",
     "stars": 0,
-    "pushed": null,
+    "pushed": "2026-09-03T05:23:23Z",
     "featured": false
   },
   {
     "id": "Zeiterfassung",
     "name": "Zeiterfassung",
     "owner": "daniel-rck",
-    "category": "apps",
+    "category": "other",
     "emoji": "⏱️",
     "desc": {
       "de": "Für die persönliche Arbeitszeiterfassung",
@@ -411,14 +316,146 @@ window.PROJECTS = [
     "repo": "https://github.com/daniel-rck/Zeiterfassung",
     "live": "https://zeiterfassung.daniel-rck.workers.dev/",
     "stars": 0,
-    "pushed": null,
+    "pushed": "2026-09-03T05:23:01Z",
+    "featured": false
+  },
+  {
+    "id": "Tankzettel",
+    "name": "Tankzettel",
+    "owner": "daniel-rck",
+    "category": "other",
+    "emoji": "⛽",
+    "desc": {
+      "de": "Zum Erfassen und Auswerten von Tankquittungen",
+      "en": "For capturing and analyzing fuel receipts"
+    },
+    "tech": [
+      "PWA"
+    ],
+    "repo": "https://github.com/daniel-rck/Tankzettel",
+    "live": "https://tankzettel.daniel-rck.workers.dev",
+    "stars": 0,
+    "pushed": "2026-09-03T05:22:17Z",
+    "featured": false
+  },
+  {
+    "id": "Hausverwaltung",
+    "name": "Hausverwaltung",
+    "owner": "daniel-rck",
+    "category": "other",
+    "emoji": "🏠",
+    "desc": {
+      "de": "Für private Vermieter kleiner Mehrfamilienhäuser",
+      "en": "For private landlords managing small multi-unit properties"
+    },
+    "tech": [
+      "PWA"
+    ],
+    "repo": "https://github.com/daniel-rck/Hausverwaltung",
+    "live": "https://hausverwaltung.daniel-rck.workers.dev",
+    "stars": 1,
+    "pushed": "2026-09-03T05:20:21Z",
+    "featured": false
+  },
+  {
+    "id": "amigo-metropolis",
+    "name": "amigo-metropolis",
+    "owner": "amigo-labs",
+    "category": "other",
+    "emoji": "🏙️",
+    "desc": {
+      "de": "Browser-Hommage an Future Cop: Precinct Assault, ein Proto-MOBA",
+      "en": "Browser-based Future Cop: Precinct Assault homage, a proto-MOBA"
+    },
+    "tech": [
+      "Three.js",
+      "Cloudflare"
+    ],
+    "repo": "https://github.com/amigo-labs/amigo-metropolis",
+    "live": "https://metropolis.amigo-labs.dev",
+    "stars": 0,
+    "pushed": "2026-08-19T14:25:43Z",
+    "featured": false
+  },
+  {
+    "id": "Codes",
+    "name": "Codes",
+    "owner": "daniel-rck",
+    "category": "other",
+    "emoji": "🔣",
+    "desc": {
+      "de": "Barcodes und QR-Codes scannen und erstellen",
+      "en": "Scan and create barcodes and QR codes"
+    },
+    "tech": [
+      "TypeScript"
+    ],
+    "repo": "https://github.com/daniel-rck/Codes",
+    "live": "https://codes.daniel-rck.workers.dev",
+    "stars": 0,
+    "pushed": "2026-07-28T19:04:26Z",
+    "featured": false
+  },
+  {
+    "id": "Vectorizer",
+    "name": "Vectorizer",
+    "owner": "daniel-rck",
+    "category": "other",
+    "emoji": "📐",
+    "desc": {
+      "de": "Rasterbilder ins Vektorformat (SVG) umwandeln",
+      "en": "Convert raster images to vector format (SVG)"
+    },
+    "tech": [
+      "TypeScript"
+    ],
+    "repo": "https://github.com/daniel-rck/Vectorizer",
+    "live": "https://vectorizer.daniel-rck.workers.dev",
+    "stars": 0,
+    "pushed": "2026-07-02T05:38:35Z",
+    "featured": false
+  },
+  {
+    "id": "web-base",
+    "name": "web-base",
+    "owner": "daniel-rck",
+    "category": "other",
+    "emoji": "✨",
+    "desc": {
+      "de": "",
+      "en": ""
+    },
+    "tech": [
+      "TypeScript"
+    ],
+    "repo": "https://github.com/daniel-rck/web-base",
+    "live": null,
+    "stars": 0,
+    "pushed": "2026-09-22T20:42:09Z",
+    "featured": false
+  },
+  {
+    "id": "amigo-shutter",
+    "name": "amigo-shutter",
+    "owner": "amigo-labs",
+    "category": "other",
+    "emoji": "✨",
+    "desc": {
+      "de": "",
+      "en": ""
+    },
+    "tech": [],
+    "repo": "https://github.com/amigo-labs/amigo-shutter",
+    "live": null,
+    "stars": 0,
+    "pushed": "2026-09-22T11:47:39Z",
     "featured": false
   },
   {
     "id": "Pizzateig",
     "name": "Pizzateig",
     "owner": "daniel-rck",
-    "category": "apps",
+    "category": "other",
     "emoji": "🍕",
     "desc": {
       "de": "Pizzateig-Rechner mit intelligenter Skalierung und lokalem Rezept-Sharing",
@@ -430,7 +467,48 @@ window.PROJECTS = [
     "repo": "https://github.com/daniel-rck/Pizzateig",
     "live": null,
     "stars": 0,
-    "pushed": null,
+    "pushed": "2026-09-03T05:20:51Z",
+    "featured": false
+  },
+  {
+    "id": "amigo-fineliner",
+    "name": "amigo-fineliner",
+    "owner": "amigo-labs",
+    "category": "other",
+    "emoji": "✏️",
+    "desc": {
+      "de": "Raster-Malprogramm, inspiriert von Paint.NET und rs-paint",
+      "en": "Raster paint app inspired by Paint.NET and rs-paint"
+    },
+    "tech": [
+      "Rust"
+    ],
+    "repo": "https://github.com/amigo-labs/amigo-fineliner",
+    "live": null,
+    "stars": 0,
+    "pushed": "2026-08-23T20:41:23Z",
+    "featured": false
+  },
+  {
+    "id": "amigo-trommel",
+    "name": "amigo-trommel",
+    "owner": "amigo-labs",
+    "category": "other",
+    "emoji": "🥁",
+    "desc": {
+      "de": "Game-Audio-Werkzeug mit sample-basierten Stimmen und Strudel-Patterns",
+      "en": "Game audio authoring with sample-based voices and Strudel patterns"
+    },
+    "tech": [
+      "Svelte",
+      "Rust",
+      "PWA",
+      "Tauri"
+    ],
+    "repo": "https://github.com/amigo-labs/amigo-trommel",
+    "live": null,
+    "stars": 0,
+    "pushed": "2026-05-12T14:36:03Z",
     "featured": false
   }
 ];
