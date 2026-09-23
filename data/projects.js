@@ -83,11 +83,28 @@ window.CATEGORIES = [
   }
 ];
 
+window.PAGES = [
+  {
+    "id": "amigo-labs",
+    "path": "amigo-labs/",
+    "name": "amigo labs",
+    "title": {
+      "de": "amigo labs · Projekte",
+      "en": "amigo labs · Projects"
+    },
+    "tagline": {
+      "de": "Spiele, Engines und Kreativ-Werkzeuge — Rust und TypeScript, meist im Browser.",
+      "en": "Games, engines and creative tools — Rust and TypeScript, mostly in the browser."
+    }
+  }
+];
+
 window.PROJECTS = [
   {
     "id": "amigo-pincel",
     "name": "amigo-pincel",
     "owner": "amigo-labs",
+    "page": "amigo-labs",
     "category": "creative",
     "emoji": "🎨",
     "desc": {
@@ -110,6 +127,7 @@ window.PROJECTS = [
     "id": "amigo-engine",
     "name": "amigo-engine",
     "owner": "amigo-labs",
+    "page": "amigo-labs",
     "category": "creative",
     "emoji": "🎮",
     "desc": {
@@ -129,6 +147,7 @@ window.PROJECTS = [
     "id": "amigo-native",
     "name": "amigo-native",
     "owner": "amigo-labs",
+    "page": "amigo-labs",
     "category": "dev",
     "emoji": "📦",
     "desc": {
@@ -150,6 +169,7 @@ window.PROJECTS = [
     "id": "amigo-downloader",
     "name": "amigo-downloader",
     "owner": "amigo-labs",
+    "page": "amigo-labs",
     "category": "dev",
     "emoji": "⬇️",
     "desc": {
@@ -170,6 +190,7 @@ window.PROJECTS = [
     "id": "nuget-workbench-vscode",
     "name": "nuget-workbench-vscode",
     "owner": "nuget-workbench",
+    "page": "",
     "category": "dev",
     "emoji": "🧩",
     "desc": {
@@ -190,6 +211,7 @@ window.PROJECTS = [
     "id": "ErinnerMich",
     "name": "ErinnerMich",
     "owner": "daniel-rck",
+    "page": "",
     "category": "apps",
     "emoji": "🔔",
     "desc": {
@@ -209,14 +231,16 @@ window.PROJECTS = [
     "id": "HamsterFlight",
     "name": "HamsterFlight",
     "owner": "daniel-rck",
+    "page": "",
     "category": "other",
-    "emoji": "✨",
+    "emoji": "🐹",
     "desc": {
-      "de": "",
-      "en": ""
+      "de": "Browser-Portierung des Flash-Klassikers Flight of the Hamsters, aus dem Bytecode rekonstruiert",
+      "en": "Browser port of the Flash classic Flight of the Hamsters, rebuilt from its bytecode"
     },
     "tech": [
-      "TypeScript"
+      "TypeScript",
+      "PixiJS"
     ],
     "repo": "https://github.com/daniel-rck/HamsterFlight",
     "live": "https://hamsterflight.daniel-rck.workers.dev",
@@ -228,6 +252,7 @@ window.PROJECTS = [
     "id": "Tonspur",
     "name": "Tonspur",
     "owner": "daniel-rck",
+    "page": "",
     "category": "other",
     "emoji": "🎥",
     "desc": {
@@ -247,6 +272,7 @@ window.PROJECTS = [
     "id": "Hausverwaltung",
     "name": "Hausverwaltung",
     "owner": "daniel-rck",
+    "page": "",
     "category": "other",
     "emoji": "🏠",
     "desc": {
@@ -266,6 +292,7 @@ window.PROJECTS = [
     "id": "Tankzettel",
     "name": "Tankzettel",
     "owner": "daniel-rck",
+    "page": "",
     "category": "other",
     "emoji": "⛽",
     "desc": {
@@ -285,6 +312,7 @@ window.PROJECTS = [
     "id": "Tennisturnier",
     "name": "Tennisturnier",
     "owner": "daniel-rck",
+    "page": "",
     "category": "other",
     "emoji": "🎾",
     "desc": {
@@ -304,6 +332,7 @@ window.PROJECTS = [
     "id": "Vectorizer",
     "name": "Vectorizer",
     "owner": "daniel-rck",
+    "page": "",
     "category": "other",
     "emoji": "📐",
     "desc": {
@@ -311,7 +340,7 @@ window.PROJECTS = [
       "en": "Convert raster images to vector format (SVG)"
     },
     "tech": [
-      "TypeScript"
+      "PWA"
     ],
     "repo": "https://github.com/daniel-rck/Vectorizer",
     "live": "https://vectorizer.daniel-rck.workers.dev",
@@ -323,6 +352,7 @@ window.PROJECTS = [
     "id": "Zeiterfassung",
     "name": "Zeiterfassung",
     "owner": "daniel-rck",
+    "page": "",
     "category": "other",
     "emoji": "⏱️",
     "desc": {
@@ -342,6 +372,7 @@ window.PROJECTS = [
     "id": "Codes",
     "name": "Codes",
     "owner": "daniel-rck",
+    "page": "",
     "category": "other",
     "emoji": "🔣",
     "desc": {
@@ -349,7 +380,8 @@ window.PROJECTS = [
       "en": "Scan and create barcodes and QR codes"
     },
     "tech": [
-      "TypeScript"
+      "PWA",
+      "WASM"
     ],
     "repo": "https://github.com/daniel-rck/Codes",
     "live": "https://codes.daniel-rck.workers.dev",
@@ -361,14 +393,17 @@ window.PROJECTS = [
     "id": "amigo-diomano",
     "name": "amigo-diomano",
     "owner": "amigo-labs",
+    "page": "amigo-labs",
     "category": "other",
-    "emoji": "✨",
+    "emoji": "🌋",
     "desc": {
-      "de": "",
-      "en": ""
+      "de": "1-gegen-1-Götterspiel auf einem Kugelplaneten — du formst das Land, dein Volk erledigt den Rest",
+      "en": "1v1 god game on a spherical planet — you shape the land, your people do the rest"
     },
     "tech": [
-      "Rust"
+      "Rust",
+      "WASM",
+      "Three.js"
     ],
     "repo": "https://github.com/amigo-labs/amigo-diomano",
     "live": "https://diomano.amigo-labs.dev",
@@ -380,11 +415,12 @@ window.PROJECTS = [
     "id": "Minispiele",
     "name": "Minispiele",
     "owner": "daniel-rck",
+    "page": "",
     "category": "other",
     "emoji": "🕹️",
     "desc": {
-      "de": "Eine Sammlung kleiner Spiele",
-      "en": "A small collection of games"
+      "de": "65 Minispiele in einer Offline-App",
+      "en": "65 mini-games in one offline app"
     },
     "tech": [
       "PWA"
@@ -399,6 +435,7 @@ window.PROJECTS = [
     "id": "amigo-metropolis",
     "name": "amigo-metropolis",
     "owner": "amigo-labs",
+    "page": "amigo-labs",
     "category": "other",
     "emoji": "🏙️",
     "desc": {
@@ -419,6 +456,7 @@ window.PROJECTS = [
     "id": "Pizzateig",
     "name": "Pizzateig",
     "owner": "daniel-rck",
+    "page": "",
     "category": "other",
     "emoji": "🍕",
     "desc": {
@@ -438,11 +476,12 @@ window.PROJECTS = [
     "id": "web-base",
     "name": "web-base",
     "owner": "daniel-rck",
+    "page": "",
     "category": "other",
-    "emoji": "✨",
+    "emoji": "🧱",
     "desc": {
-      "de": "",
-      "en": ""
+      "de": "Gemeinsames Tooling, Vorlagen und Konventionen für meine Web-Apps",
+      "en": "Shared tooling, templates and conventions for my web apps"
     },
     "tech": [
       "TypeScript"
@@ -457,11 +496,12 @@ window.PROJECTS = [
     "id": "amigo-shutter",
     "name": "amigo-shutter",
     "owner": "amigo-labs",
+    "page": "amigo-labs",
     "category": "other",
-    "emoji": "✨",
+    "emoji": "📸",
     "desc": {
-      "de": "",
-      "en": ""
+      "de": "Screenshot-Werkzeug nach Vorbild von Greenshot: aufnehmen, markieren, teilen",
+      "en": "Screenshot tool in the spirit of Greenshot: capture, annotate, share"
     },
     "tech": [],
     "repo": "https://github.com/amigo-labs/amigo-shutter",
@@ -474,6 +514,7 @@ window.PROJECTS = [
     "id": "amigo-fineliner",
     "name": "amigo-fineliner",
     "owner": "amigo-labs",
+    "page": "amigo-labs",
     "category": "other",
     "emoji": "✏️",
     "desc": {
@@ -493,6 +534,7 @@ window.PROJECTS = [
     "id": "amigo-trommel",
     "name": "amigo-trommel",
     "owner": "amigo-labs",
+    "page": "amigo-labs",
     "category": "other",
     "emoji": "🥁",
     "desc": {
