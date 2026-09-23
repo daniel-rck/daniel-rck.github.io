@@ -183,7 +183,7 @@ window.PROJECTS = [
     "repo": "https://github.com/nuget-workbench/nuget-workbench-vscode",
     "live": null,
     "stars": 10,
-    "pushed": "2026-02-20T08:45:37Z",
+    "pushed": "2026-09-22T22:16:38Z",
     "featured": false
   },
   {
@@ -202,26 +202,7 @@ window.PROJECTS = [
     "repo": "https://github.com/daniel-rck/ErinnerMich",
     "live": "https://erinnermich.daniel-rck.workers.dev",
     "stars": 0,
-    "pushed": "2026-09-03T05:23:12Z",
-    "featured": false
-  },
-  {
-    "id": "amigo-diomano",
-    "name": "amigo-diomano",
-    "owner": "amigo-labs",
-    "category": "other",
-    "emoji": "✨",
-    "desc": {
-      "de": "",
-      "en": ""
-    },
-    "tech": [
-      "Rust"
-    ],
-    "repo": "https://github.com/amigo-labs/amigo-diomano",
-    "live": "https://diomano.amigo-labs.dev",
-    "stars": 0,
-    "pushed": "2026-09-22T20:27:25Z",
+    "pushed": "2026-09-22T21:57:34Z",
     "featured": false
   },
   {
@@ -240,7 +221,159 @@ window.PROJECTS = [
     "repo": "https://github.com/daniel-rck/HamsterFlight",
     "live": "https://hamsterflight.daniel-rck.workers.dev",
     "stars": 0,
-    "pushed": "2026-09-21T20:35:44Z",
+    "pushed": "2026-09-23T07:12:33Z",
+    "featured": false
+  },
+  {
+    "id": "Tonspur",
+    "name": "Tonspur",
+    "owner": "daniel-rck",
+    "category": "other",
+    "emoji": "🎥",
+    "desc": {
+      "de": "Film-Ratespiel anhand der Musik",
+      "en": "Movie guessing game based on the soundtrack"
+    },
+    "tech": [
+      "PWA"
+    ],
+    "repo": "https://github.com/daniel-rck/Tonspur",
+    "live": "https://tonspur.daniel-rck.workers.dev",
+    "stars": 0,
+    "pushed": "2026-09-22T22:16:51Z",
+    "featured": false
+  },
+  {
+    "id": "Hausverwaltung",
+    "name": "Hausverwaltung",
+    "owner": "daniel-rck",
+    "category": "other",
+    "emoji": "🏠",
+    "desc": {
+      "de": "Für private Vermieter kleiner Mehrfamilienhäuser",
+      "en": "For private landlords managing small multi-unit properties"
+    },
+    "tech": [
+      "PWA"
+    ],
+    "repo": "https://github.com/daniel-rck/Hausverwaltung",
+    "live": "https://hausverwaltung.daniel-rck.workers.dev",
+    "stars": 1,
+    "pushed": "2026-09-22T21:49:36Z",
+    "featured": false
+  },
+  {
+    "id": "Tankzettel",
+    "name": "Tankzettel",
+    "owner": "daniel-rck",
+    "category": "other",
+    "emoji": "⛽",
+    "desc": {
+      "de": "Zum Erfassen und Auswerten von Tankquittungen",
+      "en": "For capturing and analyzing fuel receipts"
+    },
+    "tech": [
+      "PWA"
+    ],
+    "repo": "https://github.com/daniel-rck/Tankzettel",
+    "live": "https://tankzettel.daniel-rck.workers.dev",
+    "stars": 0,
+    "pushed": "2026-09-22T21:40:11Z",
+    "featured": false
+  },
+  {
+    "id": "Tennisturnier",
+    "name": "Tennisturnier",
+    "owner": "daniel-rck",
+    "category": "other",
+    "emoji": "🎾",
+    "desc": {
+      "de": "Für kleine Tennisturniere",
+      "en": "For running small tennis tournaments"
+    },
+    "tech": [
+      "PWA"
+    ],
+    "repo": "https://github.com/daniel-rck/Tennisturnier",
+    "live": "https://tennisturnier.daniel-rck.workers.dev",
+    "stars": 0,
+    "pushed": "2026-09-22T21:30:08Z",
+    "featured": false
+  },
+  {
+    "id": "Vectorizer",
+    "name": "Vectorizer",
+    "owner": "daniel-rck",
+    "category": "other",
+    "emoji": "📐",
+    "desc": {
+      "de": "Rasterbilder ins Vektorformat (SVG) umwandeln",
+      "en": "Convert raster images to vector format (SVG)"
+    },
+    "tech": [
+      "TypeScript"
+    ],
+    "repo": "https://github.com/daniel-rck/Vectorizer",
+    "live": "https://vectorizer.daniel-rck.workers.dev",
+    "stars": 0,
+    "pushed": "2026-09-22T21:28:58Z",
+    "featured": false
+  },
+  {
+    "id": "Zeiterfassung",
+    "name": "Zeiterfassung",
+    "owner": "daniel-rck",
+    "category": "other",
+    "emoji": "⏱️",
+    "desc": {
+      "de": "Für die persönliche Arbeitszeiterfassung",
+      "en": "For personal work-time tracking"
+    },
+    "tech": [
+      "PWA"
+    ],
+    "repo": "https://github.com/daniel-rck/Zeiterfassung",
+    "live": "https://zeiterfassung.daniel-rck.workers.dev/",
+    "stars": 0,
+    "pushed": "2026-09-22T21:27:58Z",
+    "featured": false
+  },
+  {
+    "id": "Codes",
+    "name": "Codes",
+    "owner": "daniel-rck",
+    "category": "other",
+    "emoji": "🔣",
+    "desc": {
+      "de": "Barcodes und QR-Codes scannen und erstellen",
+      "en": "Scan and create barcodes and QR codes"
+    },
+    "tech": [
+      "TypeScript"
+    ],
+    "repo": "https://github.com/daniel-rck/Codes",
+    "live": "https://codes.daniel-rck.workers.dev",
+    "stars": 0,
+    "pushed": "2026-09-22T21:25:59Z",
+    "featured": false
+  },
+  {
+    "id": "amigo-diomano",
+    "name": "amigo-diomano",
+    "owner": "amigo-labs",
+    "category": "other",
+    "emoji": "✨",
+    "desc": {
+      "de": "",
+      "en": ""
+    },
+    "tech": [
+      "Rust"
+    ],
+    "repo": "https://github.com/amigo-labs/amigo-diomano",
+    "live": "https://diomano.amigo-labs.dev",
+    "stars": 0,
+    "pushed": "2026-09-22T20:49:42Z",
     "featured": false
   },
   {
@@ -260,101 +393,6 @@ window.PROJECTS = [
     "live": "https://minispiele.daniel-rck.workers.dev",
     "stars": 0,
     "pushed": "2026-09-21T09:32:02Z",
-    "featured": false
-  },
-  {
-    "id": "Tonspur",
-    "name": "Tonspur",
-    "owner": "daniel-rck",
-    "category": "other",
-    "emoji": "🎥",
-    "desc": {
-      "de": "Film-Ratespiel anhand der Musik",
-      "en": "Movie guessing game based on the soundtrack"
-    },
-    "tech": [
-      "PWA"
-    ],
-    "repo": "https://github.com/daniel-rck/Tonspur",
-    "live": "https://tonspur.daniel-rck.workers.dev",
-    "stars": 0,
-    "pushed": "2026-09-21T05:17:17Z",
-    "featured": false
-  },
-  {
-    "id": "Tennisturnier",
-    "name": "Tennisturnier",
-    "owner": "daniel-rck",
-    "category": "other",
-    "emoji": "🎾",
-    "desc": {
-      "de": "Für kleine Tennisturniere",
-      "en": "For running small tennis tournaments"
-    },
-    "tech": [
-      "PWA"
-    ],
-    "repo": "https://github.com/daniel-rck/Tennisturnier",
-    "live": "https://tennisturnier.daniel-rck.workers.dev",
-    "stars": 0,
-    "pushed": "2026-09-03T05:23:23Z",
-    "featured": false
-  },
-  {
-    "id": "Zeiterfassung",
-    "name": "Zeiterfassung",
-    "owner": "daniel-rck",
-    "category": "other",
-    "emoji": "⏱️",
-    "desc": {
-      "de": "Für die persönliche Arbeitszeiterfassung",
-      "en": "For personal work-time tracking"
-    },
-    "tech": [
-      "PWA"
-    ],
-    "repo": "https://github.com/daniel-rck/Zeiterfassung",
-    "live": "https://zeiterfassung.daniel-rck.workers.dev/",
-    "stars": 0,
-    "pushed": "2026-09-03T05:23:01Z",
-    "featured": false
-  },
-  {
-    "id": "Tankzettel",
-    "name": "Tankzettel",
-    "owner": "daniel-rck",
-    "category": "other",
-    "emoji": "⛽",
-    "desc": {
-      "de": "Zum Erfassen und Auswerten von Tankquittungen",
-      "en": "For capturing and analyzing fuel receipts"
-    },
-    "tech": [
-      "PWA"
-    ],
-    "repo": "https://github.com/daniel-rck/Tankzettel",
-    "live": "https://tankzettel.daniel-rck.workers.dev",
-    "stars": 0,
-    "pushed": "2026-09-03T05:22:17Z",
-    "featured": false
-  },
-  {
-    "id": "Hausverwaltung",
-    "name": "Hausverwaltung",
-    "owner": "daniel-rck",
-    "category": "other",
-    "emoji": "🏠",
-    "desc": {
-      "de": "Für private Vermieter kleiner Mehrfamilienhäuser",
-      "en": "For private landlords managing small multi-unit properties"
-    },
-    "tech": [
-      "PWA"
-    ],
-    "repo": "https://github.com/daniel-rck/Hausverwaltung",
-    "live": "https://hausverwaltung.daniel-rck.workers.dev",
-    "stars": 1,
-    "pushed": "2026-09-03T05:20:21Z",
     "featured": false
   },
   {
@@ -378,41 +416,22 @@ window.PROJECTS = [
     "featured": false
   },
   {
-    "id": "Codes",
-    "name": "Codes",
+    "id": "Pizzateig",
+    "name": "Pizzateig",
     "owner": "daniel-rck",
     "category": "other",
-    "emoji": "🔣",
+    "emoji": "🍕",
     "desc": {
-      "de": "Barcodes und QR-Codes scannen und erstellen",
-      "en": "Scan and create barcodes and QR codes"
+      "de": "Pizzateig-Rechner mit intelligenter Skalierung und lokalem Rezept-Sharing",
+      "en": "Pizza dough calculator with smart scaling and local recipe sharing"
     },
     "tech": [
-      "TypeScript"
+      "PWA"
     ],
-    "repo": "https://github.com/daniel-rck/Codes",
-    "live": "https://codes.daniel-rck.workers.dev",
+    "repo": "https://github.com/daniel-rck/Pizzateig",
+    "live": null,
     "stars": 0,
-    "pushed": "2026-07-28T19:04:26Z",
-    "featured": false
-  },
-  {
-    "id": "Vectorizer",
-    "name": "Vectorizer",
-    "owner": "daniel-rck",
-    "category": "other",
-    "emoji": "📐",
-    "desc": {
-      "de": "Rasterbilder ins Vektorformat (SVG) umwandeln",
-      "en": "Convert raster images to vector format (SVG)"
-    },
-    "tech": [
-      "TypeScript"
-    ],
-    "repo": "https://github.com/daniel-rck/Vectorizer",
-    "live": "https://vectorizer.daniel-rck.workers.dev",
-    "stars": 0,
-    "pushed": "2026-07-02T05:38:35Z",
+    "pushed": "2026-09-22T21:24:20Z",
     "featured": false
   },
   {
@@ -431,7 +450,7 @@ window.PROJECTS = [
     "repo": "https://github.com/daniel-rck/web-base",
     "live": null,
     "stars": 0,
-    "pushed": "2026-09-22T20:42:09Z",
+    "pushed": "2026-09-22T20:44:08Z",
     "featured": false
   },
   {
@@ -449,25 +468,6 @@ window.PROJECTS = [
     "live": null,
     "stars": 0,
     "pushed": "2026-09-22T11:47:39Z",
-    "featured": false
-  },
-  {
-    "id": "Pizzateig",
-    "name": "Pizzateig",
-    "owner": "daniel-rck",
-    "category": "other",
-    "emoji": "🍕",
-    "desc": {
-      "de": "Pizzateig-Rechner mit intelligenter Skalierung und lokalem Rezept-Sharing",
-      "en": "Pizza dough calculator with smart scaling and local recipe sharing"
-    },
-    "tech": [
-      "PWA"
-    ],
-    "repo": "https://github.com/daniel-rck/Pizzateig",
-    "live": null,
-    "stars": 0,
-    "pushed": "2026-09-03T05:20:51Z",
     "featured": false
   },
   {
