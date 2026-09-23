@@ -101,6 +101,110 @@ window.PAGES = [
 
 window.PROJECTS = [
   {
+    "id": "HamsterFlight",
+    "name": "HamsterFlight",
+    "owner": "daniel-rck",
+    "page": "",
+    "category": "games",
+    "emoji": "🐹",
+    "desc": {
+      "de": "Browser-Portierung des Flash-Klassikers Flight of the Hamsters, aus dem Bytecode rekonstruiert",
+      "en": "Browser port of the Flash classic Flight of the Hamsters, rebuilt from its bytecode"
+    },
+    "tech": [
+      "TypeScript",
+      "PixiJS"
+    ],
+    "repo": "https://github.com/daniel-rck/HamsterFlight",
+    "live": "https://hamsterflight.daniel-rck.workers.dev",
+    "stars": 0,
+    "pushed": "2026-09-23T07:12:33Z",
+    "featured": false
+  },
+  {
+    "id": "Tonspur",
+    "name": "Tonspur",
+    "owner": "daniel-rck",
+    "page": "",
+    "category": "games",
+    "emoji": "🎥",
+    "desc": {
+      "de": "Film-Ratespiel anhand der Musik",
+      "en": "Movie guessing game based on the soundtrack"
+    },
+    "tech": [
+      "PWA"
+    ],
+    "repo": "https://github.com/daniel-rck/Tonspur",
+    "live": "https://tonspur.daniel-rck.workers.dev",
+    "stars": 0,
+    "pushed": "2026-09-22T22:16:51Z",
+    "featured": false
+  },
+  {
+    "id": "amigo-diomano",
+    "name": "amigo-diomano",
+    "owner": "amigo-labs",
+    "page": "amigo-labs",
+    "category": "games",
+    "emoji": "🌋",
+    "desc": {
+      "de": "1-gegen-1-Götterspiel auf einem Kugelplaneten — du formst das Land, dein Volk erledigt den Rest",
+      "en": "1v1 god game on a spherical planet — you shape the land, your people do the rest"
+    },
+    "tech": [
+      "Rust",
+      "WASM",
+      "Three.js"
+    ],
+    "repo": "https://github.com/amigo-labs/amigo-diomano",
+    "live": "https://diomano.amigo-labs.dev",
+    "stars": 0,
+    "pushed": "2026-09-22T20:49:42Z",
+    "featured": false
+  },
+  {
+    "id": "Minispiele",
+    "name": "Minispiele",
+    "owner": "daniel-rck",
+    "page": "",
+    "category": "games",
+    "emoji": "🕹️",
+    "desc": {
+      "de": "65 Minispiele in einer Offline-App",
+      "en": "65 mini-games in one offline app"
+    },
+    "tech": [
+      "PWA"
+    ],
+    "repo": "https://github.com/daniel-rck/Minispiele",
+    "live": "https://minispiele.daniel-rck.workers.dev",
+    "stars": 0,
+    "pushed": "2026-09-21T09:32:02Z",
+    "featured": false
+  },
+  {
+    "id": "amigo-metropolis",
+    "name": "amigo-metropolis",
+    "owner": "amigo-labs",
+    "page": "amigo-labs",
+    "category": "games",
+    "emoji": "🏙️",
+    "desc": {
+      "de": "Browser-Hommage an Future Cop: Precinct Assault, ein Proto-MOBA",
+      "en": "Browser-based Future Cop: Precinct Assault homage, a proto-MOBA"
+    },
+    "tech": [
+      "Three.js",
+      "Cloudflare"
+    ],
+    "repo": "https://github.com/amigo-labs/amigo-metropolis",
+    "live": "https://metropolis.amigo-labs.dev",
+    "stars": 0,
+    "pushed": "2026-08-19T14:25:43Z",
+    "featured": false
+  },
+  {
     "id": "amigo-pincel",
     "name": "amigo-pincel",
     "owner": "amigo-labs",
@@ -124,6 +228,26 @@ window.PROJECTS = [
     "featured": false
   },
   {
+    "id": "amigo-fineliner",
+    "name": "amigo-fineliner",
+    "owner": "amigo-labs",
+    "page": "amigo-labs",
+    "category": "creative",
+    "emoji": "✏️",
+    "desc": {
+      "de": "Raster-Malprogramm, inspiriert von Paint.NET und rs-paint",
+      "en": "Raster paint app inspired by Paint.NET and rs-paint"
+    },
+    "tech": [
+      "Rust"
+    ],
+    "repo": "https://github.com/amigo-labs/amigo-fineliner",
+    "live": null,
+    "stars": 0,
+    "pushed": "2026-08-23T20:41:23Z",
+    "featured": false
+  },
+  {
     "id": "amigo-engine",
     "name": "amigo-engine",
     "owner": "amigo-labs",
@@ -141,6 +265,70 @@ window.PROJECTS = [
     "live": null,
     "stars": 3,
     "pushed": "2026-08-04T07:43:39Z",
+    "featured": false
+  },
+  {
+    "id": "amigo-trommel",
+    "name": "amigo-trommel",
+    "owner": "amigo-labs",
+    "page": "amigo-labs",
+    "category": "creative",
+    "emoji": "🥁",
+    "desc": {
+      "de": "Game-Audio-Werkzeug mit sample-basierten Stimmen und Strudel-Patterns",
+      "en": "Game audio authoring with sample-based voices and Strudel patterns"
+    },
+    "tech": [
+      "Svelte",
+      "Rust",
+      "PWA",
+      "Tauri"
+    ],
+    "repo": "https://github.com/amigo-labs/amigo-trommel",
+    "live": null,
+    "stars": 0,
+    "pushed": "2026-05-12T14:36:03Z",
+    "featured": false
+  },
+  {
+    "id": "Vectorizer",
+    "name": "Vectorizer",
+    "owner": "daniel-rck",
+    "page": "",
+    "category": "dev",
+    "emoji": "📐",
+    "desc": {
+      "de": "Rasterbilder ins Vektorformat (SVG) umwandeln",
+      "en": "Convert raster images to vector format (SVG)"
+    },
+    "tech": [
+      "PWA"
+    ],
+    "repo": "https://github.com/daniel-rck/Vectorizer",
+    "live": "https://vectorizer.daniel-rck.workers.dev",
+    "stars": 0,
+    "pushed": "2026-09-22T21:28:58Z",
+    "featured": false
+  },
+  {
+    "id": "Codes",
+    "name": "Codes",
+    "owner": "daniel-rck",
+    "page": "",
+    "category": "dev",
+    "emoji": "🔣",
+    "desc": {
+      "de": "Barcodes und QR-Codes scannen und erstellen",
+      "en": "Scan and create barcodes and QR codes"
+    },
+    "tech": [
+      "PWA",
+      "WASM"
+    ],
+    "repo": "https://github.com/daniel-rck/Codes",
+    "live": "https://codes.daniel-rck.workers.dev",
+    "stars": 0,
+    "pushed": "2026-09-22T21:25:59Z",
     "featured": false
   },
   {
@@ -208,6 +396,44 @@ window.PROJECTS = [
     "featured": false
   },
   {
+    "id": "web-base",
+    "name": "web-base",
+    "owner": "daniel-rck",
+    "page": "",
+    "category": "dev",
+    "emoji": "🧱",
+    "desc": {
+      "de": "Gemeinsames Tooling, Vorlagen und Konventionen für meine Web-Apps",
+      "en": "Shared tooling, templates and conventions for my web apps"
+    },
+    "tech": [
+      "TypeScript"
+    ],
+    "repo": "https://github.com/daniel-rck/web-base",
+    "live": null,
+    "stars": 0,
+    "pushed": "2026-09-22T20:44:08Z",
+    "featured": false
+  },
+  {
+    "id": "amigo-shutter",
+    "name": "amigo-shutter",
+    "owner": "amigo-labs",
+    "page": "amigo-labs",
+    "category": "dev",
+    "emoji": "📸",
+    "desc": {
+      "de": "Screenshot-Werkzeug nach Vorbild von Greenshot: aufnehmen, markieren, teilen",
+      "en": "Screenshot tool in the spirit of Greenshot: capture, annotate, share"
+    },
+    "tech": [],
+    "repo": "https://github.com/amigo-labs/amigo-shutter",
+    "live": null,
+    "stars": 0,
+    "pushed": "2026-09-22T11:47:39Z",
+    "featured": false
+  },
+  {
     "id": "ErinnerMich",
     "name": "ErinnerMich",
     "owner": "daniel-rck",
@@ -228,52 +454,11 @@ window.PROJECTS = [
     "featured": false
   },
   {
-    "id": "HamsterFlight",
-    "name": "HamsterFlight",
-    "owner": "daniel-rck",
-    "page": "",
-    "category": "other",
-    "emoji": "🐹",
-    "desc": {
-      "de": "Browser-Portierung des Flash-Klassikers Flight of the Hamsters, aus dem Bytecode rekonstruiert",
-      "en": "Browser port of the Flash classic Flight of the Hamsters, rebuilt from its bytecode"
-    },
-    "tech": [
-      "TypeScript",
-      "PixiJS"
-    ],
-    "repo": "https://github.com/daniel-rck/HamsterFlight",
-    "live": "https://hamsterflight.daniel-rck.workers.dev",
-    "stars": 0,
-    "pushed": "2026-09-23T07:12:33Z",
-    "featured": false
-  },
-  {
-    "id": "Tonspur",
-    "name": "Tonspur",
-    "owner": "daniel-rck",
-    "page": "",
-    "category": "other",
-    "emoji": "🎥",
-    "desc": {
-      "de": "Film-Ratespiel anhand der Musik",
-      "en": "Movie guessing game based on the soundtrack"
-    },
-    "tech": [
-      "PWA"
-    ],
-    "repo": "https://github.com/daniel-rck/Tonspur",
-    "live": "https://tonspur.daniel-rck.workers.dev",
-    "stars": 0,
-    "pushed": "2026-09-22T22:16:51Z",
-    "featured": false
-  },
-  {
     "id": "Hausverwaltung",
     "name": "Hausverwaltung",
     "owner": "daniel-rck",
     "page": "",
-    "category": "other",
+    "category": "apps",
     "emoji": "🏠",
     "desc": {
       "de": "Für private Vermieter kleiner Mehrfamilienhäuser",
@@ -293,7 +478,7 @@ window.PROJECTS = [
     "name": "Tankzettel",
     "owner": "daniel-rck",
     "page": "",
-    "category": "other",
+    "category": "apps",
     "emoji": "⛽",
     "desc": {
       "de": "Zum Erfassen und Auswerten von Tankquittungen",
@@ -313,7 +498,7 @@ window.PROJECTS = [
     "name": "Tennisturnier",
     "owner": "daniel-rck",
     "page": "",
-    "category": "other",
+    "category": "apps",
     "emoji": "🎾",
     "desc": {
       "de": "Für kleine Tennisturniere",
@@ -329,31 +514,11 @@ window.PROJECTS = [
     "featured": false
   },
   {
-    "id": "Vectorizer",
-    "name": "Vectorizer",
-    "owner": "daniel-rck",
-    "page": "",
-    "category": "other",
-    "emoji": "📐",
-    "desc": {
-      "de": "Rasterbilder ins Vektorformat (SVG) umwandeln",
-      "en": "Convert raster images to vector format (SVG)"
-    },
-    "tech": [
-      "PWA"
-    ],
-    "repo": "https://github.com/daniel-rck/Vectorizer",
-    "live": "https://vectorizer.daniel-rck.workers.dev",
-    "stars": 0,
-    "pushed": "2026-09-22T21:28:58Z",
-    "featured": false
-  },
-  {
     "id": "Zeiterfassung",
     "name": "Zeiterfassung",
     "owner": "daniel-rck",
     "page": "",
-    "category": "other",
+    "category": "apps",
     "emoji": "⏱️",
     "desc": {
       "de": "Für die persönliche Arbeitszeiterfassung",
@@ -369,95 +534,11 @@ window.PROJECTS = [
     "featured": false
   },
   {
-    "id": "Codes",
-    "name": "Codes",
-    "owner": "daniel-rck",
-    "page": "",
-    "category": "other",
-    "emoji": "🔣",
-    "desc": {
-      "de": "Barcodes und QR-Codes scannen und erstellen",
-      "en": "Scan and create barcodes and QR codes"
-    },
-    "tech": [
-      "PWA",
-      "WASM"
-    ],
-    "repo": "https://github.com/daniel-rck/Codes",
-    "live": "https://codes.daniel-rck.workers.dev",
-    "stars": 0,
-    "pushed": "2026-09-22T21:25:59Z",
-    "featured": false
-  },
-  {
-    "id": "amigo-diomano",
-    "name": "amigo-diomano",
-    "owner": "amigo-labs",
-    "page": "amigo-labs",
-    "category": "other",
-    "emoji": "🌋",
-    "desc": {
-      "de": "1-gegen-1-Götterspiel auf einem Kugelplaneten — du formst das Land, dein Volk erledigt den Rest",
-      "en": "1v1 god game on a spherical planet — you shape the land, your people do the rest"
-    },
-    "tech": [
-      "Rust",
-      "WASM",
-      "Three.js"
-    ],
-    "repo": "https://github.com/amigo-labs/amigo-diomano",
-    "live": "https://diomano.amigo-labs.dev",
-    "stars": 0,
-    "pushed": "2026-09-22T20:49:42Z",
-    "featured": false
-  },
-  {
-    "id": "Minispiele",
-    "name": "Minispiele",
-    "owner": "daniel-rck",
-    "page": "",
-    "category": "other",
-    "emoji": "🕹️",
-    "desc": {
-      "de": "65 Minispiele in einer Offline-App",
-      "en": "65 mini-games in one offline app"
-    },
-    "tech": [
-      "PWA"
-    ],
-    "repo": "https://github.com/daniel-rck/Minispiele",
-    "live": "https://minispiele.daniel-rck.workers.dev",
-    "stars": 0,
-    "pushed": "2026-09-21T09:32:02Z",
-    "featured": false
-  },
-  {
-    "id": "amigo-metropolis",
-    "name": "amigo-metropolis",
-    "owner": "amigo-labs",
-    "page": "amigo-labs",
-    "category": "other",
-    "emoji": "🏙️",
-    "desc": {
-      "de": "Browser-Hommage an Future Cop: Precinct Assault, ein Proto-MOBA",
-      "en": "Browser-based Future Cop: Precinct Assault homage, a proto-MOBA"
-    },
-    "tech": [
-      "Three.js",
-      "Cloudflare"
-    ],
-    "repo": "https://github.com/amigo-labs/amigo-metropolis",
-    "live": "https://metropolis.amigo-labs.dev",
-    "stars": 0,
-    "pushed": "2026-08-19T14:25:43Z",
-    "featured": false
-  },
-  {
     "id": "Pizzateig",
     "name": "Pizzateig",
     "owner": "daniel-rck",
     "page": "",
-    "category": "other",
+    "category": "apps",
     "emoji": "🍕",
     "desc": {
       "de": "Pizzateig-Rechner mit intelligenter Skalierung und lokalem Rezept-Sharing",
@@ -467,90 +548,9 @@ window.PROJECTS = [
       "PWA"
     ],
     "repo": "https://github.com/daniel-rck/Pizzateig",
-    "live": null,
+    "live": "https://pizzateig.daniel-rck.workers.dev",
     "stars": 0,
     "pushed": "2026-09-22T21:24:20Z",
-    "featured": false
-  },
-  {
-    "id": "web-base",
-    "name": "web-base",
-    "owner": "daniel-rck",
-    "page": "",
-    "category": "other",
-    "emoji": "🧱",
-    "desc": {
-      "de": "Gemeinsames Tooling, Vorlagen und Konventionen für meine Web-Apps",
-      "en": "Shared tooling, templates and conventions for my web apps"
-    },
-    "tech": [
-      "TypeScript"
-    ],
-    "repo": "https://github.com/daniel-rck/web-base",
-    "live": null,
-    "stars": 0,
-    "pushed": "2026-09-22T20:44:08Z",
-    "featured": false
-  },
-  {
-    "id": "amigo-shutter",
-    "name": "amigo-shutter",
-    "owner": "amigo-labs",
-    "page": "amigo-labs",
-    "category": "other",
-    "emoji": "📸",
-    "desc": {
-      "de": "Screenshot-Werkzeug nach Vorbild von Greenshot: aufnehmen, markieren, teilen",
-      "en": "Screenshot tool in the spirit of Greenshot: capture, annotate, share"
-    },
-    "tech": [],
-    "repo": "https://github.com/amigo-labs/amigo-shutter",
-    "live": null,
-    "stars": 0,
-    "pushed": "2026-09-22T11:47:39Z",
-    "featured": false
-  },
-  {
-    "id": "amigo-fineliner",
-    "name": "amigo-fineliner",
-    "owner": "amigo-labs",
-    "page": "amigo-labs",
-    "category": "other",
-    "emoji": "✏️",
-    "desc": {
-      "de": "Raster-Malprogramm, inspiriert von Paint.NET und rs-paint",
-      "en": "Raster paint app inspired by Paint.NET and rs-paint"
-    },
-    "tech": [
-      "Rust"
-    ],
-    "repo": "https://github.com/amigo-labs/amigo-fineliner",
-    "live": null,
-    "stars": 0,
-    "pushed": "2026-08-23T20:41:23Z",
-    "featured": false
-  },
-  {
-    "id": "amigo-trommel",
-    "name": "amigo-trommel",
-    "owner": "amigo-labs",
-    "page": "amigo-labs",
-    "category": "other",
-    "emoji": "🥁",
-    "desc": {
-      "de": "Game-Audio-Werkzeug mit sample-basierten Stimmen und Strudel-Patterns",
-      "en": "Game audio authoring with sample-based voices and Strudel patterns"
-    },
-    "tech": [
-      "Svelte",
-      "Rust",
-      "PWA",
-      "Tauri"
-    ],
-    "repo": "https://github.com/amigo-labs/amigo-trommel",
-    "live": null,
-    "stars": 0,
-    "pushed": "2026-05-12T14:36:03Z",
     "featured": false
   }
 ];
