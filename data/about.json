@@ -81,6 +81,10 @@
     "description": "Fast, modular download manager in Rust — HTTP, Usenet, HLS/DASH, TypeScript plugins, web UI and native apps",
     "topics": ["download-manager", "cli", "usenet", "rust", "svelte", "tauri"]
   },
+  "amigo-labs/amigo-shutter": {
+    "description": "Screenshot tool in the spirit of Greenshot — capture a region, window or screen, annotate, share",
+    "topics": ["screenshot", "screen-capture", "annotation"]
+  },
   "amigo-labs/amigo-native": {
     "description": "Rust-powered native Node.js packages, plus WASM for the browser",
     "topics": ["nodejs", "library", "rust", "wasm"]

@@ -55,6 +55,13 @@
       "de": "1-gegen-1-Götterspiel auf einem Kugelplaneten — du formst das Land, dein Volk erledigt den Rest"
     }
   },
+  "amigo-shutter": {
+    "emoji": "📸",
+    "desc": {
+      "en": "Screenshot tool in the spirit of Greenshot: capture, annotate, share",
+      "de": "Screenshot-Werkzeug nach Vorbild von Greenshot: aufnehmen, markieren, teilen"
+    }
+  },
   "amigo-metropolis": {
     "emoji": "🏙️",
     "tech": ["Three.js", "Cloudflare"],

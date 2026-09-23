@@ -40,7 +40,7 @@
       "label": { "de": "Dev-Tools", "en": "Dev Tools" },
       "blurb": { "de": "Für Entwickler und den Werkzeugkasten", "en": "For developers and the toolbox" },
       "emoji": "🛠️",
-      "topics": ["vscode-extension", "vscode", "cli", "library", "developer-tools", "devtools", "nodejs", "nuget", "qr-code", "barcode", "vectorization", "download-manager"],
+      "topics": ["vscode-extension", "vscode", "cli", "library", "developer-tools", "devtools", "nodejs", "nuget", "qr-code", "barcode", "vectorization", "download-manager", "screenshot", "screen-capture"],
       "keywords": ["vs code", "vscode", "nuget", "npm", "cli", "library", "package", "wasm", "convert", "download", "barcode", "qr", "developer", "sdk"]
     },
     {
