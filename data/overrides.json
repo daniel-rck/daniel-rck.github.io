@@ -1,6 +1,7 @@
 {
   "amigo-engine": {
     "emoji": "🎮",
+    "category": "creative",
     "tech": ["Rust"],
     "desc": {
       "en": "2D pixel art game engine in Rust",
@@ -9,6 +10,7 @@
   },
   "amigo-pincel": {
     "emoji": "🎨",
+    "category": "creative",
     "tech": ["Svelte", "Rust", "PWA", "Tauri"],
     "desc": {
       "en": "Pixel art editor, in the browser and on the desktop",
@@ -17,6 +19,7 @@
   },
   "amigo-fineliner": {
     "emoji": "✏️",
+    "category": "creative",
     "tech": ["Rust"],
     "desc": {
       "en": "Raster paint app inspired by Paint.NET and rs-paint",
@@ -25,6 +28,7 @@
   },
   "amigo-trommel": {
     "emoji": "🥁",
+    "category": "creative",
     "tech": ["Svelte", "Rust", "PWA", "Tauri"],
     "desc": {
       "en": "Game audio authoring with sample-based voices and Strudel patterns",
@@ -33,6 +37,7 @@
   },
   "amigo-downloader": {
     "emoji": "⬇️",
+    "category": "dev",
     "tech": ["Rust", "Tauri"],
     "desc": {
       "en": "Cross-platform download manager",
@@ -41,6 +46,7 @@
   },
   "amigo-native": {
     "emoji": "📦",
+    "category": "dev",
     "tech": ["Rust", "WASM", "Node"],
     "desc": {
       "en": "Rust-powered native Node.js packages, plus wasm for the browser",
@@ -49,6 +55,7 @@
   },
   "amigo-diomano": {
     "emoji": "🌋",
+    "category": "games",
     "tech": ["Rust", "WASM", "Three.js"],
     "desc": {
       "en": "1v1 god game on a spherical planet — you shape the land, your people do the rest",
@@ -57,6 +64,7 @@
   },
   "amigo-shutter": {
     "emoji": "📸",
+    "category": "dev",
     "desc": {
       "en": "Screenshot tool in the spirit of Greenshot: capture, annotate, share",
       "de": "Screenshot-Werkzeug nach Vorbild von Greenshot: aufnehmen, markieren, teilen"
@@ -64,6 +72,7 @@
   },
   "amigo-metropolis": {
     "emoji": "🏙️",
+    "category": "games",
     "tech": ["Three.js", "Cloudflare"],
     "desc": {
       "en": "Browser-based Future Cop: Precinct Assault homage, a proto-MOBA",
@@ -80,6 +89,7 @@
   },
   "Vectorizer": {
     "emoji": "📐",
+    "category": "dev",
     "tech": ["PWA"],
     "desc": {
       "en": "Convert raster images to vector format (SVG)",
@@ -88,6 +98,7 @@
   },
   "Codes": {
     "emoji": "🔣",
+    "category": "dev",
     "tech": ["PWA", "WASM"],
     "desc": {
       "en": "Scan and create barcodes and QR codes",
@@ -96,6 +107,7 @@
   },
   "Hausverwaltung": {
     "emoji": "🏠",
+    "category": "apps",
     "tech": ["PWA"],
     "desc": {
       "en": "For private landlords managing small multi-unit properties",
@@ -104,6 +116,7 @@
   },
   "Tennisturnier": {
     "emoji": "🎾",
+    "category": "apps",
     "tech": ["PWA"],
     "desc": {
       "en": "For running small tennis tournaments",
@@ -112,6 +125,7 @@
   },
   "ErinnerMich": {
     "emoji": "🔔",
+    "category": "apps",
     "tech": ["PWA"],
     "desc": {
       "en": "For recurring reminders and habit tracking",
@@ -120,6 +134,7 @@
   },
   "Zeiterfassung": {
     "emoji": "⏱️",
+    "category": "apps",
     "tech": ["PWA"],
     "desc": {
       "en": "For personal work-time tracking",
@@ -128,6 +143,7 @@
   },
   "Minispiele": {
     "emoji": "🕹️",
+    "category": "games",
     "tech": ["PWA"],
     "desc": {
       "en": "65 mini-games in one offline app",
@@ -136,6 +152,7 @@
   },
   "Tankzettel": {
     "emoji": "⛽",
+    "category": "apps",
     "tech": ["PWA"],
     "desc": {
       "en": "For capturing and analyzing fuel receipts",
@@ -144,6 +161,7 @@
   },
   "Pizzateig": {
     "emoji": "🍕",
+    "category": "apps",
     "tech": ["PWA"],
     "desc": {
       "en": "Pizza dough calculator with smart scaling and local recipe sharing",
@@ -152,6 +170,7 @@
   },
   "Tonspur": {
     "emoji": "🎥",
+    "category": "games",
     "tech": ["PWA"],
     "desc": {
       "en": "Movie guessing game based on the soundtrack",
@@ -160,6 +179,7 @@
   },
   "HamsterFlight": {
     "emoji": "🐹",
+    "category": "games",
     "tech": ["TypeScript", "PixiJS"],
     "desc": {
       "en": "Browser port of the Flash classic Flight of the Hamsters, rebuilt from its bytecode",
@@ -168,6 +188,7 @@
   },
   "web-base": {
     "emoji": "🧱",
+    "category": "dev",
     "tech": ["TypeScript"],
     "desc": {
       "en": "Shared tooling, templates and conventions for my web apps",

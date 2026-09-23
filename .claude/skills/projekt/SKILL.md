@@ -34,6 +34,8 @@ trotzdem mit den GitHub-MCP-Tools (`description`, `topics`, `homepage`):
    Trag Beschreibung und Topics in `data/about.json` ein; Daniel schreibt sie
    mit `python3 scripts/apply-about.py --apply` nach GitHub. Nur wenn kein
    Topic passt, `category` in `data/overrides.json` eintragen.
+   Die bestehenden Projekte tragen `category` zusätzlich als Override,
+   damit die Seite nicht davon abhängt, ob das About-Feld schon gesetzt ist.
 2. **Texte** — GitHub liefert nur eine Beschreibung für beide Sprachen. Für
    eine saubere DE/EN-Fassung `desc` in `data/overrides.json` setzen: ein
    knapper Satz, kein Punkt am Ende, Ton wie die bestehenden Einträge.
