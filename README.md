@@ -67,6 +67,9 @@ python3 scripts/apply-about.py --apply   # write descriptions and topics
 Descriptions are replaced, topics only added, a website only set where there
 is none yet. The next sync picks the new texts up.
 
+In Claude Code, `/beschreibungen` walks through all of this for every repo;
+`/projekt` handles a single one.
+
 ## Overrides
 
 `data/overrides.json`, keyed by repository name (case matters). Every field
