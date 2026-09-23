@@ -47,6 +47,14 @@
       "de": "Native Node.js-Pakete auf Rust-Basis, dazu WASM für den Browser"
     }
   },
+  "amigo-diomano": {
+    "emoji": "🌋",
+    "tech": ["Rust", "WASM", "Three.js"],
+    "desc": {
+      "en": "1v1 god game on a spherical planet — you shape the land, your people do the rest",
+      "de": "1-gegen-1-Götterspiel auf einem Kugelplaneten — du formst das Land, dein Volk erledigt den Rest"
+    }
+  },
   "amigo-metropolis": {
     "emoji": "🏙️",
     "tech": ["Three.js", "Cloudflare"],
@@ -65,6 +73,7 @@
   },
   "Vectorizer": {
     "emoji": "📐",
+    "tech": ["PWA"],
     "desc": {
       "en": "Convert raster images to vector format (SVG)",
       "de": "Rasterbilder ins Vektorformat (SVG) umwandeln"
@@ -72,6 +81,7 @@
   },
   "Codes": {
     "emoji": "🔣",
+    "tech": ["PWA", "WASM"],
     "desc": {
       "en": "Scan and create barcodes and QR codes",
       "de": "Barcodes und QR-Codes scannen und erstellen"
@@ -113,8 +123,8 @@
     "emoji": "🕹️",
     "tech": ["PWA"],
     "desc": {
-      "en": "A small collection of games",
-      "de": "Eine Sammlung kleiner Spiele"
+      "en": "65 mini-games in one offline app",
+      "de": "65 Minispiele in einer Offline-App"
     }
   },
   "Tankzettel": {
@@ -139,6 +149,22 @@
     "desc": {
       "en": "Movie guessing game based on the soundtrack",
       "de": "Film-Ratespiel anhand der Musik"
+    }
+  },
+  "HamsterFlight": {
+    "emoji": "🐹",
+    "tech": ["TypeScript", "PixiJS"],
+    "desc": {
+      "en": "Browser port of the Flash classic Flight of the Hamsters, rebuilt from its bytecode",
+      "de": "Browser-Portierung des Flash-Klassikers Flight of the Hamsters, aus dem Bytecode rekonstruiert"
+    }
+  },
+  "web-base": {
+    "emoji": "🧱",
+    "tech": ["TypeScript"],
+    "desc": {
+      "en": "Shared tooling, templates and conventions for my web apps",
+      "de": "Gemeinsames Tooling, Vorlagen und Konventionen für meine Web-Apps"
     }
   }
 }

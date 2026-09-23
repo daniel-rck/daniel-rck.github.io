@@ -5,6 +5,16 @@
     { "type": "orgs", "name": "nuget-workbench" }
   ],
   "skip": ["daniel-rck.github.io", "daniel-rck", ".github"],
+  "pages": [
+    {
+      "id": "amigo-labs",
+      "path": "amigo-labs/",
+      "name": "amigo labs",
+      "owners": ["amigo-labs"],
+      "title": { "de": "amigo labs · Projekte", "en": "amigo labs · Projects" },
+      "tagline": { "de": "Spiele, Engines und Kreativ-Werkzeuge — Rust und TypeScript, meist im Browser.", "en": "Games, engines and creative tools — Rust and TypeScript, mostly in the browser." }
+    }
+  ],
   "categories": [
     {
       "id": "games",
@@ -30,7 +40,7 @@
       "label": { "de": "Dev-Tools", "en": "Dev Tools" },
       "blurb": { "de": "Für Entwickler und den Werkzeugkasten", "en": "For developers and the toolbox" },
       "emoji": "🛠️",
-      "topics": ["vscode-extension", "vscode", "cli", "library", "developer-tools", "devtools", "nodejs", "nuget"],
+      "topics": ["vscode-extension", "vscode", "cli", "library", "developer-tools", "devtools", "nodejs", "nuget", "qr-code", "barcode", "vectorization", "download-manager"],
       "keywords": ["vs code", "vscode", "nuget", "npm", "cli", "library", "package", "wasm", "convert", "download", "barcode", "qr", "developer", "sdk"]
     },
     {
@@ -55,7 +65,7 @@
   "tech": {
     "rust": "Rust", "svelte": "Svelte", "tauri": "Tauri", "pwa": "PWA", "wasm": "WASM",
     "webassembly": "WASM", "typescript": "TypeScript", "javascript": "JavaScript",
-    "threejs": "Three.js", "three-js": "Three.js", "cloudflare": "Cloudflare",
+    "threejs": "Three.js", "three-js": "Three.js", "pixijs": "PixiJS", "cloudflare": "Cloudflare",
     "cloudflare-workers": "Cloudflare", "vscode-extension": "VS Code", "nodejs": "Node",
     "react": "React", "vue": "Vue", "python": "Python", "csharp": "C#", "dotnet": ".NET"
   }

@@ -1,0 +1,88 @@
+{
+  "daniel-rck/HamsterFlight": {
+    "description": "Browser port of the Flash game Flight of the Hamsters, rebuilt from the original bytecode",
+    "topics": ["game", "browser-game", "flash", "pixijs", "typescript"]
+  },
+  "daniel-rck/Minispiele": {
+    "description": "65 browser mini-games in one offline PWA — no account, no tracking",
+    "topics": ["game", "games", "browser-game", "pwa", "react", "typescript"]
+  },
+  "daniel-rck/Tonspur": {
+    "description": "Soundtrack guessing game: a film score plays, you guess the movie",
+    "topics": ["game", "quiz", "pwa", "react", "typescript"]
+  },
+  "daniel-rck/web-base": {
+    "description": "Shared tooling, templates and conventions for my web apps — CLI, reusable CI and a Claude Code skill",
+    "topics": ["developer-tools", "cli", "templates", "github-actions", "typescript"]
+  },
+  "daniel-rck/Codes": {
+    "description": "Scan and create barcodes and QR codes — fully local and offline",
+    "topics": ["qr-code", "barcode", "pwa", "wasm", "react", "typescript"]
+  },
+  "daniel-rck/Vectorizer": {
+    "description": "Convert raster images to SVG in the browser — Potrace-based, offline, no uploads",
+    "topics": ["vectorization", "svg", "potrace", "pwa", "react", "typescript"]
+  },
+  "daniel-rck/ErinnerMich": {
+    "description": "Local-first PWA for recurring reminders, habits and mood tracking",
+    "topics": ["pwa", "productivity", "reminders", "habit-tracker", "local-first", "react", "typescript"]
+  },
+  "daniel-rck/Hausverwaltung": {
+    "description": "Property management for private landlords of small apartment buildings — local-first, optional end-to-end encrypted sync",
+    "topics": ["pwa", "property-management", "local-first", "react", "typescript", "cloudflare-workers"]
+  },
+  "daniel-rck/Tankzettel": {
+    "description": "Snap a fuel receipt, let Gemini read it, track consumption and costs — local-first PWA",
+    "topics": ["pwa", "fuel-tracker", "gemini", "local-first", "react", "typescript"]
+  },
+  "daniel-rck/Tennisturnier": {
+    "description": "Plan small tennis tournaments: schedule, round timer, groups, knockout bracket and results",
+    "topics": ["pwa", "tennis", "tournament", "react", "typescript", "cloudflare-workers"]
+  },
+  "daniel-rck/Zeiterfassung": {
+    "description": "Lean local time tracking — timer, projects, tags, reports and invoices",
+    "topics": ["pwa", "productivity", "time-tracking", "local-first", "react", "typescript"]
+  },
+  "daniel-rck/Pizzateig": {
+    "description": "Pizza dough calculator in baker's percentages, with a yeast suggestion from proof time and temperature",
+    "topics": ["pwa", "calculator", "pizza", "react", "typescript"],
+    "homepage": "https://pizzateig.daniel-rck.workers.dev"
+  },
+
+  "amigo-labs/amigo-metropolis": {
+    "description": "Browser arena strategy-action game, a homage to Future Cop: L.A.P.D.'s Precinct Assault — solo vs. AI and online 1v1",
+    "topics": ["game", "browser-game", "moba", "strategy", "threejs", "typescript", "cloudflare-workers"]
+  },
+  "amigo-labs/amigo-diomano": {
+    "description": "Browser 1v1 god game on a spherical planet — reshape the terrain, your people do the rest",
+    "topics": ["game", "browser-game", "god-game", "rust", "wasm", "threejs"]
+  },
+  "amigo-labs/amigo-clove": {
+    "description": "Browser port of the German arcade shooters DOVE and DoveZ – The Second Wave",
+    "topics": ["game", "browser-game", "typescript"]
+  },
+  "amigo-labs/amigo-engine": {
+    "description": "A pixel-art game engine with built-in editor, AI asset generation, and algorithmic chiptune music.",
+    "topics": ["game-engine", "gamedev", "pixel-art", "editor", "rust"]
+  },
+  "amigo-labs/amigo-pincel": {
+    "description": "Pixel art editor for the browser and the desktop",
+    "topics": ["pixel-art", "editor", "rust", "svelte", "tauri", "pwa"]
+  },
+  "amigo-labs/amigo-fineliner": {
+    "description": "Raster paint app inspired by Paint.NET and rs-paint",
+    "topics": ["paint", "editor", "rust"]
+  },
+  "amigo-labs/amigo-trommel": {
+    "description": "Game audio authoring: sample-based voices and Strudel patterns, built for the amigo engine",
+    "topics": ["audio", "music", "gamedev", "strudel", "rust", "svelte", "tauri"]
+  },
+  "amigo-labs/amigo-downloader": {
+    "description": "Fast, modular download manager in Rust — HTTP, Usenet, HLS/DASH, TypeScript plugins, web UI and native apps",
+    "topics": ["download-manager", "cli", "usenet", "rust", "svelte", "tauri"]
+  },
+  "amigo-labs/amigo-native": {
+    "description": "Rust-powered native Node.js packages, plus WASM for the browser",
+    "topics": ["nodejs", "library", "rust", "wasm"]
+  }
+}
