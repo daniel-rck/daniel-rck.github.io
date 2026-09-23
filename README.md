@@ -4,17 +4,22 @@ Project landing page, live at **<https://daniel-rck.github.io>**.
 
 Every public repository of `daniel-rck`, `amigo-labs` and `nuget-workbench`
 lands on a shelf for its category — games, creative tools, dev tools,
-everyday apps — as a card in a bento grid. No build step, no dependencies —
-plain HTML, CSS and JavaScript.
+everyday apps — as a card in a bento grid. `amigo-labs` has a page of its own
+at **[/amigo-labs/](https://daniel-rck.github.io/amigo-labs/)**; the two pages
+link to each other. No build step, no dependencies — plain HTML, CSS and
+JavaScript.
 
 ```
 index.html               markup and metadata
+amigo-labs/index.html    the amigo-labs page, same code, data-page="amigo-labs"
 assets/style.css         the whole design (light and dark)
 assets/app.js            shelves, filter bar, language switch
-data/categories.json     profiles to read, categories and how to detect them
+data/categories.json     profiles to read, sub-pages, categories and how to detect them
 data/overrides.json      optional per-repo polish (emoji, DE/EN text, …)
+data/about.json          the GitHub About box (description, topics) of each repo
 data/projects.js         generated, do not edit by hand
 scripts/sync-projects.py the sync
+scripts/apply-about.py   writes data/about.json to GitHub (run locally)
 ```
 
 ## How a project gets onto the page
@@ -37,6 +42,30 @@ repo are skipped.
   `games  Tonspur  keywords game, guessing`.
 - **Text, emoji, tech** — from GitHub (description, language, known topics)
   unless `data/overrides.json` says otherwise.
+
+## Sub-pages
+
+An entry under `pages` in `data/categories.json` gives one or more profiles a
+page of their own: their projects leave the main page and show up only there.
+The page itself is a copy of `index.html` in a folder named like the entry's
+`path`, with `data-page` set to its `id` and `data-root="../"`. Title and
+tagline come from the entry, in both languages.
+
+## GitHub About box
+
+The categories are only as good as the repositories' descriptions and topics.
+`data/about.json` holds both for every repository (keyed `owner/repo`), and
+`scripts/apply-about.py` writes them to GitHub. Editing the About box needs
+admin rights, which the workflow token lacks, so it runs locally through an
+authenticated `gh`:
+
+```sh
+python3 scripts/apply-about.py           # dry run
+python3 scripts/apply-about.py --apply   # write descriptions and topics
+```
+
+Descriptions are replaced, topics only added, a website only set where there
+is none yet. The next sync picks the new texts up.
 
 ## Overrides
 

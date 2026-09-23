@@ -14,7 +14,13 @@ schreibt daraus `data/projects.js` — diese Datei ist generiert und wird
 Von Hand gepflegt werden nur:
 
 - `data/overrides.json` — optionaler Feinschliff pro Repo
-- `data/categories.json` — Profile, Kategorien, Topics, Keywords, Farben
+- `data/categories.json` — Profile, Unterseiten, Kategorien, Topics, Keywords, Farben
+- `data/about.json` — Beschreibung und Topics, wie sie im GitHub-About-Feld
+  stehen sollen; `scripts/apply-about.py --apply` schreibt sie (lokal, mit `gh`)
+
+Projekte von `amigo-labs` stehen **nur** auf der eigenen Seite
+`/amigo-labs/` (Eintrag unter `pages` in `data/categories.json`), nicht auf
+der Hauptseite.
 
 ## Neues Projekt
 
@@ -25,8 +31,9 @@ trotzdem mit den GitHub-MCP-Tools (`description`, `topics`, `homepage`):
    Topic → meiste Keyword-Treffer in Name+Beschreibung → `other`. Die beste
    Lösung ist ein passendes Topic im Repo (z.B. `game`, `pixel-art`,
    `vscode-extension`, `pwa`; die Liste steht in `data/categories.json`).
-   Das kann Daniel im Repo setzen; nur wenn das nicht passt,
-   `category` in `data/overrides.json` eintragen.
+   Trag Beschreibung und Topics in `data/about.json` ein; Daniel schreibt sie
+   mit `python3 scripts/apply-about.py --apply` nach GitHub. Nur wenn kein
+   Topic passt, `category` in `data/overrides.json` eintragen.
 2. **Texte** — GitHub liefert nur eine Beschreibung für beide Sprachen. Für
    eine saubere DE/EN-Fassung `desc` in `data/overrides.json` setzen: ein
    knapper Satz, kein Punkt am Ende, Ton wie die bestehenden Einträge.
