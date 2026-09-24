@@ -118,7 +118,7 @@ window.PROJECTS = [
     "repo": "https://github.com/daniel-rck/HamsterFlight",
     "live": "https://hamsterflight.daniel-rck.workers.dev",
     "stars": 0,
-    "pushed": "2026-09-23T07:12:33Z",
+    "pushed": "2026-09-23T20:45:50Z",
     "featured": false
   },
   {
