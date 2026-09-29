@@ -291,6 +291,28 @@ window.PROJECTS = [
     "featured": false
   },
   {
+    "id": "amigo-native",
+    "name": "amigo-native",
+    "owner": "amigo-labs",
+    "page": "amigo-labs",
+    "category": "dev",
+    "emoji": "📦",
+    "desc": {
+      "de": "Native Node.js-Pakete auf Rust-Basis, dazu WASM für den Browser",
+      "en": "Rust-powered native Node.js packages, plus wasm for the browser"
+    },
+    "tech": [
+      "Rust",
+      "WASM",
+      "Node"
+    ],
+    "repo": "https://github.com/amigo-labs/amigo-native",
+    "live": "https://native.amigo-labs.dev",
+    "stars": 0,
+    "pushed": "2026-09-28T23:17:55Z",
+    "featured": false
+  },
+  {
     "id": "Vectorizer",
     "name": "Vectorizer",
     "owner": "daniel-rck",
@@ -329,28 +351,6 @@ window.PROJECTS = [
     "live": "https://codes.daniel-rck.workers.dev",
     "stars": 0,
     "pushed": "2026-09-22T21:25:59Z",
-    "featured": false
-  },
-  {
-    "id": "amigo-native",
-    "name": "amigo-native",
-    "owner": "amigo-labs",
-    "page": "amigo-labs",
-    "category": "dev",
-    "emoji": "📦",
-    "desc": {
-      "de": "Native Node.js-Pakete auf Rust-Basis, dazu WASM für den Browser",
-      "en": "Rust-powered native Node.js packages, plus wasm for the browser"
-    },
-    "tech": [
-      "Rust",
-      "WASM",
-      "Node"
-    ],
-    "repo": "https://github.com/amigo-labs/amigo-native",
-    "live": "https://native.amigo-labs.dev",
-    "stars": 0,
-    "pushed": "2026-09-21T23:19:09Z",
     "featured": false
   },
   {
@@ -570,7 +570,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-clove",
     "live": null,
     "stars": 0,
-    "pushed": "2026-09-28T10:19:08Z",
+    "pushed": "2026-09-28T14:23:56Z",
     "featured": false
   }
 ];
