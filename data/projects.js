@@ -118,7 +118,7 @@ window.PROJECTS = [
     "repo": "https://github.com/daniel-rck/HamsterFlight",
     "live": "https://hamsterflight.daniel-rck.workers.dev",
     "stars": 0,
-    "pushed": "2026-09-28T06:09:03Z",
+    "pushed": "2026-09-30T08:24:25Z",
     "featured": false
   },
   {
@@ -570,7 +570,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-clove",
     "live": null,
     "stars": 0,
-    "pushed": "2026-09-28T14:23:56Z",
+    "pushed": "2026-09-30T06:13:36Z",
     "featured": false
   }
 ];
