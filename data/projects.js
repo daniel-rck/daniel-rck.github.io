@@ -309,7 +309,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-native",
     "live": "https://native.amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-09-28T23:17:55Z",
+    "pushed": "2026-09-30T16:05:10Z",
     "featured": false
   },
   {
@@ -570,7 +570,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-clove",
     "live": null,
     "stars": 0,
-    "pushed": "2026-09-30T06:13:36Z",
+    "pushed": "2026-10-01T10:54:46Z",
     "featured": false
   }
 ];
