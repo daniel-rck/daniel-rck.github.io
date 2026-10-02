@@ -101,6 +101,28 @@ window.PAGES = [
 
 window.PROJECTS = [
   {
+    "id": "amigo-diomano",
+    "name": "amigo-diomano",
+    "owner": "amigo-labs",
+    "page": "amigo-labs",
+    "category": "games",
+    "emoji": "🌋",
+    "desc": {
+      "de": "1-gegen-1-Götterspiel auf einem Kugelplaneten — du formst das Land, dein Volk erledigt den Rest",
+      "en": "1v1 god game on a spherical planet — you shape the land, your people do the rest"
+    },
+    "tech": [
+      "Rust",
+      "WASM",
+      "Three.js"
+    ],
+    "repo": "https://github.com/amigo-labs/amigo-diomano",
+    "live": "https://diomano.amigo-labs.dev",
+    "stars": 0,
+    "pushed": "2026-10-01T21:18:11Z",
+    "featured": false
+  },
+  {
     "id": "HamsterFlight",
     "name": "HamsterFlight",
     "owner": "daniel-rck",
@@ -139,28 +161,6 @@ window.PROJECTS = [
     "live": "https://tonspur.daniel-rck.workers.dev",
     "stars": 0,
     "pushed": "2026-09-22T22:16:51Z",
-    "featured": false
-  },
-  {
-    "id": "amigo-diomano",
-    "name": "amigo-diomano",
-    "owner": "amigo-labs",
-    "page": "amigo-labs",
-    "category": "games",
-    "emoji": "🌋",
-    "desc": {
-      "de": "1-gegen-1-Götterspiel auf einem Kugelplaneten — du formst das Land, dein Volk erledigt den Rest",
-      "en": "1v1 god game on a spherical planet — you shape the land, your people do the rest"
-    },
-    "tech": [
-      "Rust",
-      "WASM",
-      "Three.js"
-    ],
-    "repo": "https://github.com/amigo-labs/amigo-diomano",
-    "live": "https://diomano.amigo-labs.dev",
-    "stars": 0,
-    "pushed": "2026-09-22T20:49:42Z",
     "featured": false
   },
   {
@@ -392,7 +392,7 @@ window.PROJECTS = [
     "repo": "https://github.com/nuget-workbench/nuget-workbench-vscode",
     "live": null,
     "stars": 10,
-    "pushed": "2026-09-22T22:16:38Z",
+    "pushed": "2026-10-02T07:01:55Z",
     "featured": false
   },
   {
@@ -570,7 +570,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-clove",
     "live": null,
     "stars": 0,
-    "pushed": "2026-10-01T10:54:46Z",
+    "pushed": "2026-10-01T20:19:35Z",
     "featured": false
   }
 ];
