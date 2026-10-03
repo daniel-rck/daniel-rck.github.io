@@ -228,6 +228,26 @@ window.PROJECTS = [
     "featured": false
   },
   {
+    "id": "amigo-engine",
+    "name": "amigo-engine",
+    "owner": "amigo-labs",
+    "page": "amigo-labs",
+    "category": "creative",
+    "emoji": "🎮",
+    "desc": {
+      "de": "2D-Pixel-Art-Game-Engine in Rust",
+      "en": "2D pixel art game engine in Rust"
+    },
+    "tech": [
+      "Rust"
+    ],
+    "repo": "https://github.com/amigo-labs/amigo-engine",
+    "live": null,
+    "stars": 3,
+    "pushed": "2026-10-03T05:49:02Z",
+    "featured": false
+  },
+  {
     "id": "amigo-fineliner",
     "name": "amigo-fineliner",
     "owner": "amigo-labs",
@@ -245,26 +265,6 @@ window.PROJECTS = [
     "live": null,
     "stars": 0,
     "pushed": "2026-08-23T20:41:23Z",
-    "featured": false
-  },
-  {
-    "id": "amigo-engine",
-    "name": "amigo-engine",
-    "owner": "amigo-labs",
-    "page": "amigo-labs",
-    "category": "creative",
-    "emoji": "🎮",
-    "desc": {
-      "de": "2D-Pixel-Art-Game-Engine in Rust",
-      "en": "2D pixel art game engine in Rust"
-    },
-    "tech": [
-      "Rust"
-    ],
-    "repo": "https://github.com/amigo-labs/amigo-engine",
-    "live": null,
-    "stars": 3,
-    "pushed": "2026-08-04T07:43:39Z",
     "featured": false
   },
   {
@@ -291,6 +291,27 @@ window.PROJECTS = [
     "featured": false
   },
   {
+    "id": "amigo-downloader",
+    "name": "amigo-downloader",
+    "owner": "amigo-labs",
+    "page": "amigo-labs",
+    "category": "dev",
+    "emoji": "⬇️",
+    "desc": {
+      "de": "Plattformübergreifender Download-Manager",
+      "en": "Cross-platform download manager"
+    },
+    "tech": [
+      "Rust",
+      "Tauri"
+    ],
+    "repo": "https://github.com/amigo-labs/amigo-downloader",
+    "live": "https://downloader.amigo-labs.dev/",
+    "stars": 0,
+    "pushed": "2026-10-02T18:30:56Z",
+    "featured": false
+  },
+  {
     "id": "amigo-native",
     "name": "amigo-native",
     "owner": "amigo-labs",
@@ -309,7 +330,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-native",
     "live": "https://native.amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-09-30T16:05:10Z",
+    "pushed": "2026-10-02T18:30:27Z",
     "featured": false
   },
   {
@@ -354,24 +375,23 @@ window.PROJECTS = [
     "featured": false
   },
   {
-    "id": "amigo-downloader",
-    "name": "amigo-downloader",
-    "owner": "amigo-labs",
-    "page": "amigo-labs",
+    "id": "web-base",
+    "name": "web-base",
+    "owner": "daniel-rck",
+    "page": "",
     "category": "dev",
-    "emoji": "⬇️",
+    "emoji": "🧱",
     "desc": {
-      "de": "Plattformübergreifender Download-Manager",
-      "en": "Cross-platform download manager"
+      "de": "Gemeinsames Tooling, Vorlagen und Konventionen für meine Web-Apps",
+      "en": "Shared tooling, templates and conventions for my web apps"
     },
     "tech": [
-      "Rust",
-      "Tauri"
+      "TypeScript"
     ],
-    "repo": "https://github.com/amigo-labs/amigo-downloader",
-    "live": "https://downloader.amigo-labs.dev/",
+    "repo": "https://github.com/daniel-rck/web-base",
+    "live": null,
     "stars": 0,
-    "pushed": "2026-09-10T00:39:44Z",
+    "pushed": "2026-10-03T07:19:57Z",
     "featured": false
   },
   {
@@ -393,26 +413,6 @@ window.PROJECTS = [
     "live": null,
     "stars": 10,
     "pushed": "2026-10-02T07:01:55Z",
-    "featured": false
-  },
-  {
-    "id": "web-base",
-    "name": "web-base",
-    "owner": "daniel-rck",
-    "page": "",
-    "category": "dev",
-    "emoji": "🧱",
-    "desc": {
-      "de": "Gemeinsames Tooling, Vorlagen und Konventionen für meine Web-Apps",
-      "en": "Shared tooling, templates and conventions for my web apps"
-    },
-    "tech": [
-      "TypeScript"
-    ],
-    "repo": "https://github.com/daniel-rck/web-base",
-    "live": null,
-    "stars": 0,
-    "pushed": "2026-09-22T20:44:08Z",
     "featured": false
   },
   {
@@ -570,7 +570,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-clove",
     "live": null,
     "stars": 0,
-    "pushed": "2026-10-01T20:19:35Z",
+    "pushed": "2026-10-03T07:51:37Z",
     "featured": false
   }
 ];
