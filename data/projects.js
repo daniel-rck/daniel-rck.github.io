@@ -244,7 +244,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-engine",
     "live": null,
     "stars": 3,
-    "pushed": "2026-10-03T05:49:02Z",
+    "pushed": "2026-10-04T20:08:47Z",
     "featured": false
   },
   {
@@ -291,27 +291,6 @@ window.PROJECTS = [
     "featured": false
   },
   {
-    "id": "amigo-downloader",
-    "name": "amigo-downloader",
-    "owner": "amigo-labs",
-    "page": "amigo-labs",
-    "category": "dev",
-    "emoji": "⬇️",
-    "desc": {
-      "de": "Plattformübergreifender Download-Manager",
-      "en": "Cross-platform download manager"
-    },
-    "tech": [
-      "Rust",
-      "Tauri"
-    ],
-    "repo": "https://github.com/amigo-labs/amigo-downloader",
-    "live": "https://downloader.amigo-labs.dev/",
-    "stars": 0,
-    "pushed": "2026-10-02T18:30:56Z",
-    "featured": false
-  },
-  {
     "id": "amigo-native",
     "name": "amigo-native",
     "owner": "amigo-labs",
@@ -330,7 +309,28 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-native",
     "live": "https://native.amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-10-02T18:30:27Z",
+    "pushed": "2026-10-04T11:53:41Z",
+    "featured": false
+  },
+  {
+    "id": "amigo-downloader",
+    "name": "amigo-downloader",
+    "owner": "amigo-labs",
+    "page": "amigo-labs",
+    "category": "dev",
+    "emoji": "⬇️",
+    "desc": {
+      "de": "Plattformübergreifender Download-Manager",
+      "en": "Cross-platform download manager"
+    },
+    "tech": [
+      "Rust",
+      "Tauri"
+    ],
+    "repo": "https://github.com/amigo-labs/amigo-downloader",
+    "live": "https://downloader.amigo-labs.dev/",
+    "stars": 0,
+    "pushed": "2026-10-02T18:30:56Z",
     "featured": false
   },
   {
@@ -570,7 +570,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-clove",
     "live": null,
     "stars": 0,
-    "pushed": "2026-10-03T07:51:37Z",
+    "pushed": "2026-10-04T11:39:04Z",
     "featured": false
   }
 ];
