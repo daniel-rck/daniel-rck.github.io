@@ -101,6 +101,27 @@ window.PAGES = [
 
 window.PROJECTS = [
   {
+    "id": "HamsterFlight",
+    "name": "HamsterFlight",
+    "owner": "daniel-rck",
+    "page": "",
+    "category": "games",
+    "emoji": "🐹",
+    "desc": {
+      "de": "Browser-Portierung des Flash-Klassikers Flight of the Hamsters, aus dem Bytecode rekonstruiert",
+      "en": "Browser port of the Flash classic Flight of the Hamsters, rebuilt from its bytecode"
+    },
+    "tech": [
+      "TypeScript",
+      "PixiJS"
+    ],
+    "repo": "https://github.com/daniel-rck/HamsterFlight",
+    "live": "https://hamsterflight.daniel-rck.workers.dev",
+    "stars": 0,
+    "pushed": "2026-10-05T23:54:42Z",
+    "featured": false
+  },
+  {
     "id": "amigo-diomano",
     "name": "amigo-diomano",
     "owner": "amigo-labs",
@@ -120,27 +141,6 @@ window.PROJECTS = [
     "live": "https://diomano.amigo-labs.dev",
     "stars": 0,
     "pushed": "2026-10-01T21:18:11Z",
-    "featured": false
-  },
-  {
-    "id": "HamsterFlight",
-    "name": "HamsterFlight",
-    "owner": "daniel-rck",
-    "page": "",
-    "category": "games",
-    "emoji": "🐹",
-    "desc": {
-      "de": "Browser-Portierung des Flash-Klassikers Flight of the Hamsters, aus dem Bytecode rekonstruiert",
-      "en": "Browser port of the Flash classic Flight of the Hamsters, rebuilt from its bytecode"
-    },
-    "tech": [
-      "TypeScript",
-      "PixiJS"
-    ],
-    "repo": "https://github.com/daniel-rck/HamsterFlight",
-    "live": "https://hamsterflight.daniel-rck.workers.dev",
-    "stars": 0,
-    "pushed": "2026-09-30T08:24:25Z",
     "featured": false
   },
   {
@@ -244,7 +244,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-engine",
     "live": null,
     "stars": 3,
-    "pushed": "2026-10-04T20:08:47Z",
+    "pushed": "2026-10-05T20:55:45Z",
     "featured": false
   },
   {
@@ -309,7 +309,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-native",
     "live": "https://native.amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-10-04T11:53:41Z",
+    "pushed": "2026-10-05T23:10:19Z",
     "featured": false
   },
   {
