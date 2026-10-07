@@ -118,7 +118,7 @@ window.PROJECTS = [
     "repo": "https://github.com/daniel-rck/HamsterFlight",
     "live": "https://hamsterflight.daniel-rck.workers.dev",
     "stars": 0,
-    "pushed": "2026-10-05T23:54:42Z",
+    "pushed": "2026-10-07T08:24:49Z",
     "featured": false
   },
   {
@@ -244,7 +244,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-engine",
     "live": null,
     "stars": 3,
-    "pushed": "2026-10-05T20:55:45Z",
+    "pushed": "2026-10-07T07:08:30Z",
     "featured": false
   },
   {
