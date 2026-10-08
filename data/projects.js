@@ -101,6 +101,26 @@ window.PAGES = [
 
 window.PROJECTS = [
   {
+    "id": "Minispiele",
+    "name": "Minispiele",
+    "owner": "daniel-rck",
+    "page": "",
+    "category": "games",
+    "emoji": "🕹️",
+    "desc": {
+      "de": "65 Minispiele in einer Offline-App",
+      "en": "65 mini-games in one offline app"
+    },
+    "tech": [
+      "PWA"
+    ],
+    "repo": "https://github.com/daniel-rck/Minispiele",
+    "live": "https://minispiele.daniel-rck.workers.dev",
+    "stars": 0,
+    "pushed": "2026-10-08T07:47:26Z",
+    "featured": false
+  },
+  {
     "id": "HamsterFlight",
     "name": "HamsterFlight",
     "owner": "daniel-rck",
@@ -164,26 +184,6 @@ window.PROJECTS = [
     "featured": false
   },
   {
-    "id": "Minispiele",
-    "name": "Minispiele",
-    "owner": "daniel-rck",
-    "page": "",
-    "category": "games",
-    "emoji": "🕹️",
-    "desc": {
-      "de": "65 Minispiele in einer Offline-App",
-      "en": "65 mini-games in one offline app"
-    },
-    "tech": [
-      "PWA"
-    ],
-    "repo": "https://github.com/daniel-rck/Minispiele",
-    "live": "https://minispiele.daniel-rck.workers.dev",
-    "stars": 0,
-    "pushed": "2026-09-21T09:32:02Z",
-    "featured": false
-  },
-  {
     "id": "amigo-metropolis",
     "name": "amigo-metropolis",
     "owner": "amigo-labs",
@@ -244,7 +244,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-engine",
     "live": null,
     "stars": 3,
-    "pushed": "2026-10-07T07:08:30Z",
+    "pushed": "2026-10-07T20:34:12Z",
     "featured": false
   },
   {
@@ -309,7 +309,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-native",
     "live": "https://native.amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-10-05T23:10:19Z",
+    "pushed": "2026-10-07T21:19:46Z",
     "featured": false
   },
   {
@@ -391,7 +391,7 @@ window.PROJECTS = [
     "repo": "https://github.com/daniel-rck/web-base",
     "live": null,
     "stars": 0,
-    "pushed": "2026-10-03T07:19:57Z",
+    "pushed": "2026-10-08T10:33:58Z",
     "featured": false
   },
   {
@@ -450,7 +450,7 @@ window.PROJECTS = [
     "repo": "https://github.com/daniel-rck/ErinnerMich",
     "live": "https://erinnermich.daniel-rck.workers.dev",
     "stars": 0,
-    "pushed": "2026-09-22T21:57:34Z",
+    "pushed": "2026-10-08T07:47:54Z",
     "featured": false
   },
   {
@@ -470,7 +470,47 @@ window.PROJECTS = [
     "repo": "https://github.com/daniel-rck/Hausverwaltung",
     "live": "https://hausverwaltung.daniel-rck.workers.dev",
     "stars": 1,
-    "pushed": "2026-09-22T21:49:36Z",
+    "pushed": "2026-10-08T07:46:53Z",
+    "featured": false
+  },
+  {
+    "id": "Zeiterfassung",
+    "name": "Zeiterfassung",
+    "owner": "daniel-rck",
+    "page": "",
+    "category": "apps",
+    "emoji": "⏱️",
+    "desc": {
+      "de": "Für die persönliche Arbeitszeiterfassung",
+      "en": "For personal work-time tracking"
+    },
+    "tech": [
+      "PWA"
+    ],
+    "repo": "https://github.com/daniel-rck/Zeiterfassung",
+    "live": "https://zeiterfassung.daniel-rck.workers.dev/",
+    "stars": 0,
+    "pushed": "2026-10-08T07:46:27Z",
+    "featured": false
+  },
+  {
+    "id": "Tennisturnier",
+    "name": "Tennisturnier",
+    "owner": "daniel-rck",
+    "page": "",
+    "category": "apps",
+    "emoji": "🎾",
+    "desc": {
+      "de": "Für kleine Tennisturniere",
+      "en": "For running small tennis tournaments"
+    },
+    "tech": [
+      "PWA"
+    ],
+    "repo": "https://github.com/daniel-rck/Tennisturnier",
+    "live": "https://tennisturnier.daniel-rck.workers.dev",
+    "stars": 0,
+    "pushed": "2026-10-08T07:44:22Z",
     "featured": false
   },
   {
@@ -491,46 +531,6 @@ window.PROJECTS = [
     "live": "https://tankzettel.daniel-rck.workers.dev",
     "stars": 0,
     "pushed": "2026-09-22T21:40:11Z",
-    "featured": false
-  },
-  {
-    "id": "Tennisturnier",
-    "name": "Tennisturnier",
-    "owner": "daniel-rck",
-    "page": "",
-    "category": "apps",
-    "emoji": "🎾",
-    "desc": {
-      "de": "Für kleine Tennisturniere",
-      "en": "For running small tennis tournaments"
-    },
-    "tech": [
-      "PWA"
-    ],
-    "repo": "https://github.com/daniel-rck/Tennisturnier",
-    "live": "https://tennisturnier.daniel-rck.workers.dev",
-    "stars": 0,
-    "pushed": "2026-09-22T21:30:08Z",
-    "featured": false
-  },
-  {
-    "id": "Zeiterfassung",
-    "name": "Zeiterfassung",
-    "owner": "daniel-rck",
-    "page": "",
-    "category": "apps",
-    "emoji": "⏱️",
-    "desc": {
-      "de": "Für die persönliche Arbeitszeiterfassung",
-      "en": "For personal work-time tracking"
-    },
-    "tech": [
-      "PWA"
-    ],
-    "repo": "https://github.com/daniel-rck/Zeiterfassung",
-    "live": "https://zeiterfassung.daniel-rck.workers.dev/",
-    "stars": 0,
-    "pushed": "2026-09-22T21:27:58Z",
     "featured": false
   },
   {
