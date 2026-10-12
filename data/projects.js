@@ -101,6 +101,27 @@ window.PAGES = [
 
 window.PROJECTS = [
   {
+    "id": "amigo-metropolis",
+    "name": "amigo-metropolis",
+    "owner": "amigo-labs",
+    "page": "amigo-labs",
+    "category": "games",
+    "emoji": "🏙️",
+    "desc": {
+      "de": "Browser-Hommage an Future Cop: Precinct Assault, ein Proto-MOBA",
+      "en": "Browser-based Future Cop: Precinct Assault homage, a proto-MOBA"
+    },
+    "tech": [
+      "Three.js",
+      "Cloudflare"
+    ],
+    "repo": "https://github.com/amigo-labs/amigo-metropolis",
+    "live": "https://metropolis.amigo-labs.dev",
+    "stars": 0,
+    "pushed": "2026-10-11T20:26:52Z",
+    "featured": false
+  },
+  {
     "id": "Minispiele",
     "name": "Minispiele",
     "owner": "daniel-rck",
@@ -184,27 +205,6 @@ window.PROJECTS = [
     "featured": false
   },
   {
-    "id": "amigo-metropolis",
-    "name": "amigo-metropolis",
-    "owner": "amigo-labs",
-    "page": "amigo-labs",
-    "category": "games",
-    "emoji": "🏙️",
-    "desc": {
-      "de": "Browser-Hommage an Future Cop: Precinct Assault, ein Proto-MOBA",
-      "en": "Browser-based Future Cop: Precinct Assault homage, a proto-MOBA"
-    },
-    "tech": [
-      "Three.js",
-      "Cloudflare"
-    ],
-    "repo": "https://github.com/amigo-labs/amigo-metropolis",
-    "live": "https://metropolis.amigo-labs.dev",
-    "stars": 0,
-    "pushed": "2026-08-19T14:25:43Z",
-    "featured": false
-  },
-  {
     "id": "amigo-pincel",
     "name": "amigo-pincel",
     "owner": "amigo-labs",
@@ -224,7 +224,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-pincel",
     "live": "https://pincel.amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-09-07T11:58:27Z",
+    "pushed": "2026-10-11T20:48:26Z",
     "featured": false
   },
   {
@@ -245,26 +245,6 @@ window.PROJECTS = [
     "live": null,
     "stars": 3,
     "pushed": "2026-10-07T20:34:12Z",
-    "featured": false
-  },
-  {
-    "id": "amigo-fineliner",
-    "name": "amigo-fineliner",
-    "owner": "amigo-labs",
-    "page": "amigo-labs",
-    "category": "creative",
-    "emoji": "✏️",
-    "desc": {
-      "de": "Raster-Malprogramm, inspiriert von Paint.NET und rs-paint",
-      "en": "Raster paint app inspired by Paint.NET and rs-paint"
-    },
-    "tech": [
-      "Rust"
-    ],
-    "repo": "https://github.com/amigo-labs/amigo-fineliner",
-    "live": null,
-    "stars": 0,
-    "pushed": "2026-08-23T20:41:23Z",
     "featured": false
   },
   {
@@ -375,26 +355,6 @@ window.PROJECTS = [
     "featured": false
   },
   {
-    "id": "web-base",
-    "name": "web-base",
-    "owner": "daniel-rck",
-    "page": "",
-    "category": "dev",
-    "emoji": "🧱",
-    "desc": {
-      "de": "Gemeinsames Tooling, Vorlagen und Konventionen für meine Web-Apps",
-      "en": "Shared tooling, templates and conventions for my web apps"
-    },
-    "tech": [
-      "TypeScript"
-    ],
-    "repo": "https://github.com/daniel-rck/web-base",
-    "live": null,
-    "stars": 0,
-    "pushed": "2026-10-08T10:33:58Z",
-    "featured": false
-  },
-  {
     "id": "nuget-workbench-vscode",
     "name": "nuget-workbench-vscode",
     "owner": "nuget-workbench",
@@ -412,7 +372,27 @@ window.PROJECTS = [
     "repo": "https://github.com/nuget-workbench/nuget-workbench-vscode",
     "live": null,
     "stars": 10,
-    "pushed": "2026-10-02T07:01:55Z",
+    "pushed": "2026-10-11T20:54:44Z",
+    "featured": false
+  },
+  {
+    "id": "web-base",
+    "name": "web-base",
+    "owner": "daniel-rck",
+    "page": "",
+    "category": "dev",
+    "emoji": "🧱",
+    "desc": {
+      "de": "Gemeinsames Tooling, Vorlagen und Konventionen für meine Web-Apps",
+      "en": "Shared tooling, templates and conventions for my web apps"
+    },
+    "tech": [
+      "TypeScript"
+    ],
+    "repo": "https://github.com/daniel-rck/web-base",
+    "live": null,
+    "stars": 0,
+    "pushed": "2026-10-08T10:33:58Z",
     "featured": false
   },
   {
