@@ -118,7 +118,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-metropolis",
     "live": "https://metropolis.amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-10-11T20:26:52Z",
+    "pushed": "2026-10-12T22:28:46Z",
     "featured": false
   },
   {
@@ -224,7 +224,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-pincel",
     "live": "https://pincel.amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-10-11T20:48:26Z",
+    "pushed": "2026-10-12T22:30:30Z",
     "featured": false
   },
   {
@@ -271,6 +271,27 @@ window.PROJECTS = [
     "featured": false
   },
   {
+    "id": "amigo-downloader",
+    "name": "amigo-downloader",
+    "owner": "amigo-labs",
+    "page": "amigo-labs",
+    "category": "dev",
+    "emoji": "⬇️",
+    "desc": {
+      "de": "Plattformübergreifender Download-Manager",
+      "en": "Cross-platform download manager"
+    },
+    "tech": [
+      "Rust",
+      "Tauri"
+    ],
+    "repo": "https://github.com/amigo-labs/amigo-downloader",
+    "live": "https://downloader.amigo-labs.dev/",
+    "stars": 0,
+    "pushed": "2026-10-12T22:29:23Z",
+    "featured": false
+  },
+  {
     "id": "amigo-native",
     "name": "amigo-native",
     "owner": "amigo-labs",
@@ -290,27 +311,6 @@ window.PROJECTS = [
     "live": "https://native.amigo-labs.dev",
     "stars": 0,
     "pushed": "2026-10-08T21:52:13Z",
-    "featured": false
-  },
-  {
-    "id": "amigo-downloader",
-    "name": "amigo-downloader",
-    "owner": "amigo-labs",
-    "page": "amigo-labs",
-    "category": "dev",
-    "emoji": "⬇️",
-    "desc": {
-      "de": "Plattformübergreifender Download-Manager",
-      "en": "Cross-platform download manager"
-    },
-    "tech": [
-      "Rust",
-      "Tauri"
-    ],
-    "repo": "https://github.com/amigo-labs/amigo-downloader",
-    "live": "https://downloader.amigo-labs.dev/",
-    "stars": 0,
-    "pushed": "2026-10-02T18:30:56Z",
     "featured": false
   },
   {
@@ -372,7 +372,7 @@ window.PROJECTS = [
     "repo": "https://github.com/nuget-workbench/nuget-workbench-vscode",
     "live": null,
     "stars": 10,
-    "pushed": "2026-10-11T20:54:44Z",
+    "pushed": "2026-10-12T23:12:17Z",
     "featured": false
   },
   {
@@ -550,7 +550,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-clove",
     "live": null,
     "stars": 0,
-    "pushed": "2026-10-04T11:39:04Z",
+    "pushed": "2026-10-13T00:50:16Z",
     "featured": false
   }
 ];
