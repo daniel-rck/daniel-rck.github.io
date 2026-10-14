@@ -101,6 +101,28 @@ window.PAGES = [
 
 window.PROJECTS = [
   {
+    "id": "amigo-diomano",
+    "name": "amigo-diomano",
+    "owner": "amigo-labs",
+    "page": "amigo-labs",
+    "category": "games",
+    "emoji": "🌋",
+    "desc": {
+      "de": "1-gegen-1-Götterspiel auf einem Kugelplaneten — du formst das Land, dein Volk erledigt den Rest",
+      "en": "1v1 god game on a spherical planet — you shape the land, your people do the rest"
+    },
+    "tech": [
+      "Rust",
+      "WASM",
+      "Three.js"
+    ],
+    "repo": "https://github.com/amigo-labs/amigo-diomano",
+    "live": "https://diomano.amigo-labs.dev",
+    "stars": 0,
+    "pushed": "2026-10-14T07:42:36Z",
+    "featured": false
+  },
+  {
     "id": "amigo-metropolis",
     "name": "amigo-metropolis",
     "owner": "amigo-labs",
@@ -118,7 +140,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-metropolis",
     "live": "https://metropolis.amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-10-12T22:28:46Z",
+    "pushed": "2026-10-13T23:22:15Z",
     "featured": false
   },
   {
@@ -160,28 +182,6 @@ window.PROJECTS = [
     "live": "https://hamsterflight.daniel-rck.workers.dev",
     "stars": 0,
     "pushed": "2026-10-07T08:24:49Z",
-    "featured": false
-  },
-  {
-    "id": "amigo-diomano",
-    "name": "amigo-diomano",
-    "owner": "amigo-labs",
-    "page": "amigo-labs",
-    "category": "games",
-    "emoji": "🌋",
-    "desc": {
-      "de": "1-gegen-1-Götterspiel auf einem Kugelplaneten — du formst das Land, dein Volk erledigt den Rest",
-      "en": "1v1 god game on a spherical planet — you shape the land, your people do the rest"
-    },
-    "tech": [
-      "Rust",
-      "WASM",
-      "Three.js"
-    ],
-    "repo": "https://github.com/amigo-labs/amigo-diomano",
-    "live": "https://diomano.amigo-labs.dev",
-    "stars": 0,
-    "pushed": "2026-10-01T21:18:11Z",
     "featured": false
   },
   {
@@ -271,27 +271,6 @@ window.PROJECTS = [
     "featured": false
   },
   {
-    "id": "amigo-downloader",
-    "name": "amigo-downloader",
-    "owner": "amigo-labs",
-    "page": "amigo-labs",
-    "category": "dev",
-    "emoji": "⬇️",
-    "desc": {
-      "de": "Plattformübergreifender Download-Manager",
-      "en": "Cross-platform download manager"
-    },
-    "tech": [
-      "Rust",
-      "Tauri"
-    ],
-    "repo": "https://github.com/amigo-labs/amigo-downloader",
-    "live": "https://downloader.amigo-labs.dev/",
-    "stars": 0,
-    "pushed": "2026-10-12T22:29:23Z",
-    "featured": false
-  },
-  {
     "id": "amigo-native",
     "name": "amigo-native",
     "owner": "amigo-labs",
@@ -310,7 +289,28 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-native",
     "live": "https://native.amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-10-08T21:52:13Z",
+    "pushed": "2026-10-14T08:39:49Z",
+    "featured": false
+  },
+  {
+    "id": "amigo-downloader",
+    "name": "amigo-downloader",
+    "owner": "amigo-labs",
+    "page": "amigo-labs",
+    "category": "dev",
+    "emoji": "⬇️",
+    "desc": {
+      "de": "Plattformübergreifender Download-Manager",
+      "en": "Cross-platform download manager"
+    },
+    "tech": [
+      "Rust",
+      "Tauri"
+    ],
+    "repo": "https://github.com/amigo-labs/amigo-downloader",
+    "live": "https://downloader.amigo-labs.dev/",
+    "stars": 0,
+    "pushed": "2026-10-12T22:29:23Z",
     "featured": false
   },
   {
@@ -372,7 +372,7 @@ window.PROJECTS = [
     "repo": "https://github.com/nuget-workbench/nuget-workbench-vscode",
     "live": null,
     "stars": 10,
-    "pushed": "2026-10-12T23:12:17Z",
+    "pushed": "2026-10-13T19:33:40Z",
     "featured": false
   },
   {
@@ -550,7 +550,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-clove",
     "live": null,
     "stars": 0,
-    "pushed": "2026-10-13T00:50:16Z",
+    "pushed": "2026-10-13T21:22:03Z",
     "featured": false
   }
 ];
