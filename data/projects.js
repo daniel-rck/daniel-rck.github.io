@@ -101,6 +101,27 @@ window.PAGES = [
 
 window.PROJECTS = [
   {
+    "id": "amigo-metropolis",
+    "name": "amigo-metropolis",
+    "owner": "amigo-labs",
+    "page": "amigo-labs",
+    "category": "games",
+    "emoji": "🏙️",
+    "desc": {
+      "de": "Browser-Hommage an Future Cop: Precinct Assault, ein Proto-MOBA",
+      "en": "Browser-based Future Cop: Precinct Assault homage, a proto-MOBA"
+    },
+    "tech": [
+      "Three.js",
+      "Cloudflare"
+    ],
+    "repo": "https://github.com/amigo-labs/amigo-metropolis",
+    "live": "https://metropolis.amigo-labs.dev",
+    "stars": 0,
+    "pushed": "2026-10-14T22:45:06Z",
+    "featured": false
+  },
+  {
     "id": "amigo-diomano",
     "name": "amigo-diomano",
     "owner": "amigo-labs",
@@ -119,48 +140,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-diomano",
     "live": "https://diomano.amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-10-14T07:42:36Z",
-    "featured": false
-  },
-  {
-    "id": "amigo-metropolis",
-    "name": "amigo-metropolis",
-    "owner": "amigo-labs",
-    "page": "amigo-labs",
-    "category": "games",
-    "emoji": "🏙️",
-    "desc": {
-      "de": "Browser-Hommage an Future Cop: Precinct Assault, ein Proto-MOBA",
-      "en": "Browser-based Future Cop: Precinct Assault homage, a proto-MOBA"
-    },
-    "tech": [
-      "Three.js",
-      "Cloudflare"
-    ],
-    "repo": "https://github.com/amigo-labs/amigo-metropolis",
-    "live": "https://metropolis.amigo-labs.dev",
-    "stars": 0,
-    "pushed": "2026-10-13T23:22:15Z",
-    "featured": false
-  },
-  {
-    "id": "Minispiele",
-    "name": "Minispiele",
-    "owner": "daniel-rck",
-    "page": "",
-    "category": "games",
-    "emoji": "🕹️",
-    "desc": {
-      "de": "65 Minispiele in einer Offline-App",
-      "en": "65 mini-games in one offline app"
-    },
-    "tech": [
-      "PWA"
-    ],
-    "repo": "https://github.com/daniel-rck/Minispiele",
-    "live": "https://minispiele.daniel-rck.workers.dev",
-    "stars": 0,
-    "pushed": "2026-10-08T07:47:26Z",
+    "pushed": "2026-10-14T22:34:56Z",
     "featured": false
   },
   {
@@ -181,7 +161,27 @@ window.PROJECTS = [
     "repo": "https://github.com/daniel-rck/HamsterFlight",
     "live": "https://hamsterflight.daniel-rck.workers.dev",
     "stars": 0,
-    "pushed": "2026-10-07T08:24:49Z",
+    "pushed": "2026-10-14T20:12:29Z",
+    "featured": false
+  },
+  {
+    "id": "Minispiele",
+    "name": "Minispiele",
+    "owner": "daniel-rck",
+    "page": "",
+    "category": "games",
+    "emoji": "🕹️",
+    "desc": {
+      "de": "65 Minispiele in einer Offline-App",
+      "en": "65 mini-games in one offline app"
+    },
+    "tech": [
+      "PWA"
+    ],
+    "repo": "https://github.com/daniel-rck/Minispiele",
+    "live": "https://minispiele.daniel-rck.workers.dev",
+    "stars": 0,
+    "pushed": "2026-10-08T07:47:26Z",
     "featured": false
   },
   {
@@ -224,7 +224,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-pincel",
     "live": "https://pincel.amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-10-12T22:30:30Z",
+    "pushed": "2026-10-15T02:27:44Z",
     "featured": false
   },
   {
