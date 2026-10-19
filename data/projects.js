@@ -118,7 +118,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-metropolis",
     "live": "https://metropolis.amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-10-14T22:45:06Z",
+    "pushed": "2026-10-19T08:40:18Z",
     "featured": false
   },
   {
@@ -140,7 +140,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-diomano",
     "live": "https://diomano.amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-10-14T22:34:56Z",
+    "pushed": "2026-10-18T18:10:20Z",
     "featured": false
   },
   {
@@ -289,7 +289,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-native",
     "live": "https://native.amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-10-14T08:39:49Z",
+    "pushed": "2026-10-19T08:52:37Z",
     "featured": false
   },
   {
