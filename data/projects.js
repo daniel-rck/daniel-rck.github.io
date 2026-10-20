@@ -289,7 +289,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-native",
     "live": "https://native.amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-10-19T08:52:37Z",
+    "pushed": "2026-10-19T23:05:41Z",
     "featured": false
   },
   {
@@ -541,16 +541,36 @@ window.PROJECTS = [
     "category": "other",
     "emoji": "✨",
     "desc": {
-      "de": "https://clove.amigo-labs.dev",
-      "en": "https://clove.amigo-labs.dev"
+      "de": "",
+      "en": ""
     },
     "tech": [
       "TypeScript"
     ],
     "repo": "https://github.com/amigo-labs/amigo-clove",
-    "live": null,
+    "live": "https://clove.amigo-labs.dev",
     "stars": 0,
     "pushed": "2026-10-13T21:22:03Z",
+    "featured": false
+  },
+  {
+    "id": "Malbuch",
+    "name": "Malbuch",
+    "owner": "daniel-rck",
+    "page": "",
+    "category": "other",
+    "emoji": "✨",
+    "desc": {
+      "de": "",
+      "en": ""
+    },
+    "tech": [
+      "HTML"
+    ],
+    "repo": "https://github.com/daniel-rck/Malbuch",
+    "live": null,
+    "stars": 0,
+    "pushed": "2026-10-20T06:47:35Z",
     "featured": false
   }
 ];
