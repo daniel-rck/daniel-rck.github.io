@@ -289,7 +289,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-native",
     "live": "https://native.amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-10-19T23:05:41Z",
+    "pushed": "2026-10-21T05:20:16Z",
     "featured": false
   },
   {
@@ -355,6 +355,26 @@ window.PROJECTS = [
     "featured": false
   },
   {
+    "id": "web-base",
+    "name": "web-base",
+    "owner": "daniel-rck",
+    "page": "",
+    "category": "dev",
+    "emoji": "🧱",
+    "desc": {
+      "de": "Gemeinsames Tooling, Vorlagen und Konventionen für meine Web-Apps",
+      "en": "Shared tooling, templates and conventions for my web apps"
+    },
+    "tech": [
+      "TypeScript"
+    ],
+    "repo": "https://github.com/daniel-rck/web-base",
+    "live": null,
+    "stars": 0,
+    "pushed": "2026-10-20T11:50:14Z",
+    "featured": false
+  },
+  {
     "id": "nuget-workbench-vscode",
     "name": "nuget-workbench-vscode",
     "owner": "nuget-workbench",
@@ -373,26 +393,6 @@ window.PROJECTS = [
     "live": null,
     "stars": 10,
     "pushed": "2026-10-13T19:33:40Z",
-    "featured": false
-  },
-  {
-    "id": "web-base",
-    "name": "web-base",
-    "owner": "daniel-rck",
-    "page": "",
-    "category": "dev",
-    "emoji": "🧱",
-    "desc": {
-      "de": "Gemeinsames Tooling, Vorlagen und Konventionen für meine Web-Apps",
-      "en": "Shared tooling, templates and conventions for my web apps"
-    },
-    "tech": [
-      "TypeScript"
-    ],
-    "repo": "https://github.com/daniel-rck/web-base",
-    "live": null,
-    "stars": 0,
-    "pushed": "2026-10-08T10:33:58Z",
     "featured": false
   },
   {
@@ -534,6 +534,26 @@ window.PROJECTS = [
     "featured": false
   },
   {
+    "id": "Malbuch",
+    "name": "Malbuch",
+    "owner": "daniel-rck",
+    "page": "",
+    "category": "other",
+    "emoji": "✨",
+    "desc": {
+      "de": "",
+      "en": ""
+    },
+    "tech": [
+      "TypeScript"
+    ],
+    "repo": "https://github.com/daniel-rck/Malbuch",
+    "live": "https://malbuch.daniel-rck.workers.dev",
+    "stars": 0,
+    "pushed": "2026-10-20T12:56:39Z",
+    "featured": false
+  },
+  {
     "id": "amigo-clove",
     "name": "amigo-clove",
     "owner": "amigo-labs",
@@ -551,26 +571,6 @@ window.PROJECTS = [
     "live": "https://clove.amigo-labs.dev",
     "stars": 0,
     "pushed": "2026-10-13T21:22:03Z",
-    "featured": false
-  },
-  {
-    "id": "Malbuch",
-    "name": "Malbuch",
-    "owner": "daniel-rck",
-    "page": "",
-    "category": "other",
-    "emoji": "✨",
-    "desc": {
-      "de": "",
-      "en": ""
-    },
-    "tech": [
-      "HTML"
-    ],
-    "repo": "https://github.com/daniel-rck/Malbuch",
-    "live": null,
-    "stars": 0,
-    "pushed": "2026-10-20T06:47:35Z",
     "featured": false
   }
 ];
