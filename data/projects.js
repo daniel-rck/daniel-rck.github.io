@@ -224,7 +224,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-pincel",
     "live": "https://pincel.amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-10-15T02:27:44Z",
+    "pushed": "2026-10-22T02:28:13Z",
     "featured": false
   },
   {
@@ -371,7 +371,7 @@ window.PROJECTS = [
     "repo": "https://github.com/daniel-rck/web-base",
     "live": null,
     "stars": 0,
-    "pushed": "2026-10-20T11:50:14Z",
+    "pushed": "2026-10-21T19:08:49Z",
     "featured": false
   },
   {
@@ -550,7 +550,7 @@ window.PROJECTS = [
     "repo": "https://github.com/daniel-rck/Malbuch",
     "live": "https://malbuch.daniel-rck.workers.dev",
     "stars": 0,
-    "pushed": "2026-10-20T12:56:39Z",
+    "pushed": "2026-10-21T15:05:36Z",
     "featured": false
   },
   {
