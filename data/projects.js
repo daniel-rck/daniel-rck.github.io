@@ -550,7 +550,7 @@ window.PROJECTS = [
     "repo": "https://github.com/daniel-rck/Malbuch",
     "live": "https://malbuch.daniel-rck.workers.dev",
     "stars": 0,
-    "pushed": "2026-10-21T15:05:36Z",
+    "pushed": "2026-10-22T19:44:14Z",
     "featured": false
   },
   {
@@ -571,6 +571,26 @@ window.PROJECTS = [
     "live": "https://clove.amigo-labs.dev",
     "stars": 0,
     "pushed": "2026-10-13T21:22:03Z",
+    "featured": false
+  },
+  {
+    "id": "amigo-blinzel",
+    "name": "amigo-blinzel",
+    "owner": "amigo-labs",
+    "page": "amigo-labs",
+    "category": "other",
+    "emoji": "✨",
+    "desc": {
+      "de": "",
+      "en": ""
+    },
+    "tech": [
+      "Rust"
+    ],
+    "repo": "https://github.com/amigo-labs/amigo-blinzel",
+    "live": null,
+    "stars": 0,
+    "pushed": "2026-10-23T09:11:25Z",
     "featured": false
   }
 ];
