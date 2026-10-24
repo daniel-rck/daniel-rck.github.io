@@ -118,7 +118,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-metropolis",
     "live": "https://metropolis.amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-10-19T08:40:18Z",
+    "pushed": "2026-10-23T21:15:43Z",
     "featured": false
   },
   {
@@ -534,6 +534,26 @@ window.PROJECTS = [
     "featured": false
   },
   {
+    "id": "amigo-blinzel",
+    "name": "amigo-blinzel",
+    "owner": "amigo-labs",
+    "page": "amigo-labs",
+    "category": "other",
+    "emoji": "✨",
+    "desc": {
+      "de": "",
+      "en": ""
+    },
+    "tech": [
+      "Rust"
+    ],
+    "repo": "https://github.com/amigo-labs/amigo-blinzel",
+    "live": "https://blinzel.amigo-labs.dev",
+    "stars": 0,
+    "pushed": "2026-10-23T21:16:48Z",
+    "featured": false
+  },
+  {
     "id": "Malbuch",
     "name": "Malbuch",
     "owner": "daniel-rck",
@@ -571,26 +591,6 @@ window.PROJECTS = [
     "live": "https://clove.amigo-labs.dev",
     "stars": 0,
     "pushed": "2026-10-13T21:22:03Z",
-    "featured": false
-  },
-  {
-    "id": "amigo-blinzel",
-    "name": "amigo-blinzel",
-    "owner": "amigo-labs",
-    "page": "amigo-labs",
-    "category": "other",
-    "emoji": "✨",
-    "desc": {
-      "de": "",
-      "en": ""
-    },
-    "tech": [
-      "Rust"
-    ],
-    "repo": "https://github.com/amigo-labs/amigo-blinzel",
-    "live": null,
-    "stars": 0,
-    "pushed": "2026-10-23T09:11:25Z",
     "featured": false
   }
 ];
