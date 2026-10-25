@@ -244,7 +244,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-engine",
     "live": null,
     "stars": 3,
-    "pushed": "2026-10-17T13:14:33Z",
+    "pushed": "2026-10-24T13:14:45Z",
     "featured": false
   },
   {
@@ -271,28 +271,6 @@ window.PROJECTS = [
     "featured": false
   },
   {
-    "id": "amigo-native",
-    "name": "amigo-native",
-    "owner": "amigo-labs",
-    "page": "amigo-labs",
-    "category": "dev",
-    "emoji": "📦",
-    "desc": {
-      "de": "Native Node.js-Pakete auf Rust-Basis, dazu WASM für den Browser",
-      "en": "Rust-powered native Node.js packages, plus wasm for the browser"
-    },
-    "tech": [
-      "Rust",
-      "WASM",
-      "Node"
-    ],
-    "repo": "https://github.com/amigo-labs/amigo-native",
-    "live": "https://native.amigo-labs.dev",
-    "stars": 0,
-    "pushed": "2026-10-21T05:20:16Z",
-    "featured": false
-  },
-  {
     "id": "amigo-downloader",
     "name": "amigo-downloader",
     "owner": "amigo-labs",
@@ -310,7 +288,29 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-downloader",
     "live": "https://downloader.amigo-labs.dev/",
     "stars": 0,
-    "pushed": "2026-10-12T22:29:23Z",
+    "pushed": "2026-10-24T21:31:22Z",
+    "featured": false
+  },
+  {
+    "id": "amigo-native",
+    "name": "amigo-native",
+    "owner": "amigo-labs",
+    "page": "amigo-labs",
+    "category": "dev",
+    "emoji": "📦",
+    "desc": {
+      "de": "Native Node.js-Pakete auf Rust-Basis, dazu WASM für den Browser",
+      "en": "Rust-powered native Node.js packages, plus wasm for the browser"
+    },
+    "tech": [
+      "Rust",
+      "WASM",
+      "Node"
+    ],
+    "repo": "https://github.com/amigo-labs/amigo-native",
+    "live": "https://native.amigo-labs.dev",
+    "stars": 1,
+    "pushed": "2026-10-21T05:20:16Z",
     "featured": false
   },
   {
