@@ -118,7 +118,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-metropolis",
     "live": "https://metropolis.amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-10-23T21:15:43Z",
+    "pushed": "2026-10-26T09:19:19Z",
     "featured": false
   },
   {
@@ -550,7 +550,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-blinzel",
     "live": "https://blinzel.amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-10-23T21:16:48Z",
+    "pushed": "2026-10-26T10:05:14Z",
     "featured": false
   },
   {
