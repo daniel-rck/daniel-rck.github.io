@@ -118,7 +118,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-metropolis",
     "live": "https://metropolis.amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-10-26T09:19:19Z",
+    "pushed": "2026-10-27T07:26:18Z",
     "featured": false
   },
   {
@@ -224,7 +224,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-pincel",
     "live": "https://pincel.amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-10-22T02:28:13Z",
+    "pushed": "2026-10-27T09:30:30Z",
     "featured": false
   },
   {
@@ -288,7 +288,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-downloader",
     "live": "https://downloader.amigo-labs.dev/",
     "stars": 0,
-    "pushed": "2026-10-24T21:31:22Z",
+    "pushed": "2026-10-27T09:42:30Z",
     "featured": false
   },
   {
@@ -310,7 +310,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-native",
     "live": "https://native.amigo-labs.dev",
     "stars": 1,
-    "pushed": "2026-10-21T05:20:16Z",
+    "pushed": "2026-10-27T09:33:38Z",
     "featured": false
   },
   {
@@ -393,24 +393,6 @@ window.PROJECTS = [
     "live": null,
     "stars": 10,
     "pushed": "2026-10-13T19:33:40Z",
-    "featured": false
-  },
-  {
-    "id": "amigo-shutter",
-    "name": "amigo-shutter",
-    "owner": "amigo-labs",
-    "page": "amigo-labs",
-    "category": "dev",
-    "emoji": "📸",
-    "desc": {
-      "de": "Screenshot-Werkzeug nach Vorbild von Greenshot: aufnehmen, markieren, teilen",
-      "en": "Screenshot tool in the spirit of Greenshot: capture, annotate, share"
-    },
-    "tech": [],
-    "repo": "https://github.com/amigo-labs/amigo-shutter",
-    "live": null,
-    "stars": 0,
-    "pushed": "2026-09-22T11:47:39Z",
     "featured": false
   },
   {
@@ -541,8 +523,8 @@ window.PROJECTS = [
     "category": "other",
     "emoji": "✨",
     "desc": {
-      "de": "",
-      "en": ""
+      "de": "An image viewer on speed, written in Rust.",
+      "en": "An image viewer on speed, written in Rust."
     },
     "tech": [
       "Rust"
@@ -550,7 +532,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-blinzel",
     "live": "https://blinzel.amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-10-26T10:05:14Z",
+    "pushed": "2026-10-26T14:35:17Z",
     "featured": false
   },
   {
