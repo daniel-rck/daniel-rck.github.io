@@ -101,6 +101,27 @@ window.PAGES = [
 
 window.PROJECTS = [
   {
+    "id": "HamsterFlight",
+    "name": "HamsterFlight",
+    "owner": "daniel-rck",
+    "page": "",
+    "category": "games",
+    "emoji": "🐹",
+    "desc": {
+      "de": "Browser-Portierung des Flash-Klassikers Flight of the Hamsters, aus dem Bytecode rekonstruiert",
+      "en": "Browser port of the Flash classic Flight of the Hamsters, rebuilt from its bytecode"
+    },
+    "tech": [
+      "TypeScript",
+      "PixiJS"
+    ],
+    "repo": "https://github.com/daniel-rck/HamsterFlight",
+    "live": "https://hamsterflight.daniel-rck.workers.dev",
+    "stars": 0,
+    "pushed": "2026-10-28T08:25:28Z",
+    "featured": false
+  },
+  {
     "id": "amigo-metropolis",
     "name": "amigo-metropolis",
     "owner": "amigo-labs",
@@ -118,7 +139,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-metropolis",
     "live": "https://metropolis.amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-10-27T07:26:18Z",
+    "pushed": "2026-10-27T12:35:50Z",
     "featured": false
   },
   {
@@ -141,27 +162,6 @@ window.PROJECTS = [
     "live": "https://diomano.amigo-labs.dev",
     "stars": 0,
     "pushed": "2026-10-18T18:10:20Z",
-    "featured": false
-  },
-  {
-    "id": "HamsterFlight",
-    "name": "HamsterFlight",
-    "owner": "daniel-rck",
-    "page": "",
-    "category": "games",
-    "emoji": "🐹",
-    "desc": {
-      "de": "Browser-Portierung des Flash-Klassikers Flight of the Hamsters, aus dem Bytecode rekonstruiert",
-      "en": "Browser port of the Flash classic Flight of the Hamsters, rebuilt from its bytecode"
-    },
-    "tech": [
-      "TypeScript",
-      "PixiJS"
-    ],
-    "repo": "https://github.com/daniel-rck/HamsterFlight",
-    "live": "https://hamsterflight.daniel-rck.workers.dev",
-    "stars": 0,
-    "pushed": "2026-10-14T20:12:29Z",
     "featured": false
   },
   {
@@ -224,7 +224,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-pincel",
     "live": "https://pincel.amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-10-27T09:30:30Z",
+    "pushed": "2026-10-27T15:44:19Z",
     "featured": false
   },
   {
@@ -244,7 +244,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-engine",
     "live": null,
     "stars": 3,
-    "pushed": "2026-10-24T13:14:45Z",
+    "pushed": "2026-10-27T20:19:43Z",
     "featured": false
   },
   {
@@ -271,27 +271,6 @@ window.PROJECTS = [
     "featured": false
   },
   {
-    "id": "amigo-downloader",
-    "name": "amigo-downloader",
-    "owner": "amigo-labs",
-    "page": "amigo-labs",
-    "category": "dev",
-    "emoji": "⬇️",
-    "desc": {
-      "de": "Plattformübergreifender Download-Manager",
-      "en": "Cross-platform download manager"
-    },
-    "tech": [
-      "Rust",
-      "Tauri"
-    ],
-    "repo": "https://github.com/amigo-labs/amigo-downloader",
-    "live": "https://downloader.amigo-labs.dev/",
-    "stars": 0,
-    "pushed": "2026-10-27T09:42:30Z",
-    "featured": false
-  },
-  {
     "id": "amigo-native",
     "name": "amigo-native",
     "owner": "amigo-labs",
@@ -310,7 +289,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-native",
     "live": "https://native.amigo-labs.dev",
     "stars": 1,
-    "pushed": "2026-10-27T09:33:38Z",
+    "pushed": "2026-10-27T15:45:57Z",
     "featured": false
   },
   {
@@ -330,7 +309,28 @@ window.PROJECTS = [
     "repo": "https://github.com/daniel-rck/Vectorizer",
     "live": "https://vectorizer.daniel-rck.workers.dev",
     "stars": 0,
-    "pushed": "2026-09-22T21:28:58Z",
+    "pushed": "2026-10-27T12:46:36Z",
+    "featured": false
+  },
+  {
+    "id": "amigo-downloader",
+    "name": "amigo-downloader",
+    "owner": "amigo-labs",
+    "page": "amigo-labs",
+    "category": "dev",
+    "emoji": "⬇️",
+    "desc": {
+      "de": "Plattformübergreifender Download-Manager",
+      "en": "Cross-platform download manager"
+    },
+    "tech": [
+      "Rust",
+      "Tauri"
+    ],
+    "repo": "https://github.com/amigo-labs/amigo-downloader",
+    "live": "https://downloader.amigo-labs.dev/",
+    "stars": 0,
+    "pushed": "2026-10-27T10:42:16Z",
     "featured": false
   },
   {
@@ -516,6 +516,26 @@ window.PROJECTS = [
     "featured": false
   },
   {
+    "id": "amigo-clove",
+    "name": "amigo-clove",
+    "owner": "amigo-labs",
+    "page": "amigo-labs",
+    "category": "other",
+    "emoji": "✨",
+    "desc": {
+      "de": "",
+      "en": ""
+    },
+    "tech": [
+      "TypeScript"
+    ],
+    "repo": "https://github.com/amigo-labs/amigo-clove",
+    "live": "https://clove.amigo-labs.dev",
+    "stars": 0,
+    "pushed": "2026-10-27T15:35:28Z",
+    "featured": false
+  },
+  {
     "id": "amigo-blinzel",
     "name": "amigo-blinzel",
     "owner": "amigo-labs",
@@ -556,8 +576,8 @@ window.PROJECTS = [
     "featured": false
   },
   {
-    "id": "amigo-clove",
-    "name": "amigo-clove",
+    "id": "amigo-sofarr",
+    "name": "amigo-sofarr",
     "owner": "amigo-labs",
     "page": "amigo-labs",
     "category": "other",
@@ -567,12 +587,12 @@ window.PROJECTS = [
       "en": ""
     },
     "tech": [
-      "TypeScript"
+      "Rust"
     ],
-    "repo": "https://github.com/amigo-labs/amigo-clove",
-    "live": "https://clove.amigo-labs.dev",
+    "repo": "https://github.com/amigo-labs/amigo-sofarr",
+    "live": null,
     "stars": 0,
-    "pushed": "2026-10-13T21:22:03Z",
+    "pushed": "2026-10-28T10:14:57Z",
     "featured": false
   }
 ];
