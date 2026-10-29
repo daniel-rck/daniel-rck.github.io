@@ -224,7 +224,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-pincel",
     "live": "https://pincel.amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-10-27T15:44:19Z",
+    "pushed": "2026-10-29T10:38:34Z",
     "featured": false
   },
   {
@@ -516,6 +516,26 @@ window.PROJECTS = [
     "featured": false
   },
   {
+    "id": "amigo-blinzel",
+    "name": "amigo-blinzel",
+    "owner": "amigo-labs",
+    "page": "amigo-labs",
+    "category": "other",
+    "emoji": "✨",
+    "desc": {
+      "de": "An image viewer on speed, written in Rust.",
+      "en": "An image viewer on speed, written in Rust."
+    },
+    "tech": [
+      "Rust"
+    ],
+    "repo": "https://github.com/amigo-labs/amigo-blinzel",
+    "live": "https://blinzel.amigo-labs.dev",
+    "stars": 0,
+    "pushed": "2026-10-29T07:29:43Z",
+    "featured": false
+  },
+  {
     "id": "amigo-clove",
     "name": "amigo-clove",
     "owner": "amigo-labs",
@@ -533,26 +553,6 @@ window.PROJECTS = [
     "live": "https://clove.amigo-labs.dev",
     "stars": 0,
     "pushed": "2026-10-27T15:35:28Z",
-    "featured": false
-  },
-  {
-    "id": "amigo-blinzel",
-    "name": "amigo-blinzel",
-    "owner": "amigo-labs",
-    "page": "amigo-labs",
-    "category": "other",
-    "emoji": "✨",
-    "desc": {
-      "de": "An image viewer on speed, written in Rust.",
-      "en": "An image viewer on speed, written in Rust."
-    },
-    "tech": [
-      "Rust"
-    ],
-    "repo": "https://github.com/amigo-labs/amigo-blinzel",
-    "live": "https://blinzel.amigo-labs.dev",
-    "stars": 0,
-    "pushed": "2026-10-26T14:35:17Z",
     "featured": false
   },
   {
@@ -576,6 +576,24 @@ window.PROJECTS = [
     "featured": false
   },
   {
+    "id": "amigo-neoforo",
+    "name": "amigo-neoforo",
+    "owner": "amigo-labs",
+    "page": "amigo-labs",
+    "category": "other",
+    "emoji": "✨",
+    "desc": {
+      "de": "",
+      "en": ""
+    },
+    "tech": [],
+    "repo": "https://github.com/amigo-labs/amigo-neoforo",
+    "live": null,
+    "stars": 0,
+    "pushed": "2026-10-28T19:50:52Z",
+    "featured": false
+  },
+  {
     "id": "amigo-sofarr",
     "name": "amigo-sofarr",
     "owner": "amigo-labs",
@@ -592,7 +610,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-sofarr",
     "live": null,
     "stars": 0,
-    "pushed": "2026-10-28T10:14:57Z",
+    "pushed": "2026-10-28T15:00:16Z",
     "featured": false
   }
 ];
