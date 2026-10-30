@@ -224,7 +224,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-pincel",
     "live": "https://pincel.amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-10-29T10:38:34Z",
+    "pushed": "2026-10-30T07:42:05Z",
     "featured": false
   },
   {
@@ -532,7 +532,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-blinzel",
     "live": "https://blinzel.amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-10-29T07:29:43Z",
+    "pushed": "2026-10-30T10:44:17Z",
     "featured": false
   },
   {
@@ -573,6 +573,24 @@ window.PROJECTS = [
     "live": "https://malbuch.daniel-rck.workers.dev",
     "stars": 0,
     "pushed": "2026-10-22T19:44:14Z",
+    "featured": false
+  },
+  {
+    "id": "Tiere",
+    "name": "Tiere",
+    "owner": "daniel-rck",
+    "page": "",
+    "category": "other",
+    "emoji": "✨",
+    "desc": {
+      "de": "",
+      "en": ""
+    },
+    "tech": [],
+    "repo": "https://github.com/daniel-rck/Tiere",
+    "live": null,
+    "stars": 0,
+    "pushed": "2026-10-29T21:43:35Z",
     "featured": false
   },
   {
