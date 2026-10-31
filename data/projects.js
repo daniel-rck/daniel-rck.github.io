@@ -224,7 +224,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-pincel",
     "live": "https://pincel.amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-10-30T07:42:05Z",
+    "pushed": "2026-10-30T13:40:47Z",
     "featured": false
   },
   {
@@ -532,7 +532,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-blinzel",
     "live": "https://blinzel.amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-10-30T10:44:17Z",
+    "pushed": "2026-10-30T13:30:40Z",
     "featured": false
   },
   {
