@@ -101,6 +101,27 @@ window.PAGES = [
 
 window.PROJECTS = [
   {
+    "id": "amigo-metropolis",
+    "name": "amigo-metropolis",
+    "owner": "amigo-labs",
+    "page": "amigo-labs",
+    "category": "games",
+    "emoji": "🏙️",
+    "desc": {
+      "de": "Browser-Hommage an Future Cop: Precinct Assault, ein Proto-MOBA",
+      "en": "Browser-based Future Cop: Precinct Assault homage, a proto-MOBA"
+    },
+    "tech": [
+      "Three.js",
+      "Cloudflare"
+    ],
+    "repo": "https://github.com/amigo-labs/amigo-metropolis",
+    "live": "https://metropolis.amigo-labs.dev",
+    "stars": 0,
+    "pushed": "2026-11-01T22:45:04Z",
+    "featured": false
+  },
+  {
     "id": "HamsterFlight",
     "name": "HamsterFlight",
     "owner": "daniel-rck",
@@ -119,27 +140,6 @@ window.PROJECTS = [
     "live": "https://hamsterflight.daniel-rck.workers.dev",
     "stars": 0,
     "pushed": "2026-10-28T08:25:28Z",
-    "featured": false
-  },
-  {
-    "id": "amigo-metropolis",
-    "name": "amigo-metropolis",
-    "owner": "amigo-labs",
-    "page": "amigo-labs",
-    "category": "games",
-    "emoji": "🏙️",
-    "desc": {
-      "de": "Browser-Hommage an Future Cop: Precinct Assault, ein Proto-MOBA",
-      "en": "Browser-based Future Cop: Precinct Assault homage, a proto-MOBA"
-    },
-    "tech": [
-      "Three.js",
-      "Cloudflare"
-    ],
-    "repo": "https://github.com/amigo-labs/amigo-metropolis",
-    "live": "https://metropolis.amigo-labs.dev",
-    "stars": 0,
-    "pushed": "2026-10-27T12:35:50Z",
     "featured": false
   },
   {
@@ -224,7 +224,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-pincel",
     "live": "https://pincel.amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-11-01T02:29:47Z",
+    "pushed": "2026-11-02T06:06:50Z",
     "featured": false
   },
   {
@@ -290,26 +290,6 @@ window.PROJECTS = [
     "live": "https://native.amigo-labs.dev",
     "stars": 1,
     "pushed": "2026-10-27T15:45:57Z",
-    "featured": false
-  },
-  {
-    "id": "Vectorizer",
-    "name": "Vectorizer",
-    "owner": "daniel-rck",
-    "page": "",
-    "category": "dev",
-    "emoji": "📐",
-    "desc": {
-      "de": "Rasterbilder ins Vektorformat (SVG) umwandeln",
-      "en": "Convert raster images to vector format (SVG)"
-    },
-    "tech": [
-      "PWA"
-    ],
-    "repo": "https://github.com/daniel-rck/Vectorizer",
-    "live": "https://vectorizer.daniel-rck.workers.dev",
-    "stars": 0,
-    "pushed": "2026-10-27T12:46:36Z",
     "featured": false
   },
   {
@@ -532,7 +512,27 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-blinzel",
     "live": "https://blinzel.amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-10-30T13:30:40Z",
+    "pushed": "2026-11-02T12:20:26Z",
+    "featured": false
+  },
+  {
+    "id": "Tiere",
+    "name": "Tiere",
+    "owner": "daniel-rck",
+    "page": "",
+    "category": "other",
+    "emoji": "✨",
+    "desc": {
+      "de": "",
+      "en": ""
+    },
+    "tech": [
+      "TypeScript"
+    ],
+    "repo": "https://github.com/daniel-rck/Tiere",
+    "live": "https://tiere.daniel-rck.workers.dev",
+    "stars": 0,
+    "pushed": "2026-11-01T22:08:48Z",
     "featured": false
   },
   {
@@ -576,21 +576,23 @@ window.PROJECTS = [
     "featured": false
   },
   {
-    "id": "Tiere",
-    "name": "Tiere",
-    "owner": "daniel-rck",
-    "page": "",
+    "id": "amigo-sofarr",
+    "name": "amigo-sofarr",
+    "owner": "amigo-labs",
+    "page": "amigo-labs",
     "category": "other",
     "emoji": "✨",
     "desc": {
       "de": "",
       "en": ""
     },
-    "tech": [],
-    "repo": "https://github.com/daniel-rck/Tiere",
+    "tech": [
+      "Rust"
+    ],
+    "repo": "https://github.com/amigo-labs/amigo-sofarr",
     "live": null,
     "stars": 0,
-    "pushed": "2026-10-29T21:43:35Z",
+    "pushed": "2026-11-01T22:35:23Z",
     "featured": false
   },
   {
@@ -609,26 +611,6 @@ window.PROJECTS = [
     "live": null,
     "stars": 0,
     "pushed": "2026-10-28T19:50:52Z",
-    "featured": false
-  },
-  {
-    "id": "amigo-sofarr",
-    "name": "amigo-sofarr",
-    "owner": "amigo-labs",
-    "page": "amigo-labs",
-    "category": "other",
-    "emoji": "✨",
-    "desc": {
-      "de": "",
-      "en": ""
-    },
-    "tech": [
-      "Rust"
-    ],
-    "repo": "https://github.com/amigo-labs/amigo-sofarr",
-    "live": null,
-    "stars": 0,
-    "pushed": "2026-10-28T15:00:16Z",
     "featured": false
   }
 ];
