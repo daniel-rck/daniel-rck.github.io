@@ -289,7 +289,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-native",
     "live": "https://native.amigo-labs.dev",
     "stars": 1,
-    "pushed": "2026-10-27T15:45:57Z",
+    "pushed": "2026-11-02T23:12:50Z",
     "featured": false
   },
   {
@@ -496,26 +496,6 @@ window.PROJECTS = [
     "featured": false
   },
   {
-    "id": "amigo-blinzel",
-    "name": "amigo-blinzel",
-    "owner": "amigo-labs",
-    "page": "amigo-labs",
-    "category": "other",
-    "emoji": "✨",
-    "desc": {
-      "de": "An image viewer on speed, written in Rust.",
-      "en": "An image viewer on speed, written in Rust."
-    },
-    "tech": [
-      "Rust"
-    ],
-    "repo": "https://github.com/amigo-labs/amigo-blinzel",
-    "live": "https://blinzel.amigo-labs.dev",
-    "stars": 0,
-    "pushed": "2026-11-02T12:20:26Z",
-    "featured": false
-  },
-  {
     "id": "Tiere",
     "name": "Tiere",
     "owner": "daniel-rck",
@@ -532,7 +512,27 @@ window.PROJECTS = [
     "repo": "https://github.com/daniel-rck/Tiere",
     "live": "https://tiere.daniel-rck.workers.dev",
     "stars": 0,
-    "pushed": "2026-11-01T22:08:48Z",
+    "pushed": "2026-11-03T07:26:29Z",
+    "featured": false
+  },
+  {
+    "id": "amigo-blinzel",
+    "name": "amigo-blinzel",
+    "owner": "amigo-labs",
+    "page": "amigo-labs",
+    "category": "other",
+    "emoji": "✨",
+    "desc": {
+      "de": "An image viewer on speed, written in Rust.",
+      "en": "An image viewer on speed, written in Rust."
+    },
+    "tech": [
+      "Rust"
+    ],
+    "repo": "https://github.com/amigo-labs/amigo-blinzel",
+    "live": "https://blinzel.amigo-labs.dev",
+    "stars": 0,
+    "pushed": "2026-11-03T06:41:54Z",
     "featured": false
   },
   {
