@@ -101,6 +101,27 @@ window.PAGES = [
 
 window.PROJECTS = [
   {
+    "id": "HamsterFlight",
+    "name": "HamsterFlight",
+    "owner": "daniel-rck",
+    "page": "",
+    "category": "games",
+    "emoji": "🐹",
+    "desc": {
+      "de": "Browser-Portierung des Flash-Klassikers Flight of the Hamsters, aus dem Bytecode rekonstruiert",
+      "en": "Browser port of the Flash classic Flight of the Hamsters, rebuilt from its bytecode"
+    },
+    "tech": [
+      "TypeScript",
+      "PixiJS"
+    ],
+    "repo": "https://github.com/daniel-rck/HamsterFlight",
+    "live": "https://hamsterflight.daniel-rck.workers.dev",
+    "stars": 0,
+    "pushed": "2026-11-04T08:25:05Z",
+    "featured": false
+  },
+  {
     "id": "amigo-metropolis",
     "name": "amigo-metropolis",
     "owner": "amigo-labs",
@@ -119,27 +140,6 @@ window.PROJECTS = [
     "live": "https://metropolis.amigo-labs.dev",
     "stars": 0,
     "pushed": "2026-11-01T22:45:04Z",
-    "featured": false
-  },
-  {
-    "id": "HamsterFlight",
-    "name": "HamsterFlight",
-    "owner": "daniel-rck",
-    "page": "",
-    "category": "games",
-    "emoji": "🐹",
-    "desc": {
-      "de": "Browser-Portierung des Flash-Klassikers Flight of the Hamsters, aus dem Bytecode rekonstruiert",
-      "en": "Browser port of the Flash classic Flight of the Hamsters, rebuilt from its bytecode"
-    },
-    "tech": [
-      "TypeScript",
-      "PixiJS"
-    ],
-    "repo": "https://github.com/daniel-rck/HamsterFlight",
-    "live": "https://hamsterflight.daniel-rck.workers.dev",
-    "stars": 0,
-    "pushed": "2026-10-28T08:25:28Z",
     "featured": false
   },
   {
@@ -224,7 +224,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-pincel",
     "live": "https://pincel.amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-11-02T06:06:50Z",
+    "pushed": "2026-11-04T10:18:51Z",
     "featured": false
   },
   {
@@ -496,6 +496,26 @@ window.PROJECTS = [
     "featured": false
   },
   {
+    "id": "amigo-blinzel",
+    "name": "amigo-blinzel",
+    "owner": "amigo-labs",
+    "page": "amigo-labs",
+    "category": "other",
+    "emoji": "✨",
+    "desc": {
+      "de": "An image viewer on speed, written in Rust.",
+      "en": "An image viewer on speed, written in Rust."
+    },
+    "tech": [
+      "Rust"
+    ],
+    "repo": "https://github.com/amigo-labs/amigo-blinzel",
+    "live": "https://blinzel.amigo-labs.dev",
+    "stars": 0,
+    "pushed": "2026-11-03T22:35:17Z",
+    "featured": false
+  },
+  {
     "id": "Tiere",
     "name": "Tiere",
     "owner": "daniel-rck",
@@ -513,26 +533,6 @@ window.PROJECTS = [
     "live": "https://tiere.daniel-rck.workers.dev",
     "stars": 0,
     "pushed": "2026-11-03T07:26:29Z",
-    "featured": false
-  },
-  {
-    "id": "amigo-blinzel",
-    "name": "amigo-blinzel",
-    "owner": "amigo-labs",
-    "page": "amigo-labs",
-    "category": "other",
-    "emoji": "✨",
-    "desc": {
-      "de": "An image viewer on speed, written in Rust.",
-      "en": "An image viewer on speed, written in Rust."
-    },
-    "tech": [
-      "Rust"
-    ],
-    "repo": "https://github.com/amigo-labs/amigo-blinzel",
-    "live": "https://blinzel.amigo-labs.dev",
-    "stars": 0,
-    "pushed": "2026-11-03T06:41:54Z",
     "featured": false
   },
   {
