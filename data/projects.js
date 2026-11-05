@@ -224,7 +224,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-pincel",
     "live": "https://pincel.amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-11-04T10:18:51Z",
+    "pushed": "2026-11-05T10:35:54Z",
     "featured": false
   },
   {
@@ -512,7 +512,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-blinzel",
     "live": "https://blinzel.amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-11-03T22:35:17Z",
+    "pushed": "2026-11-05T08:23:22Z",
     "featured": false
   },
   {
@@ -573,6 +573,24 @@ window.PROJECTS = [
     "live": "https://malbuch.daniel-rck.workers.dev",
     "stars": 0,
     "pushed": "2026-10-22T19:44:14Z",
+    "featured": false
+  },
+  {
+    "id": "website",
+    "name": "website",
+    "owner": "amigo-labs",
+    "page": "amigo-labs",
+    "category": "other",
+    "emoji": "✨",
+    "desc": {
+      "de": "",
+      "en": ""
+    },
+    "tech": [],
+    "repo": "https://github.com/amigo-labs/website",
+    "live": null,
+    "stars": 0,
+    "pushed": "2026-11-05T10:36:32Z",
     "featured": false
   },
   {
