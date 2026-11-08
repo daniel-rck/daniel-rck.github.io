@@ -244,7 +244,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-engine",
     "live": null,
     "stars": 3,
-    "pushed": "2026-11-06T21:17:05Z",
+    "pushed": "2026-11-07T13:14:40Z",
     "featured": false
   },
   {
