@@ -224,27 +224,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-pincel",
     "live": "https://pincel.amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-11-06T22:40:18Z",
-    "featured": false
-  },
-  {
-    "id": "amigo-engine",
-    "name": "amigo-engine",
-    "owner": "amigo-labs",
-    "page": "amigo-labs",
-    "category": "creative",
-    "emoji": "🎮",
-    "desc": {
-      "de": "2D-Pixel-Art-Game-Engine in Rust",
-      "en": "2D pixel art game engine in Rust"
-    },
-    "tech": [
-      "Rust"
-    ],
-    "repo": "https://github.com/amigo-labs/amigo-engine",
-    "live": null,
-    "stars": 3,
-    "pushed": "2026-11-07T13:14:40Z",
+    "pushed": "2026-11-09T10:47:10Z",
     "featured": false
   },
   {
@@ -267,7 +247,27 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-trommel",
     "live": null,
     "stars": 0,
-    "pushed": "2026-05-12T14:36:03Z",
+    "pushed": "2026-11-08T20:05:21Z",
+    "featured": false
+  },
+  {
+    "id": "amigo-engine",
+    "name": "amigo-engine",
+    "owner": "amigo-labs",
+    "page": "amigo-labs",
+    "category": "creative",
+    "emoji": "🎮",
+    "desc": {
+      "de": "2D-Pixel-Art-Game-Engine in Rust",
+      "en": "2D pixel art game engine in Rust"
+    },
+    "tech": [
+      "Rust"
+    ],
+    "repo": "https://github.com/amigo-labs/amigo-engine",
+    "live": null,
+    "stars": 3,
+    "pushed": "2026-11-08T18:59:54Z",
     "featured": false
   },
   {
@@ -289,28 +289,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-native",
     "live": "https://native.amigo-labs.dev",
     "stars": 1,
-    "pushed": "2026-11-02T23:12:50Z",
-    "featured": false
-  },
-  {
-    "id": "amigo-downloader",
-    "name": "amigo-downloader",
-    "owner": "amigo-labs",
-    "page": "amigo-labs",
-    "category": "dev",
-    "emoji": "⬇️",
-    "desc": {
-      "de": "Plattformübergreifender Download-Manager",
-      "en": "Cross-platform download manager"
-    },
-    "tech": [
-      "Rust",
-      "Tauri"
-    ],
-    "repo": "https://github.com/amigo-labs/amigo-downloader",
-    "live": "https://downloader.amigo-labs.dev/",
-    "stars": 0,
-    "pushed": "2026-10-27T10:42:16Z",
+    "pushed": "2026-11-08T20:12:57Z",
     "featured": false
   },
   {
@@ -503,16 +482,36 @@ window.PROJECTS = [
     "category": "other",
     "emoji": "✨",
     "desc": {
-      "de": "An image viewer on speed, written in Rust.",
-      "en": "An image viewer on speed, written in Rust."
+      "de": "",
+      "en": ""
     },
     "tech": [
       "Rust"
     ],
     "repo": "https://github.com/amigo-labs/amigo-blinzel",
-    "live": "https://blinzel.amigo-labs.dev",
+    "live": "https://amigo-labs.dev/blinzel",
     "stars": 0,
-    "pushed": "2026-11-05T08:23:22Z",
+    "pushed": "2026-11-09T12:35:52Z",
+    "featured": false
+  },
+  {
+    "id": "amigo-krake",
+    "name": "amigo-krake",
+    "owner": "amigo-labs",
+    "page": "amigo-labs",
+    "category": "other",
+    "emoji": "✨",
+    "desc": {
+      "de": "",
+      "en": ""
+    },
+    "tech": [
+      "Rust"
+    ],
+    "repo": "https://github.com/amigo-labs/amigo-krake",
+    "live": "https://amigo-labs.dev/krake",
+    "stars": 0,
+    "pushed": "2026-11-08T21:59:27Z",
     "featured": false
   },
   {
@@ -583,14 +582,34 @@ window.PROJECTS = [
     "category": "other",
     "emoji": "✨",
     "desc": {
+      "de": "https://amigo-labs.dev",
+      "en": "https://amigo-labs.dev"
+    },
+    "tech": [
+      "TypeScript"
+    ],
+    "repo": "https://github.com/amigo-labs/website",
+    "live": null,
+    "stars": 0,
+    "pushed": "2026-11-08T23:56:31Z",
+    "featured": false
+  },
+  {
+    "id": "amigo-neoforo",
+    "name": "amigo-neoforo",
+    "owner": "amigo-labs",
+    "page": "amigo-labs",
+    "category": "other",
+    "emoji": "✨",
+    "desc": {
       "de": "",
       "en": ""
     },
     "tech": [],
-    "repo": "https://github.com/amigo-labs/website",
+    "repo": "https://github.com/amigo-labs/amigo-neoforo",
     "live": null,
     "stars": 0,
-    "pushed": "2026-11-05T10:36:32Z",
+    "pushed": "2026-11-08T20:12:31Z",
     "featured": false
   },
   {
@@ -610,25 +629,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-sofarr",
     "live": null,
     "stars": 0,
-    "pushed": "2026-11-01T22:35:23Z",
-    "featured": false
-  },
-  {
-    "id": "amigo-neoforo",
-    "name": "amigo-neoforo",
-    "owner": "amigo-labs",
-    "page": "amigo-labs",
-    "category": "other",
-    "emoji": "✨",
-    "desc": {
-      "de": "",
-      "en": ""
-    },
-    "tech": [],
-    "repo": "https://github.com/amigo-labs/amigo-neoforo",
-    "live": null,
-    "stars": 0,
-    "pushed": "2026-10-28T19:50:52Z",
+    "pushed": "2026-11-08T20:05:46Z",
     "featured": false
   }
 ];
