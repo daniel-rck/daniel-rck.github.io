@@ -101,6 +101,27 @@ window.PAGES = [
 
 window.PROJECTS = [
   {
+    "id": "amigo-metropolis",
+    "name": "amigo-metropolis",
+    "owner": "amigo-labs",
+    "page": "amigo-labs",
+    "category": "games",
+    "emoji": "🏙️",
+    "desc": {
+      "de": "Browser-Hommage an Future Cop: Precinct Assault, ein Proto-MOBA",
+      "en": "Browser-based Future Cop: Precinct Assault homage, a proto-MOBA"
+    },
+    "tech": [
+      "Three.js",
+      "Cloudflare"
+    ],
+    "repo": "https://github.com/amigo-labs/amigo-metropolis",
+    "live": "https://metropolis.amigo-labs.dev",
+    "stars": 0,
+    "pushed": "2026-11-09T21:51:12Z",
+    "featured": false
+  },
+  {
     "id": "HamsterFlight",
     "name": "HamsterFlight",
     "owner": "daniel-rck",
@@ -119,27 +140,6 @@ window.PROJECTS = [
     "live": "https://hamsterflight.daniel-rck.workers.dev",
     "stars": 0,
     "pushed": "2026-11-04T08:25:05Z",
-    "featured": false
-  },
-  {
-    "id": "amigo-metropolis",
-    "name": "amigo-metropolis",
-    "owner": "amigo-labs",
-    "page": "amigo-labs",
-    "category": "games",
-    "emoji": "🏙️",
-    "desc": {
-      "de": "Browser-Hommage an Future Cop: Precinct Assault, ein Proto-MOBA",
-      "en": "Browser-based Future Cop: Precinct Assault homage, a proto-MOBA"
-    },
-    "tech": [
-      "Three.js",
-      "Cloudflare"
-    ],
-    "repo": "https://github.com/amigo-labs/amigo-metropolis",
-    "live": "https://metropolis.amigo-labs.dev",
-    "stars": 0,
-    "pushed": "2026-11-01T22:45:04Z",
     "featured": false
   },
   {
@@ -224,7 +224,27 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-pincel",
     "live": "https://pincel.amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-11-09T10:47:10Z",
+    "pushed": "2026-11-10T12:29:40Z",
+    "featured": false
+  },
+  {
+    "id": "amigo-engine",
+    "name": "amigo-engine",
+    "owner": "amigo-labs",
+    "page": "amigo-labs",
+    "category": "creative",
+    "emoji": "🎮",
+    "desc": {
+      "de": "2D-Pixel-Art-Game-Engine in Rust",
+      "en": "2D pixel art game engine in Rust"
+    },
+    "tech": [
+      "Rust"
+    ],
+    "repo": "https://github.com/amigo-labs/amigo-engine",
+    "live": null,
+    "stars": 3,
+    "pushed": "2026-11-09T22:27:37Z",
     "featured": false
   },
   {
@@ -251,26 +271,6 @@ window.PROJECTS = [
     "featured": false
   },
   {
-    "id": "amigo-engine",
-    "name": "amigo-engine",
-    "owner": "amigo-labs",
-    "page": "amigo-labs",
-    "category": "creative",
-    "emoji": "🎮",
-    "desc": {
-      "de": "2D-Pixel-Art-Game-Engine in Rust",
-      "en": "2D pixel art game engine in Rust"
-    },
-    "tech": [
-      "Rust"
-    ],
-    "repo": "https://github.com/amigo-labs/amigo-engine",
-    "live": null,
-    "stars": 3,
-    "pushed": "2026-11-08T18:59:54Z",
-    "featured": false
-  },
-  {
     "id": "amigo-native",
     "name": "amigo-native",
     "owner": "amigo-labs",
@@ -289,7 +289,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-native",
     "live": "https://native.amigo-labs.dev",
     "stars": 1,
-    "pushed": "2026-11-08T20:12:57Z",
+    "pushed": "2026-11-09T23:11:31Z",
     "featured": false
   },
   {
@@ -491,7 +491,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-blinzel",
     "live": "https://amigo-labs.dev/blinzel",
     "stars": 0,
-    "pushed": "2026-11-09T12:35:52Z",
+    "pushed": "2026-11-10T09:45:22Z",
     "featured": false
   },
   {
@@ -511,7 +511,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-krake",
     "live": "https://amigo-labs.dev/krake",
     "stars": 0,
-    "pushed": "2026-11-08T21:59:27Z",
+    "pushed": "2026-11-10T06:06:29Z",
     "featured": false
   },
   {
@@ -575,6 +575,26 @@ window.PROJECTS = [
     "featured": false
   },
   {
+    "id": "skills",
+    "name": "skills",
+    "owner": "amigo-labs",
+    "page": "amigo-labs",
+    "category": "other",
+    "emoji": "✨",
+    "desc": {
+      "de": "",
+      "en": ""
+    },
+    "tech": [
+      "JavaScript"
+    ],
+    "repo": "https://github.com/amigo-labs/skills",
+    "live": null,
+    "stars": 0,
+    "pushed": "2026-11-10T09:43:25Z",
+    "featured": false
+  },
+  {
     "id": "website",
     "name": "website",
     "owner": "amigo-labs",
@@ -591,7 +611,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/website",
     "live": null,
     "stars": 0,
-    "pushed": "2026-11-08T23:56:31Z",
+    "pushed": "2026-11-09T23:31:45Z",
     "featured": false
   },
   {
