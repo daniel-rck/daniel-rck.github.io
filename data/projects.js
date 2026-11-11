@@ -224,7 +224,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-pincel",
     "live": "https://pincel.amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-11-10T12:29:40Z",
+    "pushed": "2026-11-11T11:41:36Z",
     "featured": false
   },
   {
@@ -475,26 +475,6 @@ window.PROJECTS = [
     "featured": false
   },
   {
-    "id": "amigo-blinzel",
-    "name": "amigo-blinzel",
-    "owner": "amigo-labs",
-    "page": "amigo-labs",
-    "category": "other",
-    "emoji": "✨",
-    "desc": {
-      "de": "",
-      "en": ""
-    },
-    "tech": [
-      "Rust"
-    ],
-    "repo": "https://github.com/amigo-labs/amigo-blinzel",
-    "live": "https://amigo-labs.dev/blinzel",
-    "stars": 0,
-    "pushed": "2026-11-10T09:45:22Z",
-    "featured": false
-  },
-  {
     "id": "amigo-krake",
     "name": "amigo-krake",
     "owner": "amigo-labs",
@@ -511,7 +491,27 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-krake",
     "live": "https://amigo-labs.dev/krake",
     "stars": 0,
-    "pushed": "2026-11-10T06:06:29Z",
+    "pushed": "2026-11-11T11:32:40Z",
+    "featured": false
+  },
+  {
+    "id": "amigo-blinzel",
+    "name": "amigo-blinzel",
+    "owner": "amigo-labs",
+    "page": "amigo-labs",
+    "category": "other",
+    "emoji": "✨",
+    "desc": {
+      "de": "",
+      "en": ""
+    },
+    "tech": [
+      "Rust"
+    ],
+    "repo": "https://github.com/amigo-labs/amigo-blinzel",
+    "live": "https://amigo-labs.dev/blinzel",
+    "stars": 0,
+    "pushed": "2026-11-11T11:32:38Z",
     "featured": false
   },
   {
@@ -575,6 +575,26 @@ window.PROJECTS = [
     "featured": false
   },
   {
+    "id": "website",
+    "name": "website",
+    "owner": "amigo-labs",
+    "page": "amigo-labs",
+    "category": "other",
+    "emoji": "✨",
+    "desc": {
+      "de": "https://amigo-labs.dev",
+      "en": "https://amigo-labs.dev"
+    },
+    "tech": [
+      "TypeScript"
+    ],
+    "repo": "https://github.com/amigo-labs/website",
+    "live": null,
+    "stars": 0,
+    "pushed": "2026-11-11T07:35:31Z",
+    "featured": false
+  },
+  {
     "id": "skills",
     "name": "skills",
     "owner": "amigo-labs",
@@ -592,26 +612,6 @@ window.PROJECTS = [
     "live": null,
     "stars": 0,
     "pushed": "2026-11-10T09:43:25Z",
-    "featured": false
-  },
-  {
-    "id": "website",
-    "name": "website",
-    "owner": "amigo-labs",
-    "page": "amigo-labs",
-    "category": "other",
-    "emoji": "✨",
-    "desc": {
-      "de": "https://amigo-labs.dev",
-      "en": "https://amigo-labs.dev"
-    },
-    "tech": [
-      "TypeScript"
-    ],
-    "repo": "https://github.com/amigo-labs/website",
-    "live": null,
-    "stars": 0,
-    "pushed": "2026-11-09T23:31:45Z",
     "featured": false
   },
   {
