@@ -224,7 +224,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-pincel",
     "live": "https://pincel.amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-11-12T11:25:08Z",
+    "pushed": "2026-11-13T11:53:40Z",
     "featured": false
   },
   {
@@ -491,7 +491,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/website",
     "live": "https://amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-11-12T11:42:21Z",
+    "pushed": "2026-11-12T19:10:49Z",
     "featured": false
   },
   {
@@ -611,7 +611,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-sofarr",
     "live": null,
     "stars": 0,
-    "pushed": "2026-11-12T09:42:36Z",
+    "pushed": "2026-11-13T12:07:56Z",
     "featured": false
   },
   {
