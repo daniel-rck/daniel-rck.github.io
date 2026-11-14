@@ -138,7 +138,7 @@ window.PROJECTS = [
     ],
     "repo": "https://github.com/daniel-rck/HamsterFlight",
     "live": "https://hamsterflight.daniel-rck.workers.dev",
-    "stars": 0,
+    "stars": 1,
     "pushed": "2026-11-04T08:25:05Z",
     "featured": false
   },
@@ -289,7 +289,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-native",
     "live": "https://native.amigo-labs.dev",
     "stars": 1,
-    "pushed": "2026-11-09T23:11:31Z",
+    "pushed": "2026-11-14T06:29:04Z",
     "featured": false
   },
   {
@@ -491,7 +491,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/website",
     "live": "https://amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-11-12T19:10:49Z",
+    "pushed": "2026-11-13T15:25:03Z",
     "featured": false
   },
   {
@@ -550,7 +550,7 @@ window.PROJECTS = [
     ],
     "repo": "https://github.com/daniel-rck/Tiere",
     "live": "https://tiere.daniel-rck.workers.dev",
-    "stars": 0,
+    "stars": 1,
     "pushed": "2026-11-03T07:26:29Z",
     "featured": false
   },
@@ -611,7 +611,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-sofarr",
     "live": null,
     "stars": 0,
-    "pushed": "2026-11-13T12:07:56Z",
+    "pushed": "2026-11-13T12:23:45Z",
     "featured": false
   },
   {
