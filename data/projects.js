@@ -224,7 +224,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-pincel",
     "live": "https://pincel.amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-11-13T11:53:40Z",
+    "pushed": "2026-11-16T10:32:45Z",
     "featured": false
   },
   {
@@ -244,7 +244,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-engine",
     "live": null,
     "stars": 3,
-    "pushed": "2026-11-14T13:14:18Z",
+    "pushed": "2026-11-16T06:16:41Z",
     "featured": false
   },
   {
@@ -491,7 +491,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/website",
     "live": "https://amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-11-13T15:25:03Z",
+    "pushed": "2026-11-16T12:42:57Z",
     "featured": false
   },
   {
@@ -511,7 +511,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-krake",
     "live": "https://amigo-labs.dev/krake",
     "stars": 0,
-    "pushed": "2026-11-11T18:05:18Z",
+    "pushed": "2026-11-16T12:39:51Z",
     "featured": false
   },
   {
@@ -531,7 +531,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-blinzel",
     "live": "https://amigo-labs.dev/blinzel",
     "stars": 0,
-    "pushed": "2026-11-11T18:04:32Z",
+    "pushed": "2026-11-16T06:12:47Z",
     "featured": false
   },
   {
@@ -611,7 +611,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-sofarr",
     "live": null,
     "stars": 0,
-    "pushed": "2026-11-13T12:23:45Z",
+    "pushed": "2026-11-15T18:56:41Z",
     "featured": false
   },
   {
