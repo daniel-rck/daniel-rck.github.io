@@ -101,6 +101,27 @@ window.PAGES = [
 
 window.PROJECTS = [
   {
+    "id": "HamsterFlight",
+    "name": "HamsterFlight",
+    "owner": "daniel-rck",
+    "page": "",
+    "category": "games",
+    "emoji": "🐹",
+    "desc": {
+      "de": "Browser-Portierung des Flash-Klassikers Flight of the Hamsters, aus dem Bytecode rekonstruiert",
+      "en": "Browser port of the Flash classic Flight of the Hamsters, rebuilt from its bytecode"
+    },
+    "tech": [
+      "TypeScript",
+      "PixiJS"
+    ],
+    "repo": "https://github.com/daniel-rck/HamsterFlight",
+    "live": "https://hamsterflight.daniel-rck.workers.dev",
+    "stars": 1,
+    "pushed": "2026-11-18T08:24:22Z",
+    "featured": false
+  },
+  {
     "id": "amigo-metropolis",
     "name": "amigo-metropolis",
     "owner": "amigo-labs",
@@ -119,27 +140,6 @@ window.PROJECTS = [
     "live": "https://metropolis.amigo-labs.dev",
     "stars": 0,
     "pushed": "2026-11-09T21:51:12Z",
-    "featured": false
-  },
-  {
-    "id": "HamsterFlight",
-    "name": "HamsterFlight",
-    "owner": "daniel-rck",
-    "page": "",
-    "category": "games",
-    "emoji": "🐹",
-    "desc": {
-      "de": "Browser-Portierung des Flash-Klassikers Flight of the Hamsters, aus dem Bytecode rekonstruiert",
-      "en": "Browser port of the Flash classic Flight of the Hamsters, rebuilt from its bytecode"
-    },
-    "tech": [
-      "TypeScript",
-      "PixiJS"
-    ],
-    "repo": "https://github.com/daniel-rck/HamsterFlight",
-    "live": "https://hamsterflight.daniel-rck.workers.dev",
-    "stars": 1,
-    "pushed": "2026-11-04T08:25:05Z",
     "featured": false
   },
   {
@@ -224,7 +224,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-pincel",
     "live": "https://pincel.amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-11-17T13:10:41Z",
+    "pushed": "2026-11-18T12:37:13Z",
     "featured": false
   },
   {
@@ -491,7 +491,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/website",
     "live": "https://amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-11-17T12:31:34Z",
+    "pushed": "2026-11-18T11:45:33Z",
     "featured": false
   },
   {
@@ -511,7 +511,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-krake",
     "live": "https://amigo-labs.dev/krake",
     "stars": 0,
-    "pushed": "2026-11-16T13:34:49Z",
+    "pushed": "2026-11-18T10:06:19Z",
     "featured": false
   },
   {
@@ -531,7 +531,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-blinzel",
     "live": "https://amigo-labs.dev/blinzel",
     "stars": 0,
-    "pushed": "2026-11-16T06:12:47Z",
+    "pushed": "2026-11-17T21:48:31Z",
     "featured": false
   },
   {
@@ -611,7 +611,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-sofarr",
     "live": null,
     "stars": 0,
-    "pushed": "2026-11-17T12:05:43Z",
+    "pushed": "2026-11-18T08:48:01Z",
     "featured": false
   },
   {
