@@ -223,7 +223,7 @@ window.PROJECTS = [
     ],
     "repo": "https://github.com/amigo-labs/amigo-pincel",
     "live": "https://pincel.amigo-labs.dev",
-    "stars": 0,
+    "stars": 1,
     "pushed": "2026-11-19T07:57:04Z",
     "featured": false
   },
@@ -475,6 +475,26 @@ window.PROJECTS = [
     "featured": false
   },
   {
+    "id": "website",
+    "name": "website",
+    "owner": "amigo-labs",
+    "page": "amigo-labs",
+    "category": "other",
+    "emoji": "✨",
+    "desc": {
+      "de": "",
+      "en": ""
+    },
+    "tech": [
+      "TypeScript"
+    ],
+    "repo": "https://github.com/amigo-labs/website",
+    "live": "https://amigo-labs.dev",
+    "stars": 0,
+    "pushed": "2026-11-19T18:57:41Z",
+    "featured": false
+  },
+  {
     "id": "amigo-krake",
     "name": "amigo-krake",
     "owner": "amigo-labs",
@@ -492,26 +512,6 @@ window.PROJECTS = [
     "live": "https://amigo-labs.dev/krake",
     "stars": 0,
     "pushed": "2026-11-19T10:50:54Z",
-    "featured": false
-  },
-  {
-    "id": "website",
-    "name": "website",
-    "owner": "amigo-labs",
-    "page": "amigo-labs",
-    "category": "other",
-    "emoji": "✨",
-    "desc": {
-      "de": "",
-      "en": ""
-    },
-    "tech": [
-      "TypeScript"
-    ],
-    "repo": "https://github.com/amigo-labs/website",
-    "live": "https://amigo-labs.dev",
-    "stars": 0,
-    "pushed": "2026-11-19T10:00:35Z",
     "featured": false
   },
   {
