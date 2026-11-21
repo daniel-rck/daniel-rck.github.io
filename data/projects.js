@@ -475,6 +475,26 @@ window.PROJECTS = [
     "featured": false
   },
   {
+    "id": "amigo-blinzel",
+    "name": "amigo-blinzel",
+    "owner": "amigo-labs",
+    "page": "amigo-labs",
+    "category": "other",
+    "emoji": "✨",
+    "desc": {
+      "de": "",
+      "en": ""
+    },
+    "tech": [
+      "Rust"
+    ],
+    "repo": "https://github.com/amigo-labs/amigo-blinzel",
+    "live": "https://amigo-labs.dev/blinzel",
+    "stars": 0,
+    "pushed": "2026-11-21T12:31:41Z",
+    "featured": false
+  },
+  {
     "id": "website",
     "name": "website",
     "owner": "amigo-labs",
@@ -512,26 +532,6 @@ window.PROJECTS = [
     "live": "https://amigo-labs.dev/krake",
     "stars": 0,
     "pushed": "2026-11-19T10:50:54Z",
-    "featured": false
-  },
-  {
-    "id": "amigo-blinzel",
-    "name": "amigo-blinzel",
-    "owner": "amigo-labs",
-    "page": "amigo-labs",
-    "category": "other",
-    "emoji": "✨",
-    "desc": {
-      "de": "",
-      "en": ""
-    },
-    "tech": [
-      "Rust"
-    ],
-    "repo": "https://github.com/amigo-labs/amigo-blinzel",
-    "live": "https://amigo-labs.dev/blinzel",
-    "stars": 0,
-    "pushed": "2026-11-17T21:48:31Z",
     "featured": false
   },
   {
