@@ -244,7 +244,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-engine",
     "live": null,
     "stars": 3,
-    "pushed": "2026-11-16T06:16:41Z",
+    "pushed": "2026-11-21T13:14:44Z",
     "featured": false
   },
   {
@@ -475,26 +475,6 @@ window.PROJECTS = [
     "featured": false
   },
   {
-    "id": "amigo-blinzel",
-    "name": "amigo-blinzel",
-    "owner": "amigo-labs",
-    "page": "amigo-labs",
-    "category": "other",
-    "emoji": "✨",
-    "desc": {
-      "de": "",
-      "en": ""
-    },
-    "tech": [
-      "Rust"
-    ],
-    "repo": "https://github.com/amigo-labs/amigo-blinzel",
-    "live": "https://amigo-labs.dev/blinzel",
-    "stars": 0,
-    "pushed": "2026-11-21T12:31:41Z",
-    "featured": false
-  },
-  {
     "id": "website",
     "name": "website",
     "owner": "amigo-labs",
@@ -511,7 +491,27 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/website",
     "live": "https://amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-11-19T18:57:41Z",
+    "pushed": "2026-11-22T00:09:44Z",
+    "featured": false
+  },
+  {
+    "id": "amigo-blinzel",
+    "name": "amigo-blinzel",
+    "owner": "amigo-labs",
+    "page": "amigo-labs",
+    "category": "other",
+    "emoji": "✨",
+    "desc": {
+      "de": "",
+      "en": ""
+    },
+    "tech": [
+      "Rust"
+    ],
+    "repo": "https://github.com/amigo-labs/amigo-blinzel",
+    "live": "https://amigo-labs.dev/blinzel",
+    "stars": 0,
+    "pushed": "2026-11-21T22:11:48Z",
     "featured": false
   },
   {
@@ -611,7 +611,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-sofarr",
     "live": null,
     "stars": 0,
-    "pushed": "2026-11-19T10:16:45Z",
+    "pushed": "2026-11-22T12:25:36Z",
     "featured": false
   },
   {
