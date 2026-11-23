@@ -491,7 +491,27 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/website",
     "live": "https://amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-11-22T00:09:44Z",
+    "pushed": "2026-11-23T09:52:36Z",
+    "featured": false
+  },
+  {
+    "id": "amigo-krake",
+    "name": "amigo-krake",
+    "owner": "amigo-labs",
+    "page": "amigo-labs",
+    "category": "other",
+    "emoji": "✨",
+    "desc": {
+      "de": "",
+      "en": ""
+    },
+    "tech": [
+      "Rust"
+    ],
+    "repo": "https://github.com/amigo-labs/amigo-krake",
+    "live": "https://amigo-labs.dev/krake",
+    "stars": 0,
+    "pushed": "2026-11-22T21:26:18Z",
     "featured": false
   },
   {
@@ -512,26 +532,6 @@ window.PROJECTS = [
     "live": "https://amigo-labs.dev/blinzel",
     "stars": 0,
     "pushed": "2026-11-21T22:11:48Z",
-    "featured": false
-  },
-  {
-    "id": "amigo-krake",
-    "name": "amigo-krake",
-    "owner": "amigo-labs",
-    "page": "amigo-labs",
-    "category": "other",
-    "emoji": "✨",
-    "desc": {
-      "de": "",
-      "en": ""
-    },
-    "tech": [
-      "Rust"
-    ],
-    "repo": "https://github.com/amigo-labs/amigo-krake",
-    "live": "https://amigo-labs.dev/krake",
-    "stars": 0,
-    "pushed": "2026-11-19T10:50:54Z",
     "featured": false
   },
   {
@@ -611,7 +611,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-sofarr",
     "live": null,
     "stars": 0,
-    "pushed": "2026-11-22T12:25:36Z",
+    "pushed": "2026-11-23T07:06:17Z",
     "featured": false
   },
   {
