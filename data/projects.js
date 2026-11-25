@@ -117,7 +117,7 @@ window.PROJECTS = [
     ],
     "repo": "https://github.com/daniel-rck/HamsterFlight",
     "live": "https://hamsterflight.daniel-rck.workers.dev",
-    "stars": 1,
+    "stars": 0,
     "pushed": "2026-11-18T08:24:22Z",
     "featured": false
   },
@@ -550,7 +550,7 @@ window.PROJECTS = [
     ],
     "repo": "https://github.com/daniel-rck/Tiere",
     "live": "https://tiere.daniel-rck.workers.dev",
-    "stars": 1,
+    "stars": 0,
     "pushed": "2026-11-03T07:26:29Z",
     "featured": false
   },
