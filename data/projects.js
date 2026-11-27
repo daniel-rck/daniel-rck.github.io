@@ -224,7 +224,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-pincel",
     "live": "https://pincel.amigo-labs.dev",
     "stars": 1,
-    "pushed": "2026-11-26T13:50:39Z",
+    "pushed": "2026-11-27T09:09:19Z",
     "featured": false
   },
   {
@@ -491,7 +491,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/website",
     "live": "https://amigo-labs.dev",
     "stars": 0,
-    "pushed": "2026-11-26T02:52:09Z",
+    "pushed": "2026-11-27T13:35:25Z",
     "featured": false
   },
   {
@@ -511,7 +511,7 @@ window.PROJECTS = [
     "repo": "https://github.com/amigo-labs/amigo-krake",
     "live": "https://amigo-labs.dev/krake",
     "stars": 0,
-    "pushed": "2026-11-25T21:57:58Z",
+    "pushed": "2026-11-27T06:35:08Z",
     "featured": false
   },
   {
@@ -595,6 +595,26 @@ window.PROJECTS = [
     "featured": false
   },
   {
+    "id": "skills",
+    "name": "skills",
+    "owner": "amigo-labs",
+    "page": "amigo-labs",
+    "category": "other",
+    "emoji": "✨",
+    "desc": {
+      "de": "",
+      "en": ""
+    },
+    "tech": [
+      "JavaScript"
+    ],
+    "repo": "https://github.com/amigo-labs/skills",
+    "live": null,
+    "stars": 0,
+    "pushed": "2026-11-27T09:08:31Z",
+    "featured": false
+  },
+  {
     "id": "amigo-sofarr",
     "name": "amigo-sofarr",
     "owner": "amigo-labs",
@@ -612,26 +632,6 @@ window.PROJECTS = [
     "live": null,
     "stars": 0,
     "pushed": "2026-11-23T07:06:17Z",
-    "featured": false
-  },
-  {
-    "id": "skills",
-    "name": "skills",
-    "owner": "amigo-labs",
-    "page": "amigo-labs",
-    "category": "other",
-    "emoji": "✨",
-    "desc": {
-      "de": "",
-      "en": ""
-    },
-    "tech": [
-      "JavaScript"
-    ],
-    "repo": "https://github.com/amigo-labs/skills",
-    "live": null,
-    "stars": 0,
-    "pushed": "2026-11-10T09:43:25Z",
     "featured": false
   },
   {
